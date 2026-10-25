@@ -1,0 +1,106 @@
+{
+ "handle": "@pureorganiczone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "dur": 3.0,
+   "top": 640,
+   "items": [
+    {
+     "type": "tag",
+     "text": "HYDERABAD"
+    },
+    {
+     "type": "title",
+     "text": "Organic vegetables, delivered to your door"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 4.2,
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "In the box",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Tomato, onion, carrot",
+      "Beans, ladies finger, gourds",
+      "Spinach, coriander and more"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 4.0,
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "Pick a slot",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "7 AM – 11 AM",
+      "11 AM – 3 PM",
+      "3 PM – 7 PM"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.0,
+   "top": 680,
+   "items": [
+    {
+     "type": "title",
+     "text": "Grown without synthetic pesticides",
+     "size": 84
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.8,
+   "top": 560,
+   "items": [
+    {
+     "type": "tag",
+     "text": "WEEKLY FAVOURITE"
+    },
+    {
+     "type": "title",
+     "text": "Mixed Vegetables Combo",
+     "size": 80
+    },
+    {
+     "type": "price",
+     "now": "₹529",
+     "was": "₹600"
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    },
+    {
+     "type": "small",
+     "text": "Fresh produce currently delivered in Hyderabad"
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-28",
+ "post_time": "17:45",
+ "music": "bright",
+ "title": "Hyderabad veggie box",
+ "caption": "Hyderabad, your weekly organic vegetables, delivered 🥬🍅\n\nహైదరాబాద్‌లో తాజా ఆర్గానిక్ కూరగాయలు మీ ఇంటికే!\n\nTomato, onion, carrot, beans, ladies finger, gourds, spinach, coriander and more, grown without synthetic pesticides.\n\nPick your slot: 7–11 AM, 11 AM–3 PM or 3–7 PM.\n\n👉 Mixed Vegetables Combo ₹529 (was ₹600)\n🛒 pureorganiczone.com\n\n#Hyderabad #HyderabadFood #OrganicVegetables #FarmFresh #Madhapur #Gachibowli #Kondapur #PureOrganicZone"
+}

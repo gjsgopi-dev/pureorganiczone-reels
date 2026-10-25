@@ -1,0 +1,106 @@
+{
+ "handle": "@pureorganiczone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "dur": 3.0,
+   "top": 640,
+   "items": [
+    {
+     "type": "tag",
+     "text": "GHEE FACTS"
+    },
+    {
+     "type": "title",
+     "text": "Why does bilona ghee cost 3x more?"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 4.2,
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "The bilona way",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Milk is set into curd overnight",
+      "Curd is churned to get makkhan",
+      "Makkhan is slow-heated into ghee"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 3.4,
+   "top": 640,
+   "items": [
+    {
+     "type": "big",
+     "text": "25–30 L",
+     "accent": true
+    },
+    {
+     "type": "body",
+     "text": "of milk for just 1 kg of bilona ghee. Factory ghee skips the curd and churning."
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.4,
+   "top": 640,
+   "items": [
+    {
+     "type": "title",
+     "text": "What is A2?",
+     "size": 84
+    },
+    {
+     "type": "body",
+     "text": "Milk from desi cow breeds like Gir, which carries the A2 beta-casein protein"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.8,
+   "top": 560,
+   "items": [
+    {
+     "type": "tag",
+     "text": "TODAY'S DEAL"
+    },
+    {
+     "type": "title",
+     "text": "A2 Bilona Cow Ghee",
+     "size": 84
+    },
+    {
+     "type": "price",
+     "now": "₹999",
+     "was": "₹1,599"
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    },
+    {
+     "type": "small",
+     "text": "Delivered all over India"
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-26",
+ "post_time": "17:45",
+ "music": "warm",
+ "title": "Why bilona ghee costs more",
+ "caption": "Why does bilona ghee cost 3x more than regular ghee? 🧈\n\nIt starts with curd, not cream. The curd is hand-churned into makkhan and slow-heated into ghee. It takes about 25–30 litres of milk to make just 1 kg.\n\nOur A2 Bilona Cow Ghee is made from desi cow milk the traditional way.\n\n👉 Today: ₹999 (was ₹1,599)\n🛒 pureorganiczone.com — delivered all over India\n\nSave this for the next time someone asks why real ghee costs more!\n\n#A2Ghee #BilonaGhee #DesiGhee #OrganicIndia #HealthyEating #Ayurveda #PureOrganicZone"
+}

@@ -1,6 +1,7 @@
 """Compose a short, warm, royalty-free acoustic loop (plucked guitar + bass + shaker).
 
-Usage: python3 music_maker.py out.wav seconds
+Usage: python3 music_maker.py out.wav seconds [mood]
+mood: warm (default, G major 96 bpm), bright (A major 108 bpm), calm (F major 84 bpm)
 """
 import sys
 import numpy as np
@@ -26,11 +27,11 @@ def pluck(freq, dur, bright=0.5, decay=0.996):
     return out
 
 
-def note(name):
+def note(name, shift=0):
     names = {"C": -9, "C#": -8, "D": -7, "D#": -6, "E": -5, "F": -4, "F#": -3,
              "G": -2, "G#": -1, "A": 0, "A#": 1, "B": 2}
     pitch, octave = name[:-1], int(name[-1])
-    return 440.0 * 2 ** ((names[pitch] + 12 * (octave - 4)) / 12)
+    return 440.0 * 2 ** ((names[pitch] + shift + 12 * (octave - 4)) / 12)
 
 
 def add(mix, s, x):
@@ -45,8 +46,13 @@ def lowpass(x, cut):
     return lfilter(b, a, x)
 
 
-def main(out, seconds):
-    bpm = 96
+MOODS = {"warm": (96, 0, 7), "bright": (108, 2, 11), "calm": (84, -2, 3)}  # bpm, transpose, seed
+
+
+def main(out, seconds, mood="warm"):
+    global rng
+    bpm, shift, seed = MOODS.get(mood, MOODS["warm"])
+    rng = np.random.default_rng(seed)
     beat = 60 / bpm
     eighth = beat / 2
     total = int(SR * (seconds + 1.5))
@@ -68,14 +74,14 @@ def main(out, seconds):
         # bass on beats 1 and 3
         for b in (0, 2):
             s = int(SR * (t + b * beat))
-            tone = pluck(note(root), 1.6, bright=0.2, decay=0.997)
+            tone = pluck(note(root, shift), 1.6, bright=0.2, decay=0.997)
             tone = lowpass(tone, 500) * 0.55
             add(mix, s, tone)
         # guitar arpeggio
         for k, idx in enumerate(pattern):
             s = int(SR * (t + k * eighth + rng.uniform(0, 0.008)))  # slight human timing
             vel = 0.32 if k % 2 == 0 else 0.24
-            tone = pluck(note(tones[idx]), 1.4, bright=0.55, decay=0.995) * vel
+            tone = pluck(note(tones[idx], shift), 1.4, bright=0.55, decay=0.995) * vel
             add(mix, s, tone)
         # soft shaker on off-beats
         for k in range(8):
@@ -104,4 +110,4 @@ def main(out, seconds):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], float(sys.argv[2]))
+    main(sys.argv[1], float(sys.argv[2]), sys.argv[3] if len(sys.argv) > 3 else "warm")

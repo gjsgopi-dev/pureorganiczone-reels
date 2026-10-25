@@ -1,0 +1,105 @@
+{
+ "handle": "@pureorganiczone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "dur": 3.0,
+   "top": 640,
+   "items": [
+    {
+     "type": "tag",
+     "text": "BLOOD SUGAR AWARE?"
+    },
+    {
+     "type": "title",
+     "text": "3 easy food swaps to start this week"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.4,
+   "top": 600,
+   "items": [
+    {
+     "type": "big",
+     "text": "1",
+     "accent": true
+    },
+    {
+     "type": "title",
+     "text": "Swap white rice for low GI or brown rice",
+     "size": 76
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.4,
+   "top": 600,
+   "items": [
+    {
+     "type": "big",
+     "text": "2",
+     "accent": true
+    },
+    {
+     "type": "title",
+     "text": "Swap sugar for a little jaggery",
+     "size": 76
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.4,
+   "top": 600,
+   "items": [
+    {
+     "type": "big",
+     "text": "3",
+     "accent": true
+    },
+    {
+     "type": "title",
+     "text": "Swap maida snacks for millets and seeds",
+     "size": 76
+    }
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 4.0,
+   "top": 560,
+   "items": [
+    {
+     "type": "tag",
+     "text": "ALL IN ONE KIT"
+    },
+    {
+     "type": "title",
+     "text": "Organic Diabetes Control Kit",
+     "size": 76
+    },
+    {
+     "type": "price",
+     "now": "₹1,391",
+     "was": "₹1,546"
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    },
+    {
+     "type": "small",
+     "text": "Supports a balanced diet. Follow your doctor's advice and medication."
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-30",
+ "post_time": "17:45",
+ "music": "calm",
+ "title": "3 blood sugar swaps",
+ "caption": "Watching your blood sugar? Start with 3 easy food swaps this week 🌾\n\n1️⃣ White rice → low GI or brown rice\n2️⃣ Sugar → a little jaggery\n3️⃣ Maida snacks → millets and seeds\n\nOur Organic Diabetes Control Kit brings diabetic-friendly staples together in one box.\n\n👉 ₹1,391 (was ₹1,546)\n🛒 pureorganiczone.com\n\nThese foods support a balanced diet. Always follow your doctor's advice and medication.\n\n#DiabetesFriendly #LowGI #HealthyLiving #Millets #Jaggery #OrganicFood #PureOrganicZone"
+}

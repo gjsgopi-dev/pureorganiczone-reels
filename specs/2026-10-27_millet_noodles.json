@@ -1,0 +1,112 @@
+{
+ "handle": "@pureorganiczone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "dur": 3.0,
+   "top": 640,
+   "items": [
+    {
+     "type": "tag",
+     "text": "SMART SWAP"
+    },
+    {
+     "type": "title",
+     "text": "Kids love noodles. Here's a better pack."
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 4.0,
+   "top": 560,
+   "items": [
+    {
+     "type": "title",
+     "text": "Regular noodles",
+     "size": 80
+    },
+    {
+     "type": "body",
+     "text": "Mostly refined flour (maida), low in fibre"
+    },
+    {
+     "type": "title",
+     "text": "Millet noodles",
+     "size": 80,
+     "accent": true
+    },
+    {
+     "type": "body",
+     "text": "Made with kodo, pearl, barnyard or little millet"
+    }
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 4.0,
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "Why millets?",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "More fibre than refined flour",
+      "Naturally rich in minerals",
+      "Keeps you fuller for longer"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.4,
+   "top": 600,
+   "items": [
+    {
+     "type": "title",
+     "text": "Cook it like regular noodles",
+     "size": 80
+    },
+    {
+     "type": "body",
+     "text": "Toss with veggies, a little cold-pressed oil and your favourite masala"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.8,
+   "top": 560,
+   "items": [
+    {
+     "type": "tag",
+     "text": "4 MILLET VARIETIES"
+    },
+    {
+     "type": "title",
+     "text": "Millet Noodles",
+     "size": 88
+    },
+    {
+     "type": "price",
+     "now": "₹54",
+     "was": "₹60"
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-27",
+ "post_time": "17:45",
+ "music": "bright",
+ "title": "Millet noodles swap",
+ "caption": "Kids love noodles. Make the pack a better one 🍜\n\nOur millet noodles are made with kodo, pearl, barnyard or little millet instead of mostly refined flour. Millets bring more fibre and natural minerals, and keep tummies full for longer.\n\nCook them just like regular noodles with veggies and a little cold-pressed oil.\n\n👉 ₹54 a pack, 4 millet varieties\n🛒 pureorganiczone.com\n\nTag a parent who needs this swap!\n\n#MilletNoodles #Millets #HealthySnacks #KidsFood #SmartSwap #OrganicFood #PureOrganicZone"
+}

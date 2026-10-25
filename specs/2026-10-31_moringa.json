@@ -1,0 +1,116 @@
+{
+ "handle": "@pureorganiczone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "dur": 3.2,
+   "top": 620,
+   "items": [
+    {
+     "type": "tag",
+     "text": "DAILY HEALTH TIP"
+    },
+    {
+     "type": "title",
+     "text": "1 spoon of this green powder a day?"
+    },
+    {
+     "type": "body",
+     "text": "Here's why grandmas swore by it",
+     "accent": true
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.0,
+   "top": 680,
+   "items": [
+    {
+     "type": "big",
+     "text": "Moringa",
+     "accent": true
+    },
+    {
+     "type": "body",
+     "text": "Dried leaves of the drumstick tree (munagaku / sahjan), ground into a fine powder"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 4.2,
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "What's inside",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Plant iron and calcium",
+      "Vitamin A, C and E",
+      "Antioxidants like quercetin",
+      "Plant protein and fibre"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 4.0,
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "How to use it",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Stir 1 tsp into buttermilk or warm water",
+      "Mix into dal, sambar or chapati dough",
+      "Blend into smoothies"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.8,
+   "top": 560,
+   "items": [
+    {
+     "type": "tag",
+     "text": "100% NATURAL"
+    },
+    {
+     "type": "title",
+     "text": "Moringa Powder",
+     "size": 88
+    },
+    {
+     "type": "price",
+     "now": "₹199",
+     "was": "₹249"
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    },
+    {
+     "type": "small",
+     "text": "Delivered all over India. Not a substitute for medical advice."
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-31",
+ "post_time": "17:45",
+ "music": "calm",
+ "title": "Moringa daily tip",
+ "caption": "1 spoon of this green powder a day? 🌿\n\nMoringa is made from dried drumstick tree leaves (munagaku / sahjan). It brings plant iron and calcium, vitamins A, C and E, antioxidants and plant protein.\n\nStir 1 tsp into buttermilk or warm water, mix into dal or chapati dough, or blend into smoothies.\n\n👉 Moringa Powder ₹199 (was ₹249)\n🛒 pureorganiczone.com — delivered all over India\n\nNot a substitute for medical advice.\n\n#Moringa #MoringaPowder #Superfood #DrumstickLeaves #HealthyHabits #Ayurveda #PureOrganicZone"
+}

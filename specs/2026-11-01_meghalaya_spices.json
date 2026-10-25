@@ -1,0 +1,102 @@
+{
+ "handle": "@pureorganiczone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "dur": 3.0,
+   "top": 640,
+   "items": [
+    {
+     "type": "tag",
+     "text": "SPICE STORY"
+    },
+    {
+     "type": "title",
+     "text": "Spices from the hills of Meghalaya"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.6,
+   "top": 620,
+   "items": [
+    {
+     "type": "title",
+     "text": "Grown in the rain-fed hills of the North-East",
+     "size": 76
+    },
+    {
+     "type": "body",
+     "text": "Small farms, traditional methods, bold aroma"
+    }
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 4.4,
+   "top": 500,
+   "items": [
+    {
+     "type": "title",
+     "text": "On our shelf",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Black Pepper Corn  ₹139",
+      "Black Cardamom  ₹166",
+      "Organic Ginger Powder  ₹138",
+      "Cinnamon Bark  ₹110"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.4,
+   "top": 620,
+   "items": [
+    {
+     "type": "title",
+     "text": "Try this",
+     "size": 84
+    },
+    {
+     "type": "body",
+     "text": "Crush fresh pepper and black cardamom into your biryani or chai"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.6,
+   "top": 600,
+   "items": [
+    {
+     "type": "tag",
+     "text": "DIRECT FROM MEGHALAYA"
+    },
+    {
+     "type": "title",
+     "text": "Shop the spice range",
+     "size": 84
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    },
+    {
+     "type": "small",
+     "text": "Delivered all over India"
+    }
+   ]
+  }
+ ],
+ "date": "2026-11-01",
+ "post_time": "17:45",
+ "music": "warm",
+ "title": "Meghalaya spices",
+ "caption": "Spices from the hills of Meghalaya ⛰️🌶️\n\nGrown on small farms in the rain-fed North-East, with a bold aroma you can smell the moment you open the pack.\n\n• Black Pepper Corn ₹139\n• Black Cardamom ₹166\n• Organic Ginger Powder ₹138\n• Cinnamon Bark ₹110\n\nTry crushing fresh pepper and black cardamom into your biryani or chai.\n\n🛒 pureorganiczone.com — delivered all over India\n\n#Meghalaya #IndianSpices #BlackPepper #NortheastIndia #OrganicSpices #Biryani #PureOrganicZone"
+}

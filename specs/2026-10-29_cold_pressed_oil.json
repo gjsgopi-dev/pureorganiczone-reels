@@ -1,0 +1,106 @@
+{
+ "handle": "@pureorganiczone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "dur": 3.0,
+   "top": 640,
+   "items": [
+    {
+     "type": "tag",
+     "text": "KITCHEN TRUTH"
+    },
+    {
+     "type": "title",
+     "text": "Cold-pressed vs refined oil"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 4.2,
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "Refined oil",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Extracted at high heat",
+      "Often uses chemical solvents",
+      "Bleached and deodorised"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 4.2,
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "Cold-pressed oil",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Seeds pressed slowly, low heat",
+      "No chemical solvents",
+      "Keeps natural aroma and taste"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.4,
+   "top": 600,
+   "items": [
+    {
+     "type": "title",
+     "text": "Which one?",
+     "size": 84
+    },
+    {
+     "type": "body",
+     "text": "Groundnut and sesame for South Indian cooking. Mustard for North Indian tadka."
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.8,
+   "top": 560,
+   "items": [
+    {
+     "type": "tag",
+     "text": "FROM ₹90"
+    },
+    {
+     "type": "title",
+     "text": "Cold-Pressed Oils",
+     "size": 88
+    },
+    {
+     "type": "body",
+     "text": "Groundnut · Sesame · Mustard · Coconut",
+     "accent": true
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    }
+   ]
+  }
+ ],
+ "date": "2026-10-29",
+ "post_time": "17:45",
+ "music": "warm",
+ "title": "Cold-pressed vs refined",
+ "caption": "Cold-pressed vs refined oil. What's the difference? 🫒\n\nRefined oil is usually extracted at high heat, often with chemical solvents, then bleached and deodorised.\n\nCold-pressed oil comes from seeds pressed slowly at low heat, with no solvents, so it keeps its natural aroma and taste.\n\nGroundnut and sesame for South Indian cooking. Mustard for North Indian tadka.\n\n👉 Cold-pressed oils from ₹90\n🛒 pureorganiczone.com\n\n#ColdPressedOil #WoodPressedOil #GroundnutOil #MustardOil #HealthyCooking #OrganicIndia #PureOrganicZone"
+}
