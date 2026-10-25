@@ -1,0 +1,153 @@
+{
+ "handle": "@pureorganiczone",
+ "date": "2026-10-26",
+ "post_time": "17:45",
+ "music": "bright",
+ "voice": "hf_alpha",
+ "speed": 1.08,
+ "title": "Pumpkin seeds: 6 minerals (30s)",
+ "nutrition_source": "USDA FoodData Central FDC 170556 (pumpkin and squash seed kernels, dried), per 30 g; % of FDA Daily Values",
+ "caption": "30 g of pumpkin seeds = 6 key minerals 🎃\n\nPer small handful (30 g):\n• Manganese 59% DV\n• Copper 45% DV\n• Magnesium 42% DV\n• Phosphorus 30% DV\n• Zinc 21% DV\n• Iron 15% DV\n• 9 g plant protein\n\nMagnesium supports muscles and nerves, zinc supports normal immunity, iron helps carry oxygen in the blood, and phosphorus keeps bones and teeth strong.\n\nHow to eat: lightly roast them, sprinkle on curd or oats, or snack on them instead of biscuits.\n\n👉 Pumpkin Seeds ₹136 (was ₹150)\n🛒 pureorganiczone.com — delivered all over India\n\nSave this and share it with someone who skips snacks!\n\n% DV based on FDA Daily Values; nutrient data from USDA FoodData Central.\n\n#PumpkinSeeds #Magnesium #Zinc #HealthySnacking #Superfood #OrganicFood #PureOrganicZone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "top": 560,
+   "items": [
+    {
+     "type": "tag",
+     "text": "SNACK SMART"
+    },
+    {
+     "type": "title",
+     "text": "30 grams. 6 key minerals."
+    },
+    {
+     "type": "body",
+     "text": "Here's exactly how much",
+     "accent": true
+    }
+   ],
+   "say": "Just thirty grams of pumpkin seeds gives you six key minerals."
+  },
+  {
+   "theme": "light",
+   "top": 430,
+   "items": [
+    {
+     "type": "title",
+     "text": "Per 30 g handful",
+     "size": 78
+    },
+    {
+     "type": "bars",
+     "items": [
+      {
+       "label": "Manganese",
+       "amount": "1.4 mg",
+       "pct": 59
+      },
+      {
+       "label": "Copper",
+       "amount": "0.4 mg",
+       "pct": 45
+      },
+      {
+       "label": "Magnesium",
+       "amount": "178 mg",
+       "pct": 42
+      }
+     ],
+     "note": "% Daily Value · USDA data"
+    }
+   ],
+   "say": "Fifty nine percent manganese, forty five percent copper, and forty two percent magnesium."
+  },
+  {
+   "theme": "light",
+   "top": 430,
+   "items": [
+    {
+     "type": "title",
+     "text": "And there's more",
+     "size": 78
+    },
+    {
+     "type": "bars",
+     "items": [
+      {
+       "label": "Phosphorus",
+       "amount": "370 mg",
+       "pct": 30
+      },
+      {
+       "label": "Zinc",
+       "amount": "2.3 mg",
+       "pct": 21
+      },
+      {
+       "label": "Iron",
+       "amount": "2.6 mg",
+       "pct": 15
+      }
+     ],
+     "note": "plus 9 g plant protein"
+    }
+   ],
+   "say": "Plus phosphorus, zinc, iron, and nine grams of protein."
+  },
+  {
+   "theme": "dark",
+   "top": 420,
+   "items": [
+    {
+     "type": "title",
+     "text": "What they support",
+     "size": 76
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Magnesium: muscles and nerves",
+      "Zinc: normal immunity",
+      "Iron: carries oxygen",
+      "Phosphorus: bones and teeth"
+     ]
+    }
+   ],
+   "say": "They support your muscles, nerves, immunity, and strong bones."
+  },
+  {
+   "theme": "light",
+   "top": 440,
+   "min_dur": 3.6,
+   "items": [
+    {
+     "type": "tag",
+     "text": "100% NATURAL"
+    },
+    {
+     "type": "title",
+     "text": "Pumpkin Seeds",
+     "size": 88
+    },
+    {
+     "type": "price",
+     "now": "₹136",
+     "was": "₹150"
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    },
+    {
+     "type": "small",
+     "text": "Delivered all over India"
+    }
+   ],
+   "say": "Order now at Pure Organic Zone dot com."
+  }
+ ],
+ "avatar": {
+  "top": 1350
+ }
+}

@@ -177,6 +177,13 @@ def chrome(img, frac, theme, handle):
 
 def main(spec_path, out_path):
     spec = json.load(open(spec_path))
+    av = spec.get("avatar")
+    if av:
+        import numpy as np
+        from avatar import render_avatar, AV_W, AV_H
+        av_imgs = {(m, b): render_avatar(m, b) for m in range(4) for b in (False, True)}
+        env = np.load(av["envelope"]) if av.get("envelope") else None
+        av_xy = ((W - AV_W) // 2, av.get("top", 1270))
     scenes = spec["scenes"]
     durs = [s.get("dur", 3.0) for s in scenes]
     total = sum(durs)
@@ -206,6 +213,13 @@ def main(spec_path, out_path):
             prev_theme = scenes[si - 1].get("theme", "light")
             base = Image.new("RGB", (W, H), DEEP if prev_theme == "dark" else CREAM)
             img = Image.blend(base, img, fade)
+        if av:
+            lvl = float(env[min(fi, len(env) - 1)]) if env is not None else 0.0
+            mouth = 0 if lvl < 0.08 else 1 if lvl < 0.25 else 2 if lvl < 0.5 else 3
+            blink = (tg % 3.7) < 0.12
+            av_base = img.convert("RGBA")
+            av_base.alpha_composite(av_imgs[(mouth, blink)], av_xy)
+            img = av_base.convert("RGB")
         proc.stdin.write(img.tobytes())
     proc.stdin.close()
     proc.wait()

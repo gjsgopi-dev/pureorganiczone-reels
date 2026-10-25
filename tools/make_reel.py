@@ -34,18 +34,27 @@ def main(spec_path, out_path):
             starts.append(t + LEAD)
         t += sc.get("dur", 3.0)
     total = t
-    timed = os.path.join(tmp, "timed.json")
-    json.dump(spec, open(timed, "w"), ensure_ascii=False)
-
-    silent = os.path.join(tmp, "silent.mp4")
-    subprocess.run([sys.executable, os.path.join(HERE, "reel_maker.py"), timed, silent], check=True)
-
     voice_track = np.zeros(int(SR * (total + 0.5)), dtype=np.float32)
     for a, s in zip(clips, starts):
         i = int(SR * s)
         voice_track[i:i + len(a)] += a[: len(voice_track) - i]
     vwav = os.path.join(tmp, "voice.wav")
     wavfile.write(vwav, SR, (np.clip(voice_track, -1, 1) * 32767).astype(np.int16))
+
+    if spec.get("avatar") is not None:
+        # loudness per video frame drives the presenter's mouth
+        hop = SR // 30
+        n = len(voice_track) // hop
+        rms = np.sqrt(np.mean(voice_track[: n * hop].reshape(n, hop) ** 2, axis=1))
+        env = np.clip(rms / (np.percentile(rms[rms > 0.005], 90) if np.any(rms > 0.005) else 1), 0, 1)
+        envp = os.path.join(tmp, "env.npy")
+        np.save(envp, env)
+        spec["avatar"] = dict(spec["avatar"] or {}, envelope=envp)
+
+    timed = os.path.join(tmp, "timed.json")
+    json.dump(spec, open(timed, "w"), ensure_ascii=False)
+    silent = os.path.join(tmp, "silent.mp4")
+    subprocess.run([sys.executable, os.path.join(HERE, "reel_maker.py"), timed, silent], check=True)
 
     mwav = os.path.join(tmp, "music.wav")
     subprocess.run([sys.executable, os.path.join(HERE, "music_maker.py"), mwav, f"{total:.2f}",
