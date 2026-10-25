@@ -1,0 +1,28 @@
+{
+ "handle": "@pureorganiczone",
+ "date": "2026-10-26",
+ "post_time": "01:55",
+ "music": "bright",
+ "title": "Pumpkin seeds habit",
+ "caption": "The snack you're probably throwing away 🎃\n\nPumpkin seeds bring plant protein, magnesium, zinc and good fats in a small handful.\n\nRoast them lightly, sprinkle on curd, oats or salads, or just snack on them at 4 PM instead of biscuits.\n\n👉 Pumpkin Seeds ₹136 (was ₹150)\n🛒 pureorganiczone.com — delivered all over India\n\nSave this for your next grocery order!\n\n#PumpkinSeeds #HealthySnacking #Superfood #Seeds #EatClean #OrganicFood #PureOrganicZone",
+ "scenes": [
+  {"theme": "dark", "dur": 3.0, "top": 640, "items": [
+   {"type": "tag", "text": "SNACK SMART"},
+   {"type": "title", "text": "The snack you're probably throwing away"}]},
+  {"theme": "light", "dur": 3.0, "top": 680, "items": [
+   {"type": "big", "text": "Pumpkin", "accent": true},
+   {"type": "body", "text": "seeds. Small, crunchy and nutrient-dense."}]},
+  {"theme": "dark", "dur": 4.2, "top": 520, "items": [
+   {"type": "title", "text": "In a small handful", "size": 84},
+   {"type": "bullets", "items": ["Plant protein", "Magnesium and zinc", "Good fats and fibre"]}]},
+  {"theme": "light", "dur": 4.0, "top": 520, "items": [
+   {"type": "title", "text": "How to eat them", "size": 84},
+   {"type": "bullets", "items": ["Lightly roast with salt", "Sprinkle on curd or oats", "Snack at 4 PM, skip biscuits"]}]},
+  {"theme": "light", "dur": 3.8, "top": 560, "items": [
+   {"type": "tag", "text": "100% NATURAL"},
+   {"type": "title", "text": "Pumpkin Seeds", "size": 88},
+   {"type": "price", "now": "₹136", "was": "₹150"},
+   {"type": "button", "text": "pureorganiczone.com"},
+   {"type": "small", "text": "Delivered all over India"}]}
+ ]
+}
