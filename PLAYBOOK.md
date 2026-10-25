@@ -13,12 +13,15 @@ Every scheduled run follows this file. Read it fully before making anything.
 2. If no spec exists for today, write one (see "Writing a new spec"). Pick the next item from the rotation, skipping any product used in the last 10 days (check `log.csv`).
 3. Build: `tools/make_reel.sh specs/<file>.json reels/<same-name>.mp4`.
 4. Look at 3 frames (start, middle, end) to check text fits and nothing overlaps or shows a missing-glyph box.
-5. Commit the spec, video and `log.csv` row, push to `main`.
+5. Commit the spec and video, push to `main`.
 6. Wait until `raw.githubusercontent.com` serves the file (check with `gh api repos/gjsgopi-dev/pureorganiczone-reels/contents/reels/<file>.mp4`).
 7. Schedule in Metricool with `createScheduledPost`: Instagram REEL, `showReelOnFeed: true`, `autoPublish: true`, `draft: false`, media = the raw URL, `videoCoverMilliseconds: 1500`, caption from the spec, time = spec `post_time` (default 17:45 IST) today. If that time has passed, use the next free hour from Metricool's best-times.
 8. Before scheduling, call `getScheduledPosts` for today so you never double-post.
-9. Append to `log.csv`: date, slug, product, mood, metricool post id, planner URL.
-10. Send the owner one short message: what was scheduled, when, and the planner link.
+9. Clean up: Metricool copies the video to its own storage when the post is created. Only if the `createScheduledPost` response's `media` URL starts with `https://static.metricool.com/`, delete the video from the repo (`git rm reels/<file>.mp4`). If the media URL still points at GitHub, keep the video and say so in the owner message.
+10. Append to `log.csv`: date, slug, product, mood, metricool post id, planner URL. Commit the cleanup and the log row together and push.
+11. Send the owner one short message: what was scheduled, when, and the planner link.
+
+The `reels/` folder should normally be empty between runs; specs stay in `specs/` as the record of what was posted.
 
 If any step fails (build, push, Metricool error), stop, do not retry in a loop, and message the owner with the exact error and what is needed.
 
