@@ -1,0 +1,170 @@
+{
+ "handle": "@pureorganiczone",
+ "date": "2026-10-26",
+ "post_time": "17:45",
+ "music": "bright",
+ "voice": "af_heart",
+ "speed": 1.12,
+ "title": "Pumpkin seeds: 6 minerals",
+ "nutrition_source": "USDA FoodData Central FDC 170556 (pumpkin and squash seed kernels, dried), per 30 g; % of FDA Daily Values",
+ "caption": "30 g of pumpkin seeds = 6 key minerals 🎃\n\nPer small handful (30 g):\n• Manganese 59% DV\n• Copper 45% DV\n• Magnesium 42% DV\n• Phosphorus 30% DV\n• Zinc 21% DV\n• Iron 15% DV\n• 9 g plant protein\n\nMagnesium supports muscles and nerves, zinc supports normal immunity, iron helps carry oxygen in the blood, and phosphorus keeps bones and teeth strong.\n\n👉 Pumpkin Seeds ₹136 (was ₹150)\n🛒 pureorganiczone.com — delivered all over India\n\nSave this and share it with someone who skips snacks!\n\n% DV based on FDA Daily Values; nutrient data from USDA FoodData Central.\n\n#PumpkinSeeds #Magnesium #Zinc #HealthySnacking #Superfood #OrganicFood #PureOrganicZone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "top": 620,
+   "items": [
+    {
+     "type": "tag",
+     "text": "SNACK SMART"
+    },
+    {
+     "type": "title",
+     "text": "30 grams. 6 key minerals."
+    },
+    {
+     "type": "body",
+     "text": "Here's exactly how much",
+     "accent": true
+    }
+   ],
+   "say": "This small handful of pumpkin seeds packs six key minerals. Here's how much."
+  },
+  {
+   "theme": "light",
+   "top": 470,
+   "items": [
+    {
+     "type": "title",
+     "text": "Per 30 g handful",
+     "size": 78
+    },
+    {
+     "type": "bars",
+     "items": [
+      {
+       "label": "Manganese",
+       "amount": "1.4 mg",
+       "pct": 59
+      },
+      {
+       "label": "Copper",
+       "amount": "0.4 mg",
+       "pct": 45
+      },
+      {
+       "label": "Magnesium",
+       "amount": "178 mg",
+       "pct": 42
+      }
+     ],
+     "note": "% Daily Value · USDA data"
+    }
+   ],
+   "say": "Thirty grams gives you about fifty nine percent of your daily manganese, forty five percent copper, and forty two percent magnesium."
+  },
+  {
+   "theme": "light",
+   "top": 470,
+   "items": [
+    {
+     "type": "title",
+     "text": "And there's more",
+     "size": 78
+    },
+    {
+     "type": "bars",
+     "items": [
+      {
+       "label": "Phosphorus",
+       "amount": "370 mg",
+       "pct": 30
+      },
+      {
+       "label": "Zinc",
+       "amount": "2.3 mg",
+       "pct": 21
+      },
+      {
+       "label": "Iron",
+       "amount": "2.6 mg",
+       "pct": 15
+      }
+     ],
+     "note": "plus 9 g plant protein"
+    }
+   ],
+   "say": "Plus thirty percent phosphorus, twenty one percent zinc, fifteen percent iron, and nine grams of plant protein."
+  },
+  {
+   "theme": "dark",
+   "top": 470,
+   "items": [
+    {
+     "type": "title",
+     "text": "What it does for you",
+     "size": 76
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Magnesium: muscles and nerves",
+      "Zinc: normal immunity",
+      "Iron: carries oxygen",
+      "Phosphorus: bones and teeth"
+     ]
+    }
+   ],
+   "say": "Magnesium supports muscles and nerves. Zinc supports normal immunity. Iron helps carry oxygen in your blood. Phosphorus builds strong bones and teeth."
+  },
+  {
+   "theme": "light",
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "How to eat them",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Lightly roast with salt",
+      "Sprinkle on curd or oats",
+      "Snack at 4 PM, skip biscuits"
+     ]
+    }
+   ],
+   "say": "Roast them lightly, sprinkle them on curd or oats, or snack on them instead of biscuits."
+  },
+  {
+   "theme": "light",
+   "top": 540,
+   "min_dur": 3.6,
+   "items": [
+    {
+     "type": "tag",
+     "text": "100% NATURAL"
+    },
+    {
+     "type": "title",
+     "text": "Pumpkin Seeds",
+     "size": 88
+    },
+    {
+     "type": "price",
+     "now": "₹136",
+     "was": "₹150"
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    },
+    {
+     "type": "small",
+     "text": "Delivered all over India · % DV per FDA reference values"
+    }
+   ],
+   "say": "Get them at Pure Organic Zone dot com. Delivered all over India."
+  }
+ ]
+}

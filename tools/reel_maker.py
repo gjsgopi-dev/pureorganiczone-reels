@@ -100,6 +100,32 @@ def draw_scene(img, scene, t, theme):
                 d.text((W / 2, y + off), line, font=f, anchor="mt", fill=(*col, alpha))
                 y += int(f.size * 1.22)
             y += 30
+        elif kind == "bars":
+            # animated % Daily Value bars: items = [{"label", "pct", "amount"}]
+            fl, fa, fp = F("Medium", 46), F("Regular", 34), F("Bold", 50)
+            x0, x1, bh = 110, W - 110, 34
+            for j, b in enumerate(it["items"]):
+                a2 = ease((t - 0.3 - j * 0.28) / 0.5)
+                if a2 <= 0:
+                    y += 150
+                    continue
+                al = int(255 * min(1, a2 * 1.4))
+                d.text((x0, y), b["label"], font=fl, fill=(*fg, al))
+                if b.get("amount"):
+                    lw = d.textlength(b["label"] + "  ", font=fl)
+                    d.text((x0 + lw, y + 10), b["amount"], font=fa, fill=(*fg, int(al * 0.65)))
+                pct = b["pct"]
+                shown = int(round(pct * a2))
+                d.text((x1, y - 4), f"{shown}%", font=fp, anchor="ra", fill=(*accent, al))
+                by = y + 68
+                d.rounded_rectangle([x0, by, x1, by + bh], radius=bh // 2, fill=(*fg, 34))
+                fillw = (x1 - x0) * min(pct, 100) / 100 * a2
+                if fillw > bh:
+                    d.rounded_rectangle([x0, by, x0 + fillw, by + bh], radius=bh // 2, fill=(*accent, 235))
+                y += 150
+            if it.get("note"):
+                d.text((W / 2, y + 6), it["note"], font=F("Light", 30), anchor="mt", fill=(*fg, 150))
+                y += 50
         elif kind == "bullets":
             f = F("Medium", 56)
             for j, b in enumerate(it["items"]):
