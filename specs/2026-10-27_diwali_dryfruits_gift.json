@@ -1,0 +1,64 @@
+{
+ "handle": "@pureorganiczone",
+ "series": "Diwali Gift Check",
+ "ig_type": "REEL",
+ "date": "2026-10-27",
+ "post_time": "20:30",
+ "music": "bright",
+ "title": "Diwali gift: mithai box vs dry fruits combo",
+ "scenes": [
+  {
+   "theme": "dark",
+   "dur": 2.0,
+   "top": 600,
+   "items": [
+    {"type": "tag", "text": "DIWALI GIFT IDEAS"},
+    {"type": "title", "text": "Is baar bhi mithai ka dabba?"}
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.2,
+   "top": 560,
+   "items": [
+    {"type": "title", "text": "Sabko wahi milta hai", "size": 84},
+    {"type": "bullets", "items": [
+      "Same box, every house",
+      "Finished in two days",
+      "Nobody remembers who gave it"
+    ]}
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 3.0,
+   "top": 620,
+   "items": [
+    {"type": "big", "text": "Gift kuch healthy", "accent": true},
+    {"type": "body", "text": "Dry fruits stay fresh for weeks, so your gift actually gets enjoyed."}
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.4,
+   "top": 520,
+   "items": [
+    {"type": "tag", "text": "DIWALI GIFT"},
+    {"type": "title", "text": "Dry Fruits Combo", "size": 84},
+    {"type": "price", "now": "₹999", "was": "₹1,200"},
+    {"type": "button", "text": "pureorganiczone.com"},
+    {"type": "small", "text": "Delivered all over India"}
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 2.4,
+   "top": 660,
+   "items": [
+    {"type": "big", "text": "Comment GIFT", "accent": true},
+    {"type": "body", "text": "We'll DM you the combo link"}
+   ]
+  }
+ ],
+ "caption": "Diwali gift ideas: is baar bhi mithai ka dabba? 🪔\n\nEvery house gets the same sweet box, and it's gone in two days. Gift a Dry Fruits Combo instead: it stays fresh for weeks and actually gets remembered.\n\n👉 Dry Fruits Combo ₹999 (was ₹1,200)\n🛒 pureorganiczone.com (link in bio), delivered all over India\n\n💬 Comment GIFT and we'll DM you the link. Tag the friend who always brings the mithai box 😄\n\n#DiwaliGifts #DiwaliGiftIdeas #DryFruits #HealthyGifting #OrganicFood #HealthyEating #PureOrganicZone"
+}
