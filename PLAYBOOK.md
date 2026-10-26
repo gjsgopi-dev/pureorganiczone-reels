@@ -15,7 +15,7 @@ Every scheduled run follows this file. Read it fully before making anything.
 4. Look at 3 frames (start, middle, end) to check text fits and nothing overlaps or shows a missing-glyph box.
 5. Commit the spec and video, push to `main`.
 6. Wait until `raw.githubusercontent.com` serves the file (check with `gh api repos/gjsgopi-dev/pureorganiczone-reels/contents/reels/<file>.mp4`).
-7. Schedule in Metricool with `createScheduledPost`: Instagram type from "Growth strategy > Weekly cadence" below (REEL or TRIAL_REEL), `showReelOnFeed: true` (REEL only), `autoPublish: true`, `draft: false`, media = the raw URL, `videoCoverMilliseconds: 1500`, caption from the spec, time = spec `post_time` (default 17:45 IST) today. If that time has passed, use the next free hour from Metricool's best-times.
+7. Schedule in Metricool with `createScheduledPost`: Instagram type from the spec's `ig_type` field, or if missing, from "Growth strategy > Weekly cadence" below (REEL or TRIAL_REEL); always set `isAiGenerated: false` for our own generated text-and-graphics Reels, `showReelOnFeed: true` (REEL only), `autoPublish: true`, `draft: false`, media = the raw URL, `videoCoverMilliseconds: 1500`, caption from the spec, time = spec `post_time` (default 17:45 IST) today. If that time has passed, use the next free hour from Metricool's best-times.
 8. Before scheduling, call `getScheduledPosts` for today so you never double-post.
 9. Clean up: Metricool copies the video to its own storage when the post is created. Only if the `createScheduledPost` response's `media` URL starts with `https://static.metricool.com/`, delete the video from the repo (`git rm reels/<file>.mp4`). If the media URL still points at GitHub, keep the video and say so in the owner message.
 10. Append to `log.csv`: date, slug, product, mood, metricool post id, planner URL. Commit the cleanup and the log row together and push.
@@ -72,6 +72,7 @@ Rotate formats too: myth vs fact, 3 quick swaps, how to use, why it costs more, 
 
 ## Writing a new spec
 Copy the structure of an existing spec in `specs/`. Fields:
+- `ig_type` ("REEL" or "TRIAL_REEL", by weekday per Growth strategy), optional `series` (e.g. "Label Check #2", "Swap of the Day"), optional `collaborators` (list of Instagram handles agreed by the owner).
 - `date`, `post_time` ("17:45"), `music` (`warm` | `bright` | `calm`), `title`, `caption`, `handle` ("@pureorganiczone"), `scenes`.
 - 5 scenes, 17–19 seconds total. Scene 1 is the hook (dark theme, a tag + a question or bold claim). Last scene is the offer: tag, product name, `price` item with `now`/`was`, the `pureorganiczone.com` button, and a `small` line ("Delivered all over India" or the Hyderabad note).
 - Scene item types: `tag`, `title` (optional `size`), `big`, `body`, `bullets`, `price`, `button`, `small`. Keep bullets to 3–4 items of under 6 words.

@@ -3,12 +3,12 @@
  "scenes": [
   {
    "theme": "dark",
-   "dur": 3.0,
+   "dur": 2.0,
    "top": 640,
    "items": [
     {
      "type": "tag",
-     "text": "SMART SWAP"
+     "text": "MILLET NOODLES FOR KIDS"
     },
     {
      "type": "title",
@@ -64,22 +64,6 @@
   },
   {
    "theme": "light",
-   "dur": 3.4,
-   "top": 600,
-   "items": [
-    {
-     "type": "title",
-     "text": "Cook it like regular noodles",
-     "size": 80
-    },
-    {
-     "type": "body",
-     "text": "Toss with veggies, a little cold-pressed oil and your favourite masala"
-    }
-   ]
-  },
-  {
-   "theme": "light",
    "dur": 3.8,
    "top": 560,
    "items": [
@@ -108,5 +92,7 @@
  "post_time": "17:45",
  "music": "bright",
  "title": "Millet noodles swap",
- "caption": "Kids love noodles. Make the pack a better one 🍜\n\nOur millet noodles are made with kodo, pearl, barnyard or little millet instead of mostly refined flour. Millets bring more fibre and natural minerals, and keep tummies full for longer.\n\nCook them just like regular noodles with veggies and a little cold-pressed oil.\n\n👉 ₹54 a pack, 4 millet varieties\n🛒 pureorganiczone.com\n\nTag a parent who needs this swap!\n\n#MilletNoodles #Millets #HealthySnacks #KidsFood #SmartSwap #OrganicFood #PureOrganicZone"
+ "caption": "Millet noodles for kids: the smarter pack 🍜 Swap of the Day\n\nOur millet noodles are made with kodo, pearl, barnyard or little millet instead of mostly refined flour. Millets bring more fibre and natural minerals, and keep tummies full for longer.\n\nCook them just like regular noodles with veggies and a little cold-pressed oil.\n\n👉 ₹54 a pack, 4 millet varieties\n🛒 pureorganiczone.com (link in bio)\n\nSend this to a parent who still buys maida noodles. Follow for a healthy swap every day!\n\n#MilletNoodles #Millets #HealthySnacks #KidsFood #SmartSwap #OrganicFood #PureOrganicZone",
+ "ig_type": "REEL",
+ "series": "Swap of the Day"
 }
