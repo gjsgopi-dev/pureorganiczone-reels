@@ -78,6 +78,16 @@ Organic posting reaches followers and Instagram's own picks. To choose WHO sees 
 
 Exclude B1 (past buyers) from A1–A4 and L1 so acquisition money isn't spent on existing customers.
 
+### Launch plan v1 (decided 26 Oct 2026, owner to approve budget)
+- Clean-up: owner archives all 28 old campaigns in Ads Manager (archiving keeps their history, so Meta can still learn from past results). Pop Wash (the only active one) is turned off.
+- Campaign 1 "POZ Reels Sales": objective Sales, pixel `1219471509602200` event Purchase (fall back to Traffic → landing page views if Events Manager shows no Purchase events), Advantage campaign budget ₹300/day, placements Instagram + Facebook Reels, Feed, Stories. Ad sets:
+  1. Hyderabad 15 km, 25–55, Organic food + Healthy diet + Yoga, narrowed to Engaged Shoppers. Ads: ghee "Is your ghee really bilona?" Reel, Hyderabad veggie box Reel. Landing: the product page.
+  2. Metros (Bengaluru, Chennai, Pune, Mumbai, Delhi NCR, Hyderabad), 25–55, Organic food + Organic product + Organic food stores, narrowed to Engaged Shoppers. Ads: ghee Reel, oil Label Check Reel. (The "competitor shoppers" ad set.)
+  3. Parents in the same cities, 26–45, Parenting + Baby food. Ad: millet noodles Reel.
+  Exclude a "Purchasers 180 days" pixel audience once it exists.
+- Campaign 2 "POZ Followers": objective Traffic, destination Instagram profile, ₹100/day, metros + Hyderabad, Organic food + Healthy diet. Ads: the best Label Check / Trial Reel of the week. Purpose: follows from people who buy organic elsewhere.
+- Review after 7 days: keep the ad set with the lowest cost per purchase (Campaign 1) and per profile visit (Campaign 2); swap in that week's best Reel.
+
 ### Verified Meta setup (checked via Adspirer, 26 Oct 2026)
 - Ad account `act_892451579536419` (currency INR). Facebook Page: Pure Organic Zone. Instagram for ads: @pureorganiczone, id `17841471100992317`.
 - Pixel to use: **Pure organic zone** `1219471509602200` (firing). The other pixel "pure organic sales" `1888524538550211` has never fired; ignore it.
