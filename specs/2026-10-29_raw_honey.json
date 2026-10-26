@@ -1,0 +1,92 @@
+{
+ "date": "2026-10-29",
+ "post_time": "17:45",
+ "music": "calm",
+ "ig_type": "TRIAL_REEL",
+ "series": "Label Check #2",
+ "title": "Is your honey really raw?",
+ "handle": "@pureorganiczone",
+ "scenes": [
+  {
+   "theme": "dark",
+   "dur": 2.0,
+   "top": 640,
+   "items": [
+    {
+     "type": "tag",
+     "text": "LABEL CHECK: HONEY"
+    },
+    {
+     "type": "title",
+     "text": "Is your honey really raw?"
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 4.0,
+   "top": 520,
+   "items": [
+    {
+     "type": "title",
+     "text": "Check the pack",
+     "size": 84
+    },
+    {
+     "type": "bullets",
+     "items": [
+      "Says raw or unprocessed",
+      "Names where it comes from",
+      "Only one ingredient: honey"
+     ]
+    }
+   ]
+  },
+  {
+   "theme": "dark",
+   "dur": 3.4,
+   "top": 600,
+   "items": [
+    {
+     "type": "title",
+     "text": "Thick or crystals in winter?",
+     "size": 80
+    },
+    {
+     "type": "body",
+     "text": "Raw honey often crystallises in the cold. That is natural. Warm the jar gently."
+    }
+   ]
+  },
+  {
+   "theme": "light",
+   "dur": 3.8,
+   "top": 560,
+   "items": [
+    {
+     "type": "tag",
+     "text": "FROM MEGHALAYA"
+    },
+    {
+     "type": "title",
+     "text": "Wild Flora Raw Honey",
+     "size": 80
+    },
+    {
+     "type": "price",
+     "now": "₹184",
+     "was": "₹199"
+    },
+    {
+     "type": "button",
+     "text": "pureorganiczone.com"
+    },
+    {
+     "type": "small",
+     "text": "Delivered all over India"
+    }
+   ]
+  }
+ ],
+ "caption": "Is your honey really raw? 🍯 Label Check #2\n\nFlip your honey jar and check 3 things: does it say raw or unprocessed, does it name where the honey comes from, and is honey the only ingredient?\n\nRaw honey often turns thick or crystallises in cold weather. That's natural. Just warm the jar gently in a bowl of warm water.\n\n👉 Wild Flora Raw Honey from Meghalaya: ₹184 (was ₹199)\n🛒 pureorganiczone.com (link in bio), delivered all over India\n\nSend this to someone who adds honey to their morning tea. Follow for the next Label Check!\n\n#RawHoney #Honey #MeghalayaHoney #OrganicFood #HealthyEating #LabelCheck #PureOrganicZone"
+}

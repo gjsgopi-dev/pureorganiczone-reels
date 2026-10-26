@@ -3,16 +3,16 @@
  "scenes": [
   {
    "theme": "dark",
-   "dur": 3.0,
+   "dur": 2.0,
    "top": 640,
    "items": [
     {
      "type": "tag",
-     "text": "GHEE FACTS"
+     "text": "A2 BILONA GHEE"
     },
     {
      "type": "title",
-     "text": "Why does bilona ghee cost 3x more?"
+     "text": "Is your ghee really bilona?"
     }
    ]
   },
@@ -54,22 +54,6 @@
   },
   {
    "theme": "light",
-   "dur": 3.4,
-   "top": 640,
-   "items": [
-    {
-     "type": "title",
-     "text": "What is A2?",
-     "size": 84
-    },
-    {
-     "type": "body",
-     "text": "Milk from desi cow breeds like Gir, which carries the A2 beta-casein protein"
-    }
-   ]
-  },
-  {
-   "theme": "light",
    "dur": 3.8,
    "top": 560,
    "items": [
@@ -102,5 +86,7 @@
  "post_time": "17:45",
  "music": "warm",
  "title": "Why bilona ghee costs more",
- "caption": "Why does bilona ghee cost 3x more than regular ghee? 🧈\n\nIt starts with curd, not cream. The curd is hand-churned into makkhan and slow-heated into ghee. It takes about 25–30 litres of milk to make just 1 kg.\n\nOur A2 Bilona Cow Ghee is made from desi cow milk the traditional way.\n\n👉 Today: ₹999 (was ₹1,599)\n🛒 pureorganiczone.com — delivered all over India\n\nSave this for the next time someone asks why real ghee costs more!\n\n#A2Ghee #BilonaGhee #DesiGhee #OrganicIndia #HealthyEating #Ayurveda #PureOrganicZone"
+ "caption": "Is your ghee really bilona? 🧈 A2 bilona ghee, explained\n\nReal bilona ghee starts with curd, not cream. The curd is hand-churned into makkhan and slow-heated into ghee. It takes about 25–30 litres of milk to make just 1 kg, which is why it costs more.\n\nOur A2 Bilona Cow Ghee is made from desi cow milk the traditional way.\n\n👉 Today: ₹999 (was ₹1,599)\n🛒 pureorganiczone.com (link in bio), delivered all over India\n\nSend this to someone who still buys factory ghee. Follow for more \"Is it really?\" checks!\n\n#A2Ghee #BilonaGhee #DesiGhee #OrganicFood #HealthyEating #Ayurveda #PureOrganicZone",
+ "ig_type": "REEL",
+ "series": "Is it really?"
 }
