@@ -150,5 +150,7 @@ Also:
 - If no competitors are set up in Metricool, remind the owner to add them.
 
 ## Learnings
-- (none yet — first report due Monday 2 Nov 2026)
+- 26 Oct report (19–26 Oct): only 2 Reels in Metricool, both owner-made Hyderabad meat posts on 25 Oct. Country chicken: reach 43, views 70, 1 save, 0 shares, engagement 4.7%. Goat meat: reach 35, views 79, 0 saves, 1 share, engagement 8.6%. Retention not reported. Sample is too small to judge topics; treat these as the baseline to beat (reach ~40, views ~75 per Reel).
+- Both meat Reels had no on-screen search phrase, no price and no save/share action, and got 1 save+share each. On every Hyderabad fresh-produce/meat spec: scene 1 shows the search phrase ("COUNTRY CHICKEN HYDERABAD"), the offer scene shows the price from `catalog.md`, and the caption ends with "Send this to someone in Hyderabad who still buys ___". Keep the "60–90 min delivery, Hyderabad only" line; it is the local advantage.
+- No competitors in Metricool yet (IGCO returned nothing), so there is no engagement benchmark. Until they are added, compare each week against our own previous week. Owner-made Reels are not in `log.csv`; daily runs should add a row (slug "owner_<product>", mood "owner") for any Reel found in Metricool that is missing from the log, so the weekly report can match it to a topic.
 - 26 Oct: an owner-made Millet Noodles Reel was posted at 07:15 IST (AI-generated label on). Skip millets/noodles until 2 Nov.
