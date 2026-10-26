@@ -60,6 +60,37 @@ Name the series in captions ("Swap of the Day #4", "Label Check") so people foll
 - Reply to every comment and DM in the first hour after a post.
 - Paid boost: the weekly report recommends one Reel to boost and an audience (Hyderabad + 25 km, age 25–50, interests: organic food, ghee, millets, healthy eating, fitness, parenting). **Scheduled runs never spend money or create boosts.** The owner decides.
 
+## Paid audiences — show our best Reels to the right buyers (Meta ads)
+Organic posting reaches followers and Instagram's own picks. To choose WHO sees a Reel (region, budget, health interest, buying history, competitors' audiences) the Reel must run as a Meta ad (Instagram + Facebook). Ad account: `act_892451579536419`.
+**Rule: scheduled runs never create, launch or change paid ads. They only recommend. Every rupee is approved by the owner in chat.**
+
+### Audiences (build once in Meta Ads Manager, reuse every week)
+| # | Audience | Who | Targeting | Lead with |
+|---|---|---|---|---|
+| A1 | Hyderabad health-conscious | Near us, can get fresh delivery | Hyderabad + 15 km (Madhapur, Gachibowli, Kondapur, Kukatpally, Jubilee Hills, Banjara Hills, Manikonda, Miyapur), age 25–55, interests: organic food, healthy diet, Ayurveda, yoga, fitness, vegetarian cooking; behaviour: engaged shoppers | Fresh produce, country chicken, same-day slots, Telugu line |
+| A2 | Competitor shoppers (pan-India) | Already buy organic/A2/millets elsewhere | Metros: Hyderabad, Bengaluru, Chennai, Pune, Mumbai, Delhi NCR; age 25–55; interests: A2 milk, ghee, millets, organic food, plus organic-brand interests where Meta lists them (e.g. Organic India, 24 Mantra Organic, Two Brothers Organic Farms, Akshayakalpa; check each exists in Ads Manager's interest search); behaviour: engaged shoppers, online shoppers | Label Check / "Is it really?" Reels, then the price-value offer |
+| A3 | Value seekers | Healthy but price-conscious | Same regions as A1 + A2, age 22–45, interests: healthy diet, home cooking, parenting, budget cooking | Low-price entry products: millet noodles ₹54, mustard oil ₹90, sabja ₹99, moringa ₹199 |
+| A4 | Parents | Kids' snacks and breakfast swaps | Same regions, age 26–45, interests: parenting, toddlers/school-age children, healthy snacks | Millet noodles, snack hamper, ragi pancake mix |
+| W1 | Warm: our engagers | Watched or interacted but haven't bought | Custom audience: Instagram account engagers (90 days) + people who watched ≥50% of our Reels | Offer Reels with price and pureorganiczone.com |
+| W2 | Warm: site visitors | Visited the site, didn't buy | Custom audience from the Meta pixel on pureorganiczone.com (30 days), excluding purchasers | The product they viewed, combos, any active offer |
+| B1 | Actual buyers | Past customers | Custom audience from our customer list (phone/email from website and store orders, only customers who agreed to marketing) | New products, refills (ghee, oil), festive combos |
+| L1 | Lookalike of buyers | New people who resemble our buyers | 1–3% India lookalike of B1 (needs 100+ matched customers) | Best-performing Reel of the week |
+
+Exclude B1 (past buyers) from A1–A4 and L1 so acquisition money isn't spent on existing customers.
+
+### Health targeting rules (Meta policy)
+- Do not target or imply medical conditions (diabetes, BP, PCOS, weight). Meta removed these targeting options, and ad text must not say "you have diabetes" or similar. Target wellness interests only (healthy diet, fitness, Ayurveda, organic food).
+- Diabetes/weight-kit Reels can run as ads only with the doctor line and no promise of results.
+
+### Starting budget (owner to approve)
+- ₹300/day (~₹9,000/month) in week 1: ₹100 A1 Hyderabad, ₹100 A2 competitor shoppers, ₹50 A3 value, ₹50 W1 warm engagers.
+- After 7 days, move money to the audience with the lowest cost per landing-page view or purchase; pause any ad set whose cost is 2x the best.
+- Add W2, B1 and L1 once the pixel and customer list are set up.
+
+### What the weekly report adds
+- From Metricool Meta Ads metrics (network `metaAds`), report spend, reach, cost per result and purchases by audience if ads are running.
+- Pick the week's best Reel (highest saves+shares per view) and recommend which audience above to run it to, with a budget. Never launch it.
+
 ## Content rotation (one per day, repeat the cycle)
 1. A2 bilona ghee or a ghee combo — tradition and method
 2. Millets / breakfast swap (noodles, dosa mix, upma, jowar poha, cookies)
