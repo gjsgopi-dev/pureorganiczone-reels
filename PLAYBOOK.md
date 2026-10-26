@@ -78,6 +78,16 @@ Organic posting reaches followers and Instagram's own picks. To choose WHO sees 
 
 Exclude B1 (past buyers) from A1–A4 and L1 so acquisition money isn't spent on existing customers.
 
+### Verified Meta setup (checked via Adspirer, 26 Oct 2026)
+- Ad account `act_892451579536419` (currency INR). Facebook Page: Pure Organic Zone. Instagram for ads: @pureorganiczone, id `17841471100992317`.
+- Pixel to use: **Pure organic zone** `1219471509602200` (firing). The other pixel "pure organic sales" `1888524538550211` has never fired; ignore it.
+- Custom audiences: none yet (W1, W2, B1, L1 must be created in Ads Manager first).
+- Location: Hyderabad city key `1027234` (type city, Telangana); use radius 15 km.
+- Interest ids that exist: Organic food `6002868910910`, Organic product `6004002883706`, Organic food stores `6805147143063`, Organic farming `6003322650741`, Healthy diet `6003382102565`, Human nutrition `6002933862573`, Yoga `6003306084421`, Parenting `6003232518610`, Baby food `6003704126313`. Behaviour: Engaged Shoppers `6071631541183`.
+- **Not available in Meta**: ghee, millet, Ayurveda, BigBasket, Organic India, Patanjali (and likely other Indian organic brands). So "competitor shoppers" = people interested in organic food/products/stores + engaged shoppers, and the Label Check / "Is it really?" creative does the competitor-switching work.
+- Adspirer free plan: 15 actions per month (reset on the 25th). Use them for creating campaigns, not exploring.
+- Existing campaign still ACTIVE: "Post: Pop Wash home care essentials now available" `120245407649150654` (engagement, since Apr 2026). Ask the owner whether it should keep running.
+
 ### Health targeting rules (Meta policy)
 - Do not target or imply medical conditions (diabetes, BP, PCOS, weight). Meta removed these targeting options, and ad text must not say "you have diabetes" or similar. Target wellness interests only (healthy diet, fitness, Ayurveda, organic food).
 - Diabetes/weight-kit Reels can run as ads only with the doctor line and no promise of results.
