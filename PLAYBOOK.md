@@ -15,7 +15,7 @@ Every scheduled run follows this file. Read it fully before making anything.
 4. Look at 3 frames (start, middle, end) to check text fits and nothing overlaps or shows a missing-glyph box.
 5. Commit the spec and video, push to `main`.
 6. Wait until `raw.githubusercontent.com` serves the file (check with `gh api repos/gjsgopi-dev/pureorganiczone-reels/contents/reels/<file>.mp4`).
-7. Schedule in Metricool with `createScheduledPost`: Instagram REEL, `showReelOnFeed: true`, `autoPublish: true`, `draft: false`, media = the raw URL, `videoCoverMilliseconds: 1500`, caption from the spec, time = spec `post_time` (default 17:45 IST) today. If that time has passed, use the next free hour from Metricool's best-times.
+7. Schedule in Metricool with `createScheduledPost`: Instagram type from "Growth strategy > Weekly cadence" below (REEL or TRIAL_REEL), `showReelOnFeed: true` (REEL only), `autoPublish: true`, `draft: false`, media = the raw URL, `videoCoverMilliseconds: 1500`, caption from the spec, time = spec `post_time` (default 17:45 IST) today. If that time has passed, use the next free hour from Metricool's best-times.
 8. Before scheduling, call `getScheduledPosts` for today so you never double-post.
 9. Clean up: Metricool copies the video to its own storage when the post is created. Only if the `createScheduledPost` response's `media` URL starts with `https://static.metricool.com/`, delete the video from the repo (`git rm reels/<file>.mp4`). If the media URL still points at GitHub, keep the video and say so in the owner message.
 10. Append to `log.csv`: date, slug, product, mood, metricool post id, planner URL. Commit the cleanup and the log row together and push.
@@ -24,6 +24,41 @@ Every scheduled run follows this file. Read it fully before making anything.
 The `reels/` folder should normally be empty between runs; specs stay in `specs/` as the record of what was posted.
 
 If any step fails (build, push, Metricool error), stop, do not retry in a loop, and message the owner with the exact error and what is needed.
+
+## Growth strategy — win shoppers who already buy organic elsewhere
+Goal: reach people who already buy A2 ghee, millets, cold-pressed oils and organic staples from national D2C brands, quick-commerce apps and other Hyderabad organic stores, and give them a clear reason to switch to us. Every Reel must do one of three jobs: **reach** new people, **convince** them we're the better choice, or **convert** them to an order.
+
+### Weekly cadence
+- **Tue, Thu, Sat: TRIAL_REEL.** Instagram shows Trial Reels only to non-followers, so these are for reaching new shoppers. Use the strongest hook formats (myth vs fact, "did you know", label check). Leave out `showReelOnFeed`.
+- **Mon, Wed, Fri, Sun: REEL** (normal, shown to followers and on the feed). Use convince/convert formats (why it costs more, how to use, offer).
+- If a Trial Reel's views beat our 7-day Reel average, the weekly report lists it so the owner can share it to the main feed from the Instagram app.
+
+### Formats that pull in shoppers who buy elsewhere (no competitor names, ever)
+- **Label check:** "3 things to check on your ghee/oil/millet pack" (method, ingredients list, single origin). Shoppers check their current pack and see why ours is better.
+- **"Is your ___ really ___?":** e.g. "Is your ghee really bilona?", "Is your oil really cold-pressed?" Explain how to tell, then show ours.
+- **Price-value:** our offer price against our own MRP, with what's inside a combo and the cost per day or per serving. Never quote or guess other brands' prices.
+- **Local advantage (Hyderabad):** fresh produce and country chicken delivered the same day in three slots, a store in Madhapur, and you can walk in and see the products. National brands can't match this, so use it in every Hyderabad post.
+- **Swap series:** "Swap of the Day": one everyday product and our better alternative.
+Name the series in captions ("Swap of the Day #4", "Label Check") so people follow to see the next one.
+
+### Make Reels easier to find (search reaches people who don't know us)
+- Scene 1 shows the search phrase on screen, e.g. "A2 GHEE" or "MILLET NOODLES FOR KIDS".
+- The caption's first line includes the phrase people search: product + benefit or place ("A2 bilona ghee Hyderabad", "millet noodles for kids").
+- Hashtags: 2 broad category tags (#OrganicFood #HealthyEating), 3 product tags (#A2Ghee #BilonaGhee #MilletNoodles), 1–2 Hyderabad tags on local posts, then #PureOrganicZone. 6–8 total.
+
+### Shorter Reels (for specs written from 2 Nov 2026)
+- 4 scenes, 11–14 seconds total. Scene 1 at most 2.0 s, a hook with a question or a surprising fact. People should finish and replay it.
+
+### Captions that sell
+- End every caption with one clear action, rotating between: "Follow for a healthy swap every day", "Send this to someone who still buys ___", "Save this for your next grocery order".
+- Always include the offer price and `🛒 pureorganiczone.com (link in bio)`.
+- If `catalog.md` has an "Active offers" section with a first-order code, add it to convert posts. Never invent a code or discount.
+
+### What the owner does (the weekly report reminds them)
+- Add 5–8 competitor Instagram accounts in Metricool (Competitors section) so the weekly report can learn from their best Reels.
+- Collab posts with Hyderabad food, mom and fitness creators. When a collab is agreed, add the handle to the spec as `collaborators` and pass it in `instagramData.collaborators`.
+- Reply to every comment and DM in the first hour after a post.
+- Paid boost: the weekly report recommends one Reel to boost and an audience (Hyderabad + 25 km, age 25–50, interests: organic food, ghee, millets, healthy eating, fitness, parenting). **Scheduled runs never spend money or create boosts.** The owner decides.
 
 ## Content rotation (one per day, repeat the cycle)
 1. A2 bilona ghee or a ghee combo — tradition and method
@@ -56,6 +91,12 @@ Copy the structure of an existing spec in `specs/`. Fields:
 
 ## Weekly report (Mondays)
 Pull the last 7 days of Instagram Reels metrics (IGRE01 date, IGRE03 content, IGRE11 reach, IGRE23 views, IGRE12 saves, IGRE21 shares, IGRE08 engagement, IGRE27 retention) and competitor metrics (IGCO02, IGCO07, IGCO10, IGCO12). Rank our Reels, name the top topic and format, compare with competitors' engagement, and write 2–3 concrete changes into the "Learnings" section below so daily runs use them.
+Also:
+- Competitor Reels (IGCR01 competitor, IGCR03 text, IGCR05 date, IGCR09 interactions, IGCR10 engagement): list their top 5 Reels by interactions and name the topic and format of each. Turn what works into our own original ideas. Never copy their scripts, video, music or claims.
+- Compare Trial Reels with normal Reels (views, reach, follows if available). List Trial Reels worth sharing to the feed.
+- Recommend one Reel to boost and the audience (see Growth strategy). Do not spend.
+- If no competitors are set up in Metricool, remind the owner to add them.
 
 ## Learnings
 - (none yet — first report due Monday 2 Nov 2026)
+- 26 Oct: an owner-made Millet Noodles Reel was posted at 07:15 IST (AI-generated label on). Skip millets/noodles until 2 Nov.
