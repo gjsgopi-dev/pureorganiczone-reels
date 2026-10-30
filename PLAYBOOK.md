@@ -21,7 +21,7 @@ Every scheduled run follows this file. Read it fully before making anything.
    - `facebookData`: `{"type": "REEL"}`
    - `youtubeData`: `{"type": "short", "title": <spec title, or the caption's first line without emoji, max 100 chars>, "privacy": "public", "madeForKids": false, "category": "HOWTO_STYLE", "tags": <5–7 search phrases from the caption>, "isAiGeneratedContent": <same as Instagram isAiGenerated>}`
    - `linkedinData`: `{"type": "post", "previewIncluded": true, "publishImagesAsPDF": false}`
-   - `pinterestData`: `{"boardId": "pure organic zone products", "pinTitle": <same as the YouTube title>, "pinLink": <spec `product_url`>, "isAiGenerated": <same as Instagram isAiGenerated>}` (video pin). The board name is resolved by Metricool; if it can't find it, once the post has gone out without Pinterest, write the numeric board id from the error/candidates here.
+   - `pinterestData`: `{"boardId": "895372038356868033", "pinTitle": <same as the YouTube title>, "pinLink": <spec `product_url`>, "isAiGenerated": <same as Instagram isAiGenerated>}` (video pin). Board id 895372038356868033 = "pure organic zone products" (verified 30 Oct 2026 with a test pin).
    Owner-made Reels with realistic AI people (e.g. from Muse) get `isAiGenerated: true` on Instagram and `isAiGeneratedContent: true` on YouTube.
    If one network rejects the post, retry once without that network, then tell the owner which one failed and the exact error.
 8. Before scheduling, call `getScheduledPosts` for today so you never double-post.
