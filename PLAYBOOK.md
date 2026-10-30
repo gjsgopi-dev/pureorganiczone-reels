@@ -209,6 +209,21 @@ Customers write to the MyChatBot sales assistant ("Pureorganiczone Assistant", i
 - **Complaints and needs-operator chats:** never sell; message the owner at once with the chat link so a person replies.
 - The assistant's replies are limited by the MyChatBot plan (trial until 9 Nov 2026 with about 100 AI replies); if replies run low, tell the owner.
 
+### Win competitors' unhappy customers (owner, 31 Oct 2026)
+Competitors' customers complain in public. Read those complaints in aggregate, then make sure our Reels, captions and the sales assistant answer exactly those pain points, so their unhappy buyers find us and switch.
+- **Where to read (public pages only):** Google Maps and Google reviews of their Hyderabad stores and dark stores, App Store and Google Play reviews of their apps (Licious, FreshToHome, TenderCuts, Nandus, Sneha, Zama, The Organic World and others in "Competitor watch"), MouthShut, Trustpilot, Reddit (r/hyderabad, r/IndianFood), YouTube comments on their videos, and comments on their public Instagram/Facebook posts when a page shows them.
+- **What to record:** themes only, never people. `insights/competitor_pain_points.csv` (date, brand, product type, pain point in ≤ 12 words, how often it appears, source URL, our answer). No names, handles, photos, phone numbers or quotes longer than a few words.
+- **Typical pain points to look for:** meat not fresh or frozen, smell, bones/fat in boneless, small portions, late or missed slots, price hikes, fake "organic", no certificate, rude support, refund hassles, app bugs.
+- **Turn each into our answer, only where it is true for us:** e.g. "cut fresh after you order" (only if the owner confirms), 60–90 min Hyderabad meat delivery, walk-in Madhapur store ("see it before you buy"), the 1-hour perishables refund window, a real person on WhatsApp 9704518572, subscriptions. Use them as Reel hooks and caption questions ("Ever got 'fresh' mutton that wasn't?"), as assistant objection answers, and as ad angles for the owner.
+- **Never:** name, show or compare a competitor; quote or screenshot their reviews; contact, DM, tag, follow, comment on or reply to their customers or reviewers; post under their posts; create fake reviews or accounts; claim anything about them. People find us through our own Reels, search, ads and word of mouth.
+- **Paid reach (owner decides budget):** the weekly report can suggest a Meta ad aimed at Hyderabad meat and organic shoppers using these pain-point hooks; scheduled runs never create ads.
+
+### Our own feedback (owner, 31 Oct 2026)
+Read what people say about us too, so problems are fixed fast and praise is reused (with permission).
+- **Where:** product reviews and ratings on pureorganiczone.com (`tools/site_sales.py` gives counts and average rating; product pages show the text), App Store and Google Play reviews of the Pure Organic Zone app, Google reviews of the Madhapur store, comments on our own posts (Metricool and the sales-assistant chats), and vendor brands' product reviews on our site.
+- **Log** themes in `insights/customer_feedback.csv` (no personal details). **Alert the owner at once** about any 1–2 star review or public complaint, with the link, so a person replies. Never auto-reply to public reviews. Praise becomes a Reel or caption idea only with the customer's permission.
+- Feed recurring praise words ("fresh", "on time", "real natu kodi") into Reel hooks, and recurring complaints into "Live insights" for the owner to fix.
+
 ### Sales learning loop
 `python3 tools/site_sales.py` snapshots order counts per product (public product fields only; the page also embeds seller account data, which must never be read, printed or stored). The change between snapshots = new orders. Compare the products a Reel promoted with their new orders over the next 48 h, and log it in `insights/reel_sales.csv` (date, reel slug, product, orders in the 48 h before, orders in the 48 h after). When the owner hands over real sales figures, add them to `insights/` and prefer them over this estimate.
 
