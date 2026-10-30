@@ -177,6 +177,13 @@ Feature one marketplace vendor and its best-selling products by name, to sell th
 - Supplements and wellness mixes (e.g. Auranectra): no health claims, add "Not a substitute for medical advice."
 - Learning from vendors' own Reels: once the owner adds vendor Instagram handles under Metricool > Competitors, the weekly report reads their Reels' views, comments and interactions (IGCR fields) and the hourly watch notes which vendor topics pull engagement. Until then, use our own order data.
 
+### News and trend hooks (owner, 31 Oct 2026)
+Growth Watch reads the news and social trends twice a day and suggests how the next Reel can ride them, to reach new people and grow followers.
+- **Look for:** Hyderabad and Telangana news and events (festivals and dates such as Karthika masam, Sankranti/Kanuma, Bonalu, Dasara, Ramzan, Christmas; weather like rain or a cold wave; big local events, cricket matches, long weekends, new metro or flyover openings in Jubilee Hills, Hitech City, Gachibowli, Kondapur, Marredpally, Secunderabad); food and health trends in India (millets, A2, protein, seasonal produce); what is trending in Indian food Reels (formats, audio, phrases); and what is getting attention on our own and vendors' accounts.
+- **Use it as:** a hook line, a story angle, a timely caption question, an area name in the caption and hashtags (e.g. "Rainy evening in Hitech City? Natu kodi pulusu weather"), or a better posting time. The product and the weekly cadence still come from sales data; a trend changes the angle, not the product, unless a festival clearly favours another product (e.g. Ramzan → mutton and paya, Karthika masam → vegetarian staples and fruits, Sankranti → mutton, natu kodi and podis).
+- **Never:** use tragedies, accidents, crime, disease outbreaks, politics, religion-based targeting or a celebrity's name or image; make health claims from news; copy another account's video, audio or script; claim we are part of an event. Food-safety scare stories are never used to frighten buyers.
+- Every hook in "Live insights" carries its source link and date so the daily task can check it is still current (drop hooks older than 3 days).
+
 ### Sales learning loop
 `python3 tools/site_sales.py` snapshots order counts per product (public product fields only; the page also embeds seller account data, which must never be read, printed or stored). The change between snapshots = new orders. Compare the products a Reel promoted with their new orders over the next 48 h, and log it in `insights/reel_sales.csv` (date, reel slug, product, orders in the 48 h before, orders in the 48 h after). When the owner hands over real sales figures, add them to `insights/` and prefer them over this estimate.
 
