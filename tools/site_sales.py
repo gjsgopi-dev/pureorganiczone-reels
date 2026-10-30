@@ -79,6 +79,17 @@ def main():
         print(f"new orders since {os.path.basename(prev_files[-1])[:-4]}: {sum(m[0] for m in moves)}")
         for dlt, p in sorted(moves, key=lambda m: -m[0])[:20]:
             print(f"  +{dlt:<4} {p['name'][:60]} | {p['vendor']} | /product/{p['slug']}")
+    if "--vendors" in sys.argv:
+        agg = {}
+        for p in prods.values():
+            a = agg.setdefault(p["vendor"] or "(unbranded)", {"orders": 0, "n": 0, "zero": 0, "best": p})
+            a["orders"] += p["orders"]; a["n"] += 1; a["zero"] += p["orders"] == 0
+            if p["orders"] > a["best"]["orders"]:
+                a["best"] = p
+        print("vendors by orders (orders | products | products with 0 orders | best seller):")
+        for k, a in sorted(agg.items(), key=lambda x: -x[1]["orders"]):
+            b = a["best"]
+            print(f"  {a['orders']:>5} | {a['n']:>3} | {a['zero']:>3} | {k} | {b['name'][:45]} ₹{b['offer_price']} /product/{b['slug']}")
     if top:
         print("best sellers overall:")
         for p in sorted(prods.values(), key=lambda p: -p["orders"])[:top]:

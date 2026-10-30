@@ -184,6 +184,22 @@ Growth Watch reads the news and social trends twice a day and suggests how the n
 - **Never:** use tragedies, accidents, crime, disease outbreaks, politics, religion-based targeting or a celebrity's name or image; make health claims from news; copy another account's video, audio or script; claim we are part of an event. Food-safety scare stories are never used to frighten buyers.
 - Every hook in "Live insights" carries its source link and date so the daily task can check it is still current (drop hooks older than 3 days).
 
+### Competitor watch (chosen by the agents, not only Metricool; owner, 31 Oct 2026)
+Research only: competitors are never named, shown, copied or compared in our Reels or captions. The agents keep this list current, adding a brand when it shows up in search, ads or news for our products in Hyderabad, and dropping one that no longer competes.
+- **Fresh meat, Hyderabad (our 89% of orders):** Licious, FreshToHome, TenderCuts, Nandus, Sneha (Sneha Select), plus meat on Swiggy Instamart, Zepto and Blinkit.
+- **Organic brands (pan-India and Hyderabad):** Organic India, Organic Tattva, 24 Mantra Organic, Two Brothers Organic Farms, Zama Organics, Organic Mandya, Akshayakalpa, The Organic World (Hyderabad stores).
+- **Quick commerce and marketplaces:** Swiggy Instamart, Blinkit, Zepto, BigBasket, Amazon Fresh.
+- **How to read them:** Metricool competitor data where the account is added (IGCO/IGCR fields); otherwise WebSearch/WebFetch for their latest campaigns, offers, festival pushes, new products, Reel and ad themes (news, ad-tracker pages, YouTube Shorts pages, their own sites), and public view/like/comment counts where a page shows them. Note what format, hook and offer drew attention, then turn it into our own original idea. Never copy their scripts, video, audio, claims or prices.
+- Growth Watch checks 3–4 of these each morning (rotating so each is checked weekly) and writes useful findings to `insights/competitor_watch.csv` (date, brand, what they did, engagement if public, source URL, idea for us).
+
+### Small vendors: grow their sales (owner, 31 Oct 2026)
+69 vendors sell on our marketplace; 42 have only 1–10 orders, 9 have none, and 125 of 325 packaged products have never been ordered (site data 31 Oct; refresh with `python3 tools/site_sales.py --vendors`). Fresh food brings most of our buyers, so use that traffic to sell vendors' products:
+- **Add-on line in every fresh-food Reel caption:** one vendor product that goes with the dish, with its link: mutton → Shevades Chicken/Mutton Masala (₹51); natu kodi → Rahasya groundnut oil or Yashoda mustard oil; vegetable box → ANIKA karam podis (₹60–65), Divyams heritage rice; Sunday lunch → Farmiya Govind Bhog rice; kids → Milletio millet bars (₹62), LazyMan jaggery peanut butter (₹160). Format: `➕ Goes well with: <product> by <vendor>, ₹<price> <link>`.
+- **Vendor Spotlight (Tue/Thu) alternates** between one vendor (single best seller) and a **"Telugu kitchen basket"** story that features 3 small vendors' products together (e.g. ANIKA podi + Yashoda oil + Divyams rice), so more vendors get seen each week. Prefer vendors with 1–10 orders and products with wishlists or good ratings but few orders.
+- **Collab posts:** when the owner records a vendor's Instagram handle in `insights/vendor_handles.csv` (vendor, handle, agreed yes/no), add it as `instagramData.collaborators` on that vendor's Reel only if agreed is yes. A collab shows the Reel to both audiences.
+- **Vendor kit (owner sends):** after a vendor's Reel posts, the owner message includes the Reel link and a one-line ask for the vendor to share it, so their customers find our app.
+- Track each featured vendor's orders before and after its Reel in `insights/reel_sales.csv`; keep featuring vendors whose sales move.
+
 ### Sales learning loop
 `python3 tools/site_sales.py` snapshots order counts per product (public product fields only; the page also embeds seller account data, which must never be read, printed or stored). The change between snapshots = new orders. Compare the products a Reel promoted with their new orders over the next 48 h, and log it in `insights/reel_sales.csv` (date, reel slug, product, orders in the 48 h before, orders in the 48 h after). When the owner hands over real sales figures, add them to `insights/` and prefer them over this estimate.
 
