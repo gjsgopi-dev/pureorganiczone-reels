@@ -5,7 +5,7 @@ Every scheduled run follows this file. Read it fully before making anything.
 ## Accounts
 - Metricool brand id (blogId / brandId): `7649578`, timezone `Asia/Calcutta`.
 - Instagram: @pureorganiczone (Business, linked via Facebook page).
-- Every Reel posts to ALL connected networks (owner's standing instruction, 26 Oct 2026): Instagram, Facebook (page), YouTube (channel), LinkedIn (owner's personal profile). Check `getBrandSettings` > `networksData` at the start of each run; if a network is added or removed there, post to whatever is connected.
+- Every Reel posts to ALL connected networks (owner's standing instruction, 26 Oct 2026): Instagram, Facebook (page), YouTube (channel), LinkedIn (owner's personal profile), Pinterest (from 30 Oct 2026, board "pure organic zone products"). Check `getBrandSettings` > `networksData` at the start of each run; if a network is added or removed there, post to whatever is connected.
 - Videos are hosted publicly from this repo:
   `https://raw.githubusercontent.com/gjsgopi-dev/pureorganiczone-reels/main/reels/<file>.mp4`
 
@@ -17,10 +17,11 @@ Every scheduled run follows this file. Read it fully before making anything.
 5. Commit the spec and video, push to `main`.
 6. Wait until `raw.githubusercontent.com` serves the file (check with `gh api repos/gjsgopi-dev/pureorganiczone-reels/contents/reels/<file>.mp4`).
 7. Schedule in Metricool with `createScheduledPost`: Instagram type from the spec's `ig_type` field, or if missing, from "Growth strategy > Weekly cadence" below (REEL or TRIAL_REEL); always set `isAiGenerated: false` for our own generated text-and-graphics Reels, `showReelOnFeed: true` (REEL only), `autoPublish: true`, `draft: false`, media = the raw URL, `videoCoverMilliseconds: 1500`, caption from the spec, time = spec `post_time` (default 17:45 IST) today. If that time has passed, use the next free hour from Metricool's best-times.
-   One post, all networks: `providers` = instagram, facebook, youtube, linkedin, with
+   One post, all networks: `providers` = instagram, facebook, youtube, linkedin, pinterest, with
    - `facebookData`: `{"type": "REEL"}`
    - `youtubeData`: `{"type": "short", "title": <spec title, or the caption's first line without emoji, max 100 chars>, "privacy": "public", "madeForKids": false, "category": "HOWTO_STYLE", "tags": <5–7 search phrases from the caption>, "isAiGeneratedContent": <same as Instagram isAiGenerated>}`
    - `linkedinData`: `{"type": "post", "previewIncluded": true, "publishImagesAsPDF": false}`
+   - `pinterestData`: `{"boardId": "pure organic zone products", "pinTitle": <same as the YouTube title>, "pinLink": <spec `product_url`>, "isAiGenerated": <same as Instagram isAiGenerated>}` (video pin). The board name is resolved by Metricool; if it can't find it, once the post has gone out without Pinterest, write the numeric board id from the error/candidates here.
    Owner-made Reels with realistic AI people (e.g. from Muse) get `isAiGenerated: true` on Instagram and `isAiGeneratedContent: true` on YouTube.
    If one network rejects the post, retry once without that network, then tell the owner which one failed and the exact error.
 8. Before scheduling, call `getScheduledPosts` for today so you never double-post.
