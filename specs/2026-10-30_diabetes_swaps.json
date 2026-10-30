@@ -104,5 +104,77 @@
  "caption": "Watching your blood sugar? Start with 3 easy food swaps this week 🌾\n\n1️⃣ White rice → low GI or brown rice\n2️⃣ Sugar → a little jaggery\n3️⃣ Maida snacks → millets and seeds\n\nOur Organic Diabetes Control Kit brings diabetic-friendly staples together in one box.\n\n👉 ₹1,391 (was ₹1,546)\n🛒 https://pureorganiczone.com/product/combo-organic-diabetes-control-kit-zAfdCR (link in bio on Instagram)\n💬 Comment KIT and we'll DM you the link.\n\nThese foods support a balanced diet. Always follow your doctor's advice and medication.\n\nSave this for your next grocery order. Swap of the Day, follow for more!\n\n#DiabetesFriendly #LowGI #HealthyLiving #Millets #Jaggery #OrganicFood #PureOrganicZone",
  "ig_type": "REEL",
  "series": "Swap of the Day",
- "product_url": "https://pureorganiczone.com/product/combo-organic-diabetes-control-kit-zAfdCR"
+ "product_url": "https://pureorganiczone.com/product/combo-organic-diabetes-control-kit-zAfdCR",
+ "format": "heygen",
+ "heygen_prompt": "Vertical 9:16 food commercial, warm natural daylight, Indian home kitchen, slow smooth camera moves, no people's faces, absolutely no text, letters, logos or captions anywhere in the frame. Shot 1 (0-3s): close-up of a wooden spoon lifting fluffy brown rice from a steel bowl, gentle steam. Shot 2 (3-6s): a small block of golden jaggery being broken on a wooden board, crumbs falling in slow motion. Shot 3 (6-10s): overhead of small bowls filled with millets, pumpkin seeds and sunflower seeds on a rustic table, a hand sprinkles seeds. Shot 4 (10-15s): a neat kraft-paper grocery box filled with whole grains, millets, seeds and jaggery on a kitchen counter, soft light, slow push-in. Calm, fresh, appetising, earthy colour palette.",
+ "voiceover": "Watching your blood sugar? Try three easy swaps this week. White rice, for brown rice. Sugar, for a little jaggery. Maida snacks, for millets and seeds. Get them all in our Organic Diabetes Control Kit. Always follow your doctor's advice and medication.",
+ "voice_id": "84bc506c91674034aa1d32e22903f627",
+ "cards": [
+  {
+   "start": 0,
+   "end": 3.9,
+   "tag": "BLOOD SUGAR AWARE?",
+   "title": "3 easy food swaps to start this week"
+  },
+  {
+   "start": 3.9,
+   "end": 5.75,
+   "big": "1",
+   "title": "Swap white rice for brown rice",
+   "size": 70
+  },
+  {
+   "start": 5.75,
+   "end": 7.55,
+   "big": "2",
+   "title": "Swap sugar for a little jaggery",
+   "size": 70
+  },
+  {
+   "start": 7.55,
+   "end": 9.95,
+   "big": "3",
+   "title": "Swap maida snacks for millets and seeds",
+   "size": 70
+  },
+  {
+   "start": 9.95,
+   "end": 16.3,
+   "tag": "ALL IN ONE KIT",
+   "title": "Organic Diabetes Control Kit",
+   "size": 64,
+   "price": "₹1,391",
+   "was": "₹1,546",
+   "url": "pureorganiczone.com",
+   "small": "Supports a balanced diet. Always follow your doctor's advice and medication.",
+   "top": 500
+  }
+ ],
+ "footage_map": [
+  [
+   10.0,
+   13.9,
+   3.9
+  ],
+  [
+   0.0,
+   3.0,
+   1.85
+  ],
+  [
+   3.0,
+   6.0,
+   1.8
+  ],
+  [
+   6.0,
+   10.0,
+   2.4
+  ],
+  [
+   10.0,
+   15.0,
+   6.35
+  ]
+ ]
 }
