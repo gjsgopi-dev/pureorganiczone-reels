@@ -24,7 +24,7 @@ Every scheduled run follows this file. Read it fully before making anything.
    - `pinterestData`: `{"boardId": "895372038356868033", "pinTitle": <same as the YouTube title>, "pinLink": <spec `product_url`>, "isAiGenerated": <same as Instagram isAiGenerated>}` (video pin). Board id 895372038356868033 = "pure organic zone products" (verified 30 Oct 2026 with a test pin).
    Owner-made Reels with realistic AI people (e.g. from Muse) get `isAiGenerated: true` on Instagram and `isAiGeneratedContent: true` on YouTube.
    If one network rejects the post, retry once without that network, then tell the owner which one failed and the exact error.
-8. Before scheduling, call `getScheduledPosts` for today so you never double-post.
+8. Before scheduling, call `getScheduledPosts` for today so you never double-post. Only a post that includes Instagram counts as today's Reel. Pinterest-only pins (e.g. the 30 Oct 07:20 test pin, post id 410733741) are NOT the daily Reel: ignore them in this check and in the task prompt's "already scheduled or published" check, and schedule the Reel as normal.
 9. Clean up: Metricool copies the video to its own storage when the post is created. Only if the `createScheduledPost` response's `media` URL starts with `https://static.metricool.com/`, delete the video from the repo (`git rm reels/<file>.mp4`). If the media URL still points at GitHub, keep the video and say so in the owner message.
 10. Append to `log.csv`: date, slug, product, mood, metricool post id, planner URL. Commit the cleanup and the log row together and push.
 11. Send the owner one short message: what was scheduled, when, and the planner link.
