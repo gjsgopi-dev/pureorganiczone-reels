@@ -9,7 +9,7 @@ All fields except start/end are optional. Optional "footage_map": [[src_start, s
 plays those slices of the footage back to back, sped up or slowed to out_len seconds each, so each
 shot lands under the matching spoken line (check the voice's word timestamps). Text is drawn here (Poppins), never by the AI model,
 so spelling, prices and the health disclaimer are always exact. Keep text clear of the top 220px
-and bottom 420px, where Instagram puts its own buttons.
+and bottom 420px, where Instagram puts its own buttons. The logo badge sits at y 215-487, so\ncards start at top >= 560.
 """
 import json, os, subprocess, sys, tempfile
 from PIL import Image, ImageDraw, ImageFont
@@ -83,11 +83,19 @@ def card_png(c, path):
                     tw = d.textlength(line, font=f)
                     d.line((W / 2 - tw / 2, ly + lh / 2, W / 2 + tw / 2, ly + lh / 2), fill=col, width=4)
         y += bh(b) + gap
-    # handle, always on
-    hf = F("Bold", 40)
-    d.text((W / 2, 300), c.get("handle", "@pureorganiczone"), font=hf, anchor="mm", fill=(255, 255, 255, 230),
-           stroke_width=3, stroke_fill=(0, 0, 0, 150))
+    logo_badge(img)
     img.save(path)
+
+
+def logo_badge(img, cx=W // 2, top=215, logo_w=230):
+    """Company logo (assets/logo.png) on a white rounded badge, always on, inside the safe area."""
+    logo = Image.open(os.path.join(HERE, "..", "assets", "logo.png")).convert("RGBA")
+    logo = logo.resize((logo_w, round(logo.height * logo_w / logo.width)), Image.LANCZOS)
+    pad = 18
+    bw, bh = logo.width + 2 * pad, logo.height + 2 * pad
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((cx - bw // 2, top, cx + bw // 2, top + bh), 28, fill=(255, 255, 255, 242))
+    img.alpha_composite(logo, (cx - logo.width // 2, top + pad))
 
 
 def main(spec_path, footage, voice, out):

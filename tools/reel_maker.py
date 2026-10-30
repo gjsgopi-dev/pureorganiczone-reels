@@ -172,7 +172,20 @@ def chrome(img, frac, theme, handle):
     # progress bar (safe area: kept below Instagram's top UI)
     d.rounded_rectangle([80, 150, W - 80, 160], radius=5, fill=(*fg, 40))
     d.rounded_rectangle([80, 150, 80 + (W - 160) * frac, 160], radius=5, fill=(*LIME, 230))
-    d.text((W / 2, 205), handle, font=F("Medium", 36), anchor="mt", fill=(*fg, 170))
+    # company logo on a white badge (replaces the old text handle)
+    global _LOGO
+    if "_LOGO" not in globals():
+        import os
+        lg = Image.open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets", "logo.png")).convert("RGBA")
+        _LOGO = lg.resize((200, round(lg.height * 200 / lg.width)), Image.LANCZOS)
+    pad = 16
+    bw, bh = _LOGO.width + 2 * pad, _LOGO.height + 2 * pad
+    x0, y0 = W // 2 - bw // 2, 190
+    d.rounded_rectangle([x0, y0, x0 + bw, y0 + bh], radius=26, fill=(255, 255, 255, 242))
+    if img.mode == "RGBA":
+        img.alpha_composite(_LOGO, (x0 + pad, y0 + pad))
+    else:
+        img.paste(_LOGO, (x0 + pad, y0 + pad), _LOGO)
 
 
 def main(spec_path, out_path):
