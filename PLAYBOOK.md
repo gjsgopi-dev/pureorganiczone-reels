@@ -49,6 +49,14 @@ Goal: reach people who already buy A2 ghee, millets, cold-pressed oils and organ
 - **Swap series:** "Swap of the Day": one everyday product and our better alternative.
 Name the series in captions ("Swap of the Day #4", "Label Check") so people follow to see the next one.
 
+### Competitor lessons (review of 30 Oct 2026, Docs "Pure Organic Zone: Competitor Reels & Ads Review")
+National brands sell trust with celebrities and proof (tests, farmer counts, certificates); quick commerce sells cheaper certified staples in 10 minutes. Don't fight on staple price, speed or range. Win on:
+- **Hyderabad fresh food 3 times a week** (Mon, Wed, Fri: country chicken, mutton, vegetables, fruits), with the delivery slot and "Order by 11 AM for today's 11–3 slot". This replaces "at least twice a week".
+- **Proof series, once a week (Saturday Trial Reel):** one product's certificate, lab report or farm source on screen. Use only real documents in `assets/proof/` (owner-supplied). If none exists for that product, say "Ask us for the certificate in DM" and show the product instead. Never invent or imply a certificate, test or farm.
+- **Kits and ghee over single staples:** lead convert Reels with combos and ghee, where our offer prices are strongest. Single dal/rice/atta Reels only as part of a swap or kit.
+- **A real person on camera when the owner supplies footage** (owner, staff, Madhapur store). Hook line examples: "Walk in and see it", "Picked this morning".
+- **Habit language:** "this week's swap", "your Monday fresh order", daily-habit series names, so one order becomes a routine.
+
 ### Make Reels easier to find (search reaches people who don't know us)
 - Scene 1 shows the search phrase on screen, e.g. "A2 GHEE" or "MILLET NOODLES FOR KIDS".
 - The caption's first line includes the phrase people search: product + benefit or place ("A2 bilona ghee Hyderabad", "millet noodles for kids").
@@ -60,6 +68,7 @@ Name the series in captions ("Swap of the Day #4", "Label Check") so people foll
 ### Captions that sell
 - End every caption with one clear action, rotating between: "Follow for a healthy swap every day", "Send this to someone who still buys ___", "Save this for your next grocery order".
 - Always include the offer price and `🛒 pureorganiczone.com (link in bio)`.
+- Add UTM tags to the product link in every caption and Pinterest `pinLink`: `?utm_source=instagram&utm_medium=reel&utm_campaign=<spec slug>` (check the tagged URL still returns 200). This lets website analytics show which Reels sell.
 - If `catalog.md` has an "Active offers" section with a first-order code, add it to convert posts. Never invent a code or discount.
 
 ### What the owner does (the weekly report reminds them)
