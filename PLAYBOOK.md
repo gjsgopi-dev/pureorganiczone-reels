@@ -225,6 +225,18 @@ Read what people say about us too, so problems are fixed fast and praise is reus
 - **Log** themes in `insights/customer_feedback.csv` (no personal details). **Alert the owner at once** about any 1–2 star review or public complaint, with the link, so a person replies. Never auto-reply to public reviews. Praise becomes a Reel or caption idea only with the customer's permission.
 - Feed recurring praise words ("fresh", "on time", "real natu kodi") into Reel hooks, and recurring complaints into "Live insights" for the owner to fix.
 
+### Most-probable customer profiles (types of buyers, never named people; owner, 31 Oct 2026)
+Each profile is an audience description for Meta/Google targeting and for choosing which Reel to boost there. Meta matches real people to it privately; we never see or collect names. Refine with weekly results.
+| Profile | Areas (pins) | Age / interests for ads | Reels that match | Offer line |
+|---|---|---|---|---|
+| Premium meat families | Jubilee Hills, Banjara Hills, Film Nagar | 30–60; home cooking, fine dining, non-veg food | Festival mutton, Sunday-lunch stories, boneless/keema | 60–90 min delivery, weekly meat subscription |
+| IT families, weekday rush | Hitech City, Gachibowli, Kondapur, Madhapur, Nanakramguda, Kokapet | 26–42; healthy eating, parenting, fitness | Natu kodi rainy-evening, veg box subscription, kids' millet snacks | App subscription, "set it once" veg box |
+| Old-city and Secunderabad households | Marredpally, Secunderabad, Tarnaka, Malkajgiri | 35–60; Telugu food, family cooking | Taatha village stories, natu kodi, paya and head curry | WhatsApp ordering, next-day paya |
+| Health-conscious professionals | Manikonda, Miyapur, Kukatpally, Begumpet | 28–50; organic food, yoga, Ayurveda | Ghee and oil traditions, millet and heritage-rice stories, vendor spotlights | Delivered all over India, app prices |
+| Competitors' nearby shoppers | 1–2 km around competitors' stores in insights/competitor_locations.csv | 25–55; online grocery, meat delivery | The current best pain-point Reel | Fresh in 60–90 min, walk-in Madhapur store |
+| Our warm audience | Instagram/Facebook engagers, site visitors (pixel) | any | The week's top Reel | App + subscription |
+The weekly report names the best profile × Reel pair to boost and a budget; the owner approves. Daily Reels use the profile's area names in captions and hashtags so they also reach these people organically.
+
 ### Sales learning loop
 `python3 tools/site_sales.py` snapshots order counts per product (public product fields only; the page also embeds seller account data, which must never be read, printed or stored). The change between snapshots = new orders. Compare the products a Reel promoted with their new orders over the next 48 h, and log it in `insights/reel_sales.csv` (date, reel slug, product, orders in the 48 h before, orders in the 48 h after). When the owner hands over real sales figures, add them to `insights/` and prefer them over this estimate.
 
