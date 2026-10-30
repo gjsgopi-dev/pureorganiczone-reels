@@ -161,6 +161,25 @@ The owner's model Reels: "Taatha's Sunday Natu Kodi" (31 Oct 19:00, post 4116194
 7. Credits: about 7.5 premium credits per 8 s clip, so one story Reel ≈ 15 credits; 30 a month ≈ 450 of the 600 monthly credits. Call `get_current_user` after building and put the remaining credits in the owner message. If under 20 before building, use the fallback in step 3 of the daily run and tell the owner.
 8. Comments: the caption's question is about the viewer's own memories or preference ("What did your ammamma cook on Sundays?", "Jonna rotte or rice?"). These are the posts most likely to get comments.
 
+### Sales-led weekly cadence (from 2 Nov 2026; replaces the day plan in "Competitor lessons" where they differ)
+Real site orders (catalog.md "Best sellers by real orders") show Hyderabad fresh food is 89% of orders, and every subscription product is fresh. So:
+- **Mon:** goat meat story (curry cut, boneless, keema; rotate). **Fri:** goat or sheep meat weekend story (sheep meat is the #3 seller, 485 orders; paya and head curry are next-day).
+- **Wed:** weekly vegetable box or fruit story with **subscription** as the call to action ("set it once, fresh every week"), using spinach, beans, gourds, tomatoes, coriander, banana, papaya, pomegranate.
+- **Sat:** natu kodi or country eggs story (Proof Reel only when a real document exists in `assets/proof/`).
+- **Sun:** Sunday-lunch meat story (morning post, 8:30–9:30 IST, when meat orders are placed).
+- **Tue, Thu: Vendor Spotlight story** (below), picking from catalog.md "Vendor best sellers", never the same vendor within 14 days.
+- Every fresh-food story names the subscription option; every Reel names the website and the app.
+
+### Vendor Spotlight story Reels (owner, 31 Oct 2026)
+Feature one marketplace vendor and its best-selling products by name, to sell those products and show the range of the marketplace.
+- Story: the place and tradition behind the vendor's product (Meghalaya pepper hills for GreeNE Origins, Tamil heritage rice fields for Divyams, millet fields for Milletio's bars, a kolhu oil press for Yashoda's oils, a Telugu kitchen making podis for ANIKA). Narration names the vendor once ("from GreeNE Origins, on Pure Organic Zone"), the on-screen caption names the product, and the pitch is "delivered all over India, order on our website or app".
+- Use only the vendor's brand name. No vendor logo, photos, videos or claims taken from their site or social media unless the owner says the vendor agreed; never invent a farm, founder or certificate for them. Prices and links come from `tools/site_sales.py` / the product page.
+- Supplements and wellness mixes (e.g. Auranectra): no health claims, add "Not a substitute for medical advice."
+- Learning from vendors' own Reels: once the owner adds vendor Instagram handles under Metricool > Competitors, the weekly report reads their Reels' views, comments and interactions (IGCR fields) and the hourly watch notes which vendor topics pull engagement. Until then, use our own order data.
+
+### Sales learning loop
+`python3 tools/site_sales.py` snapshots order counts per product (public product fields only; the page also embeds seller account data, which must never be read, printed or stored). The change between snapshots = new orders. Compare the products a Reel promoted with their new orders over the next 48 h, and log it in `insights/reel_sales.csv` (date, reel slug, product, orders in the 48 h before, orders in the 48 h after). When the owner hands over real sales figures, add them to `insights/` and prefer them over this estimate.
+
 ## HeyGen AI-video Reels (fallback)
 Connected through the HeyGen connector (account pureorganiczone@gmail.com, Creator plan, 600 premium credits a month, resetting on the 30th). One Reel costs about 13 credits (15 s 1080p video + voiceover, measured 30 Oct), so one a day fits. First example: `specs/2026-10-30_diabetes_swaps.json`.
 1. Spec fields on top of the usual ones: `"format": "heygen"`, `heygen_prompt`, `voiceover`, `voice_id`, `cards`, `footage_map`.
@@ -212,3 +231,6 @@ Also:
 - 27 Oct sales review (full plan: Docs "Pure Organic Zone: Sales Growth Plan"): Hyderabad fresh-meat Reels reached 242 and 184 vs 34–98 for packaged Reels (3.7x on average), so schedule a Hyderabad fresh-food Reel at least twice a week. No Reel reached 1% of the 44,419 followers, and the account lost 113 and gained 9 followers 21–24 Oct; the weekly report tracks reach per Reel (baseline 120) and follower change. Website blockers found: homepage 15 MB / ~40 s on 4G, forced login at checkout, city popup, WhatsApp link wa.me/9177203162 missing country code, Meta pixel sends only PageView. Until the owner confirms these are fixed, link captions to product pages, never the homepage, and recheck them in each weekly report.
 - 31 Oct review (Instagram Reels, 25–30 Oct): owner's Hyderabad meat Reels lead by far: goat meat reach 305 / views 543, country chicken 220 / 394, vs ghee 67, millet noodles 60, pumpkin seeds 113, the rest 11–37. Comments were 0–2 on every Reel; saves highest on pumpkin seeds (16). So: meat and fresh-food story Reels keep Mon/Wed/Fri/Sun; every caption asks a memory/preference question to start comments; packaged products get a heritage story angle instead of a plain explainer.
 - 31 Oct: owner switched every Reel to the narrated village story format ("Village story Reels") with the website + app + subscription call to action. First two: natu kodi (31 Oct 19:00) and festival mutton (1 Nov 09:00), both scheduled from chat to Instagram, Facebook and YouTube. Compare their reach and comments against the meat baseline above in the 2 Nov report.
+
+## Live insights (written by the hourly Growth Watch; keep ≤ 12 lines, newest first)
+- 31 Oct 02:00 baseline: 7,219 order lines on the site; top sellers goat with bone 777, goat boneless 560, sheep with bone 485, country chicken 469, spinach 416. Story Reels start tonight 19:00 (natu kodi) and 1 Nov 09:00 (mutton).
