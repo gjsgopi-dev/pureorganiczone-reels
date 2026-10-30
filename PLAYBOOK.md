@@ -137,7 +137,7 @@ Connected through the HeyGen connector (account pureorganiczone@gmail.com, Creat
    - `voice_id`: default Deirdre, `84bc506c91674034aa1d32e22903f627` (gentle, instructive). Keep one voice so the account sounds consistent.
 2. Call `text_to_video` once with the prompt, `aspectRatio` "9:16", `duration` 15, `resolution` "1080p". Poll `get_model_video` every 30 s until completed.
 3. Meanwhile call `create_speech_without_player` once with the voiceover, voice_id and `speed` 1.1. Use its word timestamps to set each card's `start`/`end` and the `footage_map` (each `[src_start, src_end, out_len]` slice plays sped up or slowed to out_len, so the rice shot sits under the rice line).
-4. Download both files with curl into the scratchpad, then: `python3 tools/heygen_reel.py specs/<file>.json <footage.mp4> <voice.wav> reels/<same-name>.mp4`. All on-screen text, prices and the disclaimer are drawn by this tool, never by HeyGen.
+4. Download both files with curl into the scratchpad, then: `python3 tools/heygen_reel.py specs/<file>.json <footage.mp4> <voice.wav> reels/<same-name>.mp4`. All on-screen text, prices and the disclaimer are drawn by this tool, never by HeyGen. The tool also puts the company logo (`assets/logo.png`, on a white badge, y 215–487) on every frame, so cards must start at `top` 560 or lower; `tools/make_reel.sh` Reels carry the same logo badge.
 5. Never regenerate to try alternatives. Only if the footage shows garbled text, a face, a logo or a deformed hand, generate once more with that fixed in the prompt; if it fails again, build with make_reel.sh instead and tell the owner.
 6. After building, call `get_current_user` and put the remaining credits in the owner message.
 
