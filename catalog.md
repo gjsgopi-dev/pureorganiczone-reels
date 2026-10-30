@@ -110,6 +110,17 @@ Delivery: all over India for packaged goods. Fresh fruits, vegetables and meat a
 | Chicken (Village Country Chicken) | ₹689 | ₹900 |
 | Mutton (Goat Meat With Bone) | ₹495 | ₹550 |
 | Mutton (Goat Meat Boneless) | ₹589 | ₹650 |
+| Mutton Keema / Mince (Goat) | ₹599 | ₹700 |
+| Mutton Trotters / Paya (next-day delivery) | ₹448 | ₹519 |
+| Mutton Goat Head Curry Cut (next-day delivery) | ₹450 | ₹550 |
+
+### Goat meat product pages (checked 30 Oct 2026; pages offer 250 g / 500 g / 1 kg, so never put a weight on screen unless the page shows it next to that price)
+- Curry cut with bone: https://pureorganiczone.com/product/goat-meat-with-bonewithout-bone-1kg-Seppf1
+- Boneless: https://pureorganiczone.com/product/goat-meat-boneless-1kg-2Djxva
+- Keema: https://pureorganiczone.com/product/mutton-mince-goat-keema-7PsXvI
+- Paya: https://pureorganiczone.com/product/mutton-trotters-paya-WTISDe
+- Head curry cut: https://pureorganiczone.com/product/mutton-goat-head-curry-cut-Jy9v7i
+- Masala to pair with it: https://pureorganiczone.com/product/chickenmutton-masala-qxhy5W
 | Organic Dragon fruit | ₹89 | ₹120 |
 | Organic Papaya | ₹165 | ₹180 |
 
