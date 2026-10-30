@@ -12,11 +12,11 @@ Every scheduled run follows this file. Read it fully before making anything.
 ## Daily run, step by step
 1. Today's date is in IST. Look for `specs/<YYYY-MM-DD>_*.json`.
 2. If no spec exists for today, write one (see "Writing a new spec"). Pick the next item from the rotation, skipping any product used in the last 10 days (check `log.csv`).
-3. Build: `tools/make_reel.sh specs/<file>.json reels/<same-name>.mp4`.
-4. Look at 3 frames (start, middle, end) to check text fits and nothing overlaps or shows a missing-glyph box.
+3. Build the Reel with HeyGen (default since 30 Oct 2026, see "HeyGen AI-video Reels" below). Only if HeyGen fails, credits are under 40, or the spec has `"format": "graphics"`, build the old way: `tools/make_reel.sh specs/<file>.json reels/<same-name>.mp4` (then `isAiGenerated: false`).
+4. Look at 5 frames (one per card) to check the text fits, each card sits on its matching shot, and the AI footage has no garbled text, logos, faces or deformed hands.
 5. Commit the spec and video, push to `main`.
 6. Wait until `raw.githubusercontent.com` serves the file (check with `gh api repos/gjsgopi-dev/pureorganiczone-reels/contents/reels/<file>.mp4`).
-7. Schedule in Metricool with `createScheduledPost`: Instagram type from the spec's `ig_type` field, or if missing, from "Growth strategy > Weekly cadence" below (REEL or TRIAL_REEL); always set `isAiGenerated: false` for our own generated text-and-graphics Reels, `showReelOnFeed: true` (REEL only), `autoPublish: true`, `draft: false`, media = the raw URL, `videoCoverMilliseconds: 1500`, caption from the spec, time = spec `post_time` (default 17:45 IST) today. If that time has passed, use the next free hour from Metricool's best-times.
+7. Schedule in Metricool with `createScheduledPost`: Instagram type from the spec's `ig_type` field, or if missing, from "Growth strategy > Weekly cadence" below (REEL or TRIAL_REEL); set `isAiGenerated: true` (and YouTube `isAiGeneratedContent: true`, Pinterest `isAiGenerated: true`, `isAiGeneratedPerson: false`) for HeyGen Reels and `isAiGenerated: false` for text-and-graphics Reels built with make_reel.sh, `showReelOnFeed: true` (REEL only), `autoPublish: true`, `draft: false`, media = the raw URL, `videoCoverMilliseconds: 1500`, caption from the spec, time = spec `post_time` (default 17:45 IST) today. If that time has passed, use the next free hour from Metricool's best-times.
    One post, all networks: `providers` = instagram, facebook, youtube, linkedin, pinterest, with
    - `facebookData`: `{"type": "REEL"}`
    - `youtubeData`: `{"type": "short", "title": <spec title, or the caption's first line without emoji, max 100 chars>, "privacy": "public", "madeForKids": false, "category": "HOWTO_STYLE", "tags": <5–7 search phrases from the caption>, "isAiGeneratedContent": <same as Instagram isAiGenerated>}`
@@ -128,6 +128,18 @@ Exclude B1 (past buyers) from A1–A4 and L1 so acquisition money isn't spent on
 6. Superfood daily habit (moringa, wheatgrass, seeds, green tea)
 7. Rare or regional (Meghalaya spices, mushrooms, honey, podis) or vendor spotlight
 Rotate formats too: myth vs fact, 3 quick swaps, how to use, why it costs more, comparison, "did you know".
+
+## HeyGen AI-video Reels (default)
+Connected through the HeyGen connector (account pureorganiczone@gmail.com, Creator plan, 600 premium credits a month, resetting on the 30th). One Reel costs about 13 credits (15 s 1080p video + voiceover, measured 30 Oct), so one a day fits. First example: `specs/2026-10-30_diabetes_swaps.json`.
+1. Spec fields on top of the usual ones: `"format": "heygen"`, `heygen_prompt`, `voiceover`, `voice_id`, `cards`, `footage_map`.
+   - `heygen_prompt`: vertical 9:16, warm natural light, 4 numbered shots (0–3 s, 3–6 s, 6–10 s, 10–15 s) of the actual foods, hands allowed, "no people's faces, absolutely no text, letters, logos or captions". Never show a competitor brand, a doctor, medicine or a hospital.
+   - `voiceover`: 35–42 words (about 15 s at speed 1.1), same message as the cards. Health topics end with "Always follow your doctor's advice and medication."
+   - `voice_id`: default Deirdre, `84bc506c91674034aa1d32e22903f627` (gentle, instructive). Keep one voice so the account sounds consistent.
+2. Call `text_to_video` once with the prompt, `aspectRatio` "9:16", `duration` 15, `resolution` "1080p". Poll `get_model_video` every 30 s until completed.
+3. Meanwhile call `create_speech_without_player` once with the voiceover, voice_id and `speed` 1.1. Use its word timestamps to set each card's `start`/`end` and the `footage_map` (each `[src_start, src_end, out_len]` slice plays sped up or slowed to out_len, so the rice shot sits under the rice line).
+4. Download both files with curl into the scratchpad, then: `python3 tools/heygen_reel.py specs/<file>.json <footage.mp4> <voice.wav> reels/<same-name>.mp4`. All on-screen text, prices and the disclaimer are drawn by this tool, never by HeyGen.
+5. Never regenerate to try alternatives. Only if the footage shows garbled text, a face, a logo or a deformed hand, generate once more with that fixed in the prompt; if it fails again, build with make_reel.sh instead and tell the owner.
+6. After building, call `get_current_user` and put the remaining credits in the owner message.
 
 ## Writing a new spec
 Copy the structure of an existing spec in `specs/`. Fields:
