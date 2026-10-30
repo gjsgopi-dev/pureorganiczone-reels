@@ -200,6 +200,15 @@ Research only: competitors are never named, shown, copied or compared in our Ree
 - **Vendor kit (owner sends):** after a vendor's Reel posts, the owner message includes the Reel link and a one-line ask for the vendor to share it, so their customers find our app.
 - Track each featured vendor's orders before and after its Reel in `insights/reel_sales.csv`; keep featuring vendors whose sales move.
 
+### Buyer feedback and follow-up (owner, 31 Oct 2026)
+Customers write to the MyChatBot sales assistant ("Pureorganiczone Assistant", id 27598) on Instagram DMs and comments-to-DM, Messenger and WhatsApp. Growth Watch reads these chats to learn what buyers say and to bring warm buyers back to order.
+- **Read:** `list_chats` for chats active since the last check, then `get_chat_messages` for each new one. Sort each into: buyer or interested shopper, existing customer feedback (praise or problem), vendor/seller, spam.
+- **Learn:** log one row per chat in `insights/customer_feedback.csv` (date, chat_id, channel, type, product, what they said in ≤ 12 words, outcome). No names, phone numbers, emails, addresses or order numbers in the file. Themes (most-asked products, objections such as delivery area or price, praise words customers use) go into "Live insights" and shape Reel hooks and caption questions; a buyer's own words never appear in a Reel unless the owner says that customer agreed.
+- **Follow up (one message, only where allowed):** to a person who asked about or started an order in the last 24 hours (Meta's messaging window for Instagram and Messenger), whose chat has no order confirmation or later reply, and who never said stop. Send once with `send_one_off_message` on the same channel: the product they asked about with its link, one add-on, the app and subscription line. Never more than one follow-up per person per 7 days, never to vendors, complaints or spam, never to anyone outside chats they started, and never between 10 PM and 8 AM.
+- **Existing buyers who praise a product:** suggest the matching subscription or one related product in that same follow-up; tell the owner if they agreed to share their words.
+- **Complaints and needs-operator chats:** never sell; message the owner at once with the chat link so a person replies.
+- The assistant's replies are limited by the MyChatBot plan (trial until 9 Nov 2026 with about 100 AI replies); if replies run low, tell the owner.
+
 ### Sales learning loop
 `python3 tools/site_sales.py` snapshots order counts per product (public product fields only; the page also embeds seller account data, which must never be read, printed or stored). The change between snapshots = new orders. Compare the products a Reel promoted with their new orders over the next 48 h, and log it in `insights/reel_sales.csv` (date, reel slug, product, orders in the 48 h before, orders in the 48 h after). When the owner hands over real sales figures, add them to `insights/` and prefer them over this estimate.
 
