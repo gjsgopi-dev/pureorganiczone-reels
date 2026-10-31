@@ -1,1 +1,14 @@
 checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,shares,notes
+2026-10-31 08:10,410909253,instagram,20,21,44,0,0,0,diabetes_swaps; below 120 baseline
+2026-10-31 08:10,409643395,instagram,44,11,12,0,0,0,raw_honey trial reel
+2026-10-31 08:10,408520707,instagram,68,37,90,0,2,0,hyd_veggies
+2026-10-31 08:10,410909253,facebook,20,,130,,,,FB reel views 130; reach field returned 0 (likely not reported); likes 0
+2026-10-31 08:10,409643395,facebook,44,,46,,,,FB reel views 46; likes 0
+2026-10-31 08:10,408520707,facebook,68,,95,,,,FB reel views 95; likes 0
+2026-10-31 08:10,409643395,linkedin,44,12,3,0,,0,impressions 12 in reach column; video views 3
+2026-10-31 08:10,408520707,linkedin,68,10,2,0,,0,impressions 10 in reach column; video views 2
+2026-10-31 08:10,410909253,linkedin,20,,,,,,no LinkedIn data yet
+2026-10-31 08:10,410909253,pinterest,20,0,0,,0,,impressions 0 outbound 0
+2026-10-31 08:10,409643395,pinterest,44,0,0,,0,,impressions 0 outbound 0
+2026-10-31 08:10,all,youtube,,,,,,,YTVP returned no rows for 28-31 Oct
+2026-10-31 08:10,account,instagram,,,,,,,followers 44344 (28 Oct) -> 44305 (29 Oct); 28 Oct +4/-30

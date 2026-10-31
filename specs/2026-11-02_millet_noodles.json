@@ -1,99 +1,28 @@
 {
- "handle": "@pureorganiczone",
- "scenes": [
-  {
-   "theme": "dark",
-   "dur": 2.0,
-   "top": 640,
-   "items": [
-    {
-     "type": "tag",
-     "text": "MILLET NOODLES FOR KIDS"
-    },
-    {
-     "type": "title",
-     "text": "Kids love noodles. Here's a better pack."
-    }
-   ]
-  },
-  {
-   "theme": "light",
-   "dur": 4.0,
-   "top": 560,
-   "items": [
-    {
-     "type": "title",
-     "text": "Regular noodles",
-     "size": 80
-    },
-    {
-     "type": "body",
-     "text": "Mostly refined flour (maida), low in fibre"
-    },
-    {
-     "type": "title",
-     "text": "Millet noodles",
-     "size": 80,
-     "accent": true
-    },
-    {
-     "type": "body",
-     "text": "Made with kodo, pearl, barnyard or little millet"
-    }
-   ]
-  },
-  {
-   "theme": "dark",
-   "dur": 4.0,
-   "top": 520,
-   "items": [
-    {
-     "type": "title",
-     "text": "Why millets?",
-     "size": 84
-    },
-    {
-     "type": "bullets",
-     "items": [
-      "More fibre than refined flour",
-      "Naturally rich in minerals",
-      "Keeps you fuller for longer"
-     ]
-    }
-   ]
-  },
-  {
-   "theme": "light",
-   "dur": 3.8,
-   "top": 560,
-   "items": [
-    {
-     "type": "tag",
-     "text": "4 MILLET VARIETIES"
-    },
-    {
-     "type": "title",
-     "text": "Millet Noodles",
-     "size": 88
-    },
-    {
-     "type": "price",
-     "now": "₹54",
-     "was": "₹60"
-    },
-    {
-     "type": "button",
-     "text": "pureorganiczone.com"
-    }
-   ]
-  }
- ],
+ "note": "Rewritten by Growth Watch 31 Oct 08:00 IST: Monday = goat meat story per 'Sales-led weekly cadence' (from 2 Nov). Rotates to boneless after the 1 Nov curry-cut mutton story. Hook answers the top competitor pain point (cancelled / pushed-to-tomorrow meat orders) with our 60-90 min delivery. Millet noodles moved to a later rotation slot. File name kept so the daily task finds it; slug for log.csv: story_goat_boneless_weeknight.",
+ "format": "story",
  "date": "2026-11-02",
  "post_time": "17:45",
- "music": "bright",
- "title": "Millet noodles swap",
- "caption": "Millet noodles for kids: the smarter pack 🍜 Swap of the Day\n\nOur millet noodles are made with kodo, pearl, barnyard or little millet instead of mostly refined flour. Millets bring more fibre and natural minerals, and keep tummies full for longer.\n\nCook them just like regular noodles with veggies and a little cold-pressed oil.\n\n👉 ₹54 a pack, 4 millet varieties\n🛒 https://pureorganiczone.com/product/kodo-millet-noodles-aAa6Jp (link in bio on Instagram)\n💬 Comment NOODLES and we'll DM you the link.\n\nSend this to a parent who still buys maida noodles. Follow for a healthy swap every day!\n\n#MilletNoodles #Millets #HealthySnacks #KidsFood #SmartSwap #OrganicFood #PureOrganicZone",
  "ig_type": "REEL",
- "series": "Swap of the Day",
- "product_url": "https://pureorganiczone.com/product/kodo-millet-noodles-aAa6Jp"
+ "title": "Ammamma's Weeknight Mutton Fry: fresh goat boneless in Hyderabad",
+ "product_url": "https://pureorganiczone.com/product/goat-meat-boneless-1kg-2Djxva",
+ "addon_url": "https://pureorganiczone.com/product/chickenmutton-masala-qxhy5W",
+ "story_clips": [
+  {
+   "heygen_prompt": "Photorealistic cinematic vertical shot, a rural Telangana village kitchen at dusk, an Indian grandmother in a cotton saree stirring boneless mutton fry in a black iron kadai over a wood fire, smoke and warm firelight, slow push-in. No text, no logos.",
+   "en": "Ammamma's quick mutton fry",
+   "te": "అమ్మమ్మ మటన్ వేపుడు",
+   "start": 0.0
+  },
+  {
+   "heygen_prompt": "Photorealistic cinematic vertical shot, an Indian family seated on a woven mat in a village courtyard at evening, grandfather in a white dhoti and grandmother in a cotton saree serving mutton fry with rice on banana leaves, warm natural light, slow pan. No text, no logos.",
+   "en": "Fresh meat, no waste",
+   "te": "తాజా మాంసం, వృథా లేదు",
+   "start": 0.0
+  }
+ ],
+ "end_clip": "https://resource2.heygen.ai/video/5e19c60048d64b0c81841d8e3736c3e5/original.mp4",
+ "voice_id": "080227efd3874821a1328e1b5ff1620f",
+ "voiceover": "On busy weekdays, Ammamma cooked a quick boneless mutton fry. <break time=\"0.6s\"/> No waiting, no waste. Just fresh meat and her pounded masala. <break time=\"0.6s\"/> Today, Pure Organic Zone brings fresh goat boneless to your home in Hyderabad in 60 to 90 minutes. Order on our website, or download the Pure Organic Zone app on the App Store or Google Play for better prices, and subscribe daily, weekly or monthly.",
+ "caption": "Weeknight mutton, without the wait 🐐 అమ్మమ్మ మటన్ వేపుడు\n\nEver had a meat order cancelled or pushed to tomorrow? In ammamma's village kitchen, a quick boneless mutton fry on the wood fire was dinner in minutes.\n\nToday we bring fresh goat boneless to your door in Hyderabad, in 60–90 minutes.\n👉 Goat meat boneless ₹589\n🛒 https://pureorganiczone.com/product/goat-meat-boneless-1kg-2Djxva (link in bio on Instagram)\n📱 Better prices on the Pure Organic Zone app (App Store & Google Play). Subscribe daily, weekly or monthly.\n📲 WhatsApp 9704518572\n➕ Goes well with: Chicken/Mutton Masala by Shevades, ₹51 https://pureorganiczone.com/product/chickenmutton-masala-qxhy5W\n\n💬 Weeknight dinner: mutton fry or mutton curry? Tell us in the comments 👇\nSend this to someone in Hitech City who skips mutton on weekdays.\n\n#GoatMeat #BonelessMutton #MuttonFry #Hyderabad #HitechCity #Gachibowli #Kondapur #PureOrganicZone"
 }
