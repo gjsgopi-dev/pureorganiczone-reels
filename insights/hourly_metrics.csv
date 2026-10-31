@@ -12,3 +12,4 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-10-31 08:10,409643395,pinterest,44,0,0,,0,,impressions 0 outbound 0
 2026-10-31 08:10,all,youtube,,,,,,,YTVP returned no rows for 28-31 Oct
 2026-10-31 08:10,account,instagram,,,,,,,followers 44344 (28 Oct) -> 44305 (29 Oct); 28 Oct +4/-30
+2026-10-31 23:10,411619492,instagram,4,,,,,,natu kodi story: no IG/FB rows in Metricool yet at ~4 h (older Reels unchanged since 08:10; Metricool appears to sync Reels about once a day); not a 0-reach signal, recheck 08:00
