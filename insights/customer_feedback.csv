@@ -1,5 +1,5 @@
 date,chat_id,channel,type,product,summary,outcome
-2026-10-31,1308639,Instagram,buyer/interested,A2 Bilona Ghee combo,"Commented Hi on A2 ghee post; assistant sent combo link, asked city",no reply; follow-up blocked by permission - owner to send by ~10:39 IST
+2026-10-31,1308639,Instagram,buyer/interested,A2 Bilona Ghee combo,"Commented Hi on A2 ghee post; assistant sent combo link, asked city",no reply; follow-up blocked by permission; 24h window closed 10:39 IST 31 Oct (checked 11:08) - no follow-up possible
 2026-10-31,1315739,Instagram,vendor,handmade soaps (Punjab),wants to sell on marketplace; manager asked for website,vendor lead - no sale follow-up
 2026-10-31,1306511,Instagram,spam,-,emoji-only post reference,ignored
 2026-10-31,1310226,PersonalWhatsApp,vendor/ops,drop-ship order,vendor ops group: dispatch and pending vendor payments,internal - no action
@@ -9,3 +9,5 @@ date,chat_id,channel,type,product,summary,outcome
 2026-10-31,1267735/1290543,PersonalWhatsApp,internal,-,own business groups (not read in full),no action
 2026-10-31,1267758/1306614/1307344,PersonalWhatsApp,vendor/ops,-,operations groups (not read in full),no action
 2026-10-31,1292784,PersonalWhatsApp,vendor,Organic Wellness,vendor chat (not read in full),no action
+2026-10-31,1310226,PersonalWhatsApp,vendor/ops,drop-ship order,vendor ops group: dispatch status asked again,internal - no action
+2026-10-31,own-reviews,web,own feedback,site + app,"11:00 check: no new site reviews since 08:08 (11 products reviewed, avg 4.0-5.0); Android app 0 ratings, ~994 installs (https://appgoblin.info/apps/com.pureorganiczone.userapp); no public complaints found",no action
