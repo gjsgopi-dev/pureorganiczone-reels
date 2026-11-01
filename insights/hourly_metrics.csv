@@ -13,3 +13,11 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-10-31 08:10,all,youtube,,,,,,,YTVP returned no rows for 28-31 Oct
 2026-10-31 08:10,account,instagram,,,,,,,followers 44344 (28 Oct) -> 44305 (29 Oct); 28 Oct +4/-30
 2026-10-31 23:10,411619492,instagram,4,,,,,,natu kodi story: no IG/FB rows in Metricool yet at ~4 h (older Reels unchanged since 08:10; Metricool appears to sync Reels about once a day); not a 0-reach signal, recheck 08:00
+2026-11-01 08:10,411619492,instagram,13,102,116,0,2,0,natu kodi story (first Metricool row); vs earlier Reels' avg ~62 (veg 37/diabetes 138/honey 11) = 1.6x; below 120 baseline and owner meat 220-305
+2026-11-01 08:10,411619492,facebook,13,,79,,,,FB reel views 79; likes 0; reach field 0 (not reported)
+2026-11-01 08:10,411619492,youtube,13,,,,,,YTVP returned no rows (YouTube data still not syncing)
+2026-11-01 08:10,410909253,instagram,44,138,167,0,0,0,diabetes_swaps: reach 21 -> 138 since 31 Oct 08:10 (late pickup)
+2026-11-01 08:10,410909253,facebook,44,,159,,,,FB reel views 130 -> 159
+2026-11-01 08:10,409643395,facebook,68,,51,,,,FB reel views 46 -> 51
+2026-11-01 08:10,409643395,linkedin,68,13,3,,,,impressions 13 in reach column; video views 3
+2026-11-01 08:10,account,instagram,,,,,,,followers 44305 (29 Oct) -> 44282 (30 Oct); 30 Oct +1/-34; no newer day yet
