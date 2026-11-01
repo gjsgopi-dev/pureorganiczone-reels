@@ -27,3 +27,4 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-11-01 17:10,409643395,youtube,77,,58,,,,first YouTube rows synced: honey Label Check 58 views; 0 likes/comments
 2026-11-01 17:10,account,linkedin+pinterest,,,,,,,LIPO/PIPO returned no rows for 29 Oct-1 Nov
 2026-11-01 20:10,411619545,all,11,,,,,,mutton story published on IG/FB/YT but still no Metricool analytics at 11 h; IG/FB numbers for all Reels unchanged since 08:10 (sync stale); followers data stops at 30 Oct (44,282)
+2026-11-01 23:10,411619545,all,14,,,,,,mutton story still no Metricool analytics at 14 h (published IG/FB/YT); all other IG/FB/YT rows identical to 08:10/17:10; followers still stop at 30 Oct
