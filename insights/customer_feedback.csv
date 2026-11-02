@@ -40,3 +40,6 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-02,1379057,Instagram,buyer,mutton boti (goat tripe),asked if mutton boti available and price; Hyderabad 500089; asked about app,assistant could not confirm boti (not in catalog); sent call/WhatsApp numbers; no order; owner alerted; no follow-up sent (no boti product link to send)
 2026-11-02,1379125,PersonalWhatsApp,buyer,mutton boti (goat tripe),same shopper moved to WhatsApp minutes later; asked again for boti; asked assistant to confirm instead of 'call us',assistant repeated 'call 040 4917 0055'; shopper unanswered; owner alerted
 2026-11-02,1377894,PersonalWhatsApp,vendor/ops,-,internal: new packaged order for a vendor (pack + dispatch photos),internal - no action
+2026-11-02,1314021,PersonalWhatsApp,vendor/ops,-,vendor group: payments cleared for two vendor orders,internal - no action
+2026-11-02,1379842,PersonalWhatsApp,-,-,chat created with no message,no action
+2026-11-02,-,web,own reviews,-,own-feedback check 20:36: Trustpilot 0; app listing unchanged (no store ratings found); no new public reviews or complaints; 0 comments synced in Metricool,no action
