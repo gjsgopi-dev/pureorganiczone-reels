@@ -37,3 +37,6 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-02,1314021,PersonalWhatsApp,vendor,-,vendor confirms they will process a pending payment today,internal - no action
 2026-11-02,1267735,PersonalWhatsApp,vendor/ops,-,internal delivery log: 1 Nov evening order delivered within 60-90 min,internal - no action
 2026-11-02,-,web,own reviews,-,own-feedback check 11:00: app has 0 store ratings (AppGoblin); Trustpilot 0; no new public reviews or complaints; 0 Reel comments in Metricool,no action
+2026-11-02,1379057,Instagram,buyer,mutton boti (goat tripe),asked if mutton boti available and price; Hyderabad 500089; asked about app,assistant could not confirm boti (not in catalog); sent call/WhatsApp numbers; no order; owner alerted; no follow-up sent (no boti product link to send)
+2026-11-02,1379125,PersonalWhatsApp,buyer,mutton boti (goat tripe),same shopper moved to WhatsApp minutes later; asked again for boti; asked assistant to confirm instead of 'call us',assistant repeated 'call 040 4917 0055'; shopper unanswered; owner alerted
+2026-11-02,1377894,PersonalWhatsApp,vendor/ops,-,internal: new packaged order for a vendor (pack + dispatch photos),internal - no action
