@@ -28,3 +28,10 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-11-01 17:10,account,linkedin+pinterest,,,,,,,LIPO/PIPO returned no rows for 29 Oct-1 Nov
 2026-11-01 20:10,411619545,all,11,,,,,,mutton story published on IG/FB/YT but still no Metricool analytics at 11 h; IG/FB numbers for all Reels unchanged since 08:10 (sync stale); followers data stops at 30 Oct (44,282)
 2026-11-01 23:10,411619545,all,14,,,,,,mutton story still no Metricool analytics at 14 h (published IG/FB/YT); all other IG/FB/YT rows identical to 08:10/17:10; followers still stop at 30 Oct
+2026-11-02 08:10,411619545,instagram,23,55,69,0,0,0,mutton story first IG analytics: 0.4x natu kodi (160) and diabetes kit (145); homepage link only
+2026-11-02 08:10,411619545,facebook,23,,79,,,,FB reel views 79 (likes 0)
+2026-11-02 08:10,411619492,instagram,43,160,186,0,2,0,natu kodi IG up from 102 (sync resumed)
+2026-11-02 08:10,411619492,facebook,43,,101,,,,FB views 101
+2026-11-02 08:10,410909253,instagram,68,145,178,0,0,0,diabetes kit IG (was 138)
+2026-11-02 08:10,410909253,facebook,68,,161,,,,FB views 161
+2026-11-02 08:10,account,instagram,,,,,,,followers 44255 on 31 Oct (44282 on 30 Oct; -27); later days not synced; LinkedIn/Pinterest no rows; YouTube mutton story no rows yet
