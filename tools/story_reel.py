@@ -7,6 +7,10 @@ Usage:
 spec fields used:
   "story_clips": [ {"file": "<local mp4>", "start": 0.0, "en": "caption", "te": "Telugu caption"}, ... ]
   "end_clip":    "<local mp4 or https URL>"   brand clip, plays last with no captions
+  optional per clip "nutrition_card": {"title": "Per 100 g goat meat (raw)",
+      "rows": [["Protein", "20.6 g", "builds and repairs muscle"], ...],   (2-4 rows)
+      "note": "Source: USDA FoodData Central"}
+    drawn as a nutrition panel in the upper half of that scene (blended story + education Reels).
 timestamps.json: the word_timestamps list returned by HeyGen create_speech_without_player
   (or the whole response object). The voiceover must contain exactly one
   <break time="..."/> between each story clip and before the brand pitch,
@@ -83,6 +87,37 @@ def caption_png(en, te, path):
     im.save(path)
 
 
+def nutrition_png(card, path):
+    """Nutrition panel: title, 2-4 rows of nutrient | amount | what it does, source line."""
+    from PIL import Image, ImageDraw
+    im = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    d = ImageDraw.Draw(im)
+    rows = card.get("rows", [])[:4]
+    tf, nf, af, sf, srcf = (font("Poppins-Bold.ttf", 46), font("Poppins-Bold.ttf", 44),
+                            font("Poppins-Bold.ttf", 44), font("Poppins-Regular.ttf", 34),
+                            font("Poppins-Regular.ttf", 28))
+    y0 = 250
+    h = 110 + len(rows) * 132 + 70
+    d.rounded_rectangle([60, y0, W - 60, y0 + h], radius=32, fill=(250, 246, 236, 232))
+    d.rounded_rectangle([60, y0, W - 60, y0 + 96], radius=32, fill=(22, 66, 44, 245))
+    d.rectangle([60, y0 + 60, W - 60, y0 + 96], fill=(22, 66, 44, 245))
+    title = card.get("title", "Nutrition")
+    d.text(((W - d.textlength(title, font=tf)) / 2, y0 + 20), title, font=tf, fill=(245, 241, 230, 255))
+    y = y0 + 122
+    for r in rows:
+        name, amt = str(r[0]), str(r[1])
+        what = str(r[2]) if len(r) > 2 else ""
+        d.text((100, y), name, font=nf, fill=(22, 66, 44, 255))
+        d.text((W - 100 - d.textlength(amt, font=af), y), amt, font=af, fill=(196, 84, 24, 255))
+        if what:
+            d.text((100, y + 58), what, font=sf, fill=(60, 60, 60, 255))
+        y += 132
+    note = card.get("note", "")
+    if note:
+        d.text(((W - d.textlength(note, font=srcf)) / 2, y + 8), note, font=srcf, fill=(90, 90, 90, 255))
+    im.save(path)
+
+
 def app_band_png(path):
     """Band shown over the brand clip: website + app stores + subscriptions."""
     from PIL import Image, ImageDraw
@@ -128,11 +163,15 @@ def main():
         caption_png(c["en"], c.get("te", ""), png)
         fo = round(seg - 0.2, 3)
         o = os.path.join(tmp, f"g{i}.mp4")
-        run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(c.get("start", 0)), "-i", c["file"], "-i", png,
-             "-filter_complex",
-             f"[0:v]setpts={speed:.4f}*PTS,fps={FPS},scale=-2:{H},crop={W}:{H},setsar=1,trim=duration={seg}[b];"
-             f"[b][1:v]overlay,fade=t=in:st=0:d=0.2,fade=t=out:st={fo}:d=0.2,format=yuv420p",
-             *ENC, o])
+        inputs = ["-ss", str(c.get("start", 0)), "-i", c["file"], "-i", png]
+        chain = f"[0:v]setpts={speed:.4f}*PTS,fps={FPS},scale=-2:{H},crop={W}:{H},setsar=1,trim=duration={seg}[b];[b][1:v]overlay"
+        if c.get("nutrition_card"):
+            npng = os.path.join(tmp, f"nut{i}.png")
+            nutrition_png(c["nutrition_card"], npng)
+            inputs += ["-i", npng]
+            chain += f"[c];[c][2:v]overlay=enable='gte(t,0.6)'"
+        run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex",
+             chain + f",fade=t=in:st=0:d=0.2,fade=t=out:st={fo}:d=0.2,format=yuv420p", *ENC, o])
         parts.append(o)
     end_src = spec["end_clip"]
     if end_src.startswith("http"):
