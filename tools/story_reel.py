@@ -184,7 +184,7 @@ def main():
     band = os.path.join(tmp, "band.png")
     app_band_png(band)
     run(["ffmpeg", "-y", "-loglevel", "error", "-i", end_src, "-i", band, "-filter_complex",
-         f"[0:v]setpts={speed:.4f}*PTS,fps={FPS},scale=-2:{H},crop={W}:{H},setsar=1,tpad=stop_mode=clone:stop_duration=3,"
+         f"[0:v]setpts={speed:.4f}*PTS,fps={FPS},scale=-2:{H},crop={W}:{H},setsar=1,tpad=stop_mode=clone:stop_duration=8,"
          f"trim=duration={seg}[b];[b][1:v]overlay,fade=t=in:st=0:d=0.2,format=yuv420p", *ENC, o])
     parts.append(o)
     lst = os.path.join(tmp, "list.txt")
