@@ -13,6 +13,7 @@ Every scheduled run follows this file. Read it fully before making anything.
   - goat meat delivery (packing, rider, doorstep): `https://resource2.heygen.ai/video/5e19c60048d64b0c81841d8e3736c3e5/original.mp4`
   - organic store (vegetables, packed meat, rider, website card): `https://resource2.heygen.ai/video/1c1b805c3a7d44cfabe28ec83637cc10/original.mp4`
 - **Goat meat source (owner confirmed, 2 Nov 2026):** our goat meat comes from **our own goat farms**. Every goat Reel's narration and caption may say "goat meat from our own goat farms". This is confirmed for goat only, not sheep, chicken or other products. Never invent a farm name, location, size or practice beyond this.
+  - **Farm shot (owner, 2 Nov 2026):** every goat Reel that says "from our own goat farms" shows a goat-farm shot while those words are spoken: one extra 5 s `text_to_video` (≈ 4–5 credits, the prompt in `specs/2026-11-07_goat_saturday.json` > `pitch_clip`), set as the spec's `pitch_clip` with `until_word` "Hyderabad" and caption "From our own goat farms" / "మా సొంత మేకల ఫారాల నుండి". Generate it once and reuse the same file (saved as `assets/goat_farm_ai.mp4`) for later goat Reels until the owner sends real farm footage, which then replaces it.
 - Videos are hosted publicly from this repo:
   `https://raw.githubusercontent.com/gjsgopi-dev/pureorganiczone-reels/main/reels/<file>.mp4`
 

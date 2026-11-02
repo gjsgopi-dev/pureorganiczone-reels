@@ -11,6 +11,9 @@ spec fields used:
       "rows": [["Protein", "20.6 g", "builds and repairs muscle"], ...],   (2-4 rows)
       "note": "Source: USDA FoodData Central"}
     drawn as a nutrition panel in the upper half of that scene (blended story + education Reels).
+  optional "pitch_clip": {"file": "<local mp4>", "until_word": "Hyderabad", "en": "...", "te": "..."}
+    plays at the start of the pitch until that word ends, then the brand clip
+    (e.g. a goat-farm shot while the narrator says "from our own goat farms").
 timestamps.json: the word_timestamps list returned by HeyGen create_speech_without_player
   (or the whole response object). The voiceover must contain exactly one
   <break time="..."/> between each story clip and before the brand pitch,
@@ -179,6 +182,30 @@ def main():
         urllib.request.urlretrieve(end_src, p)
         end_src = p
     seg = round(bounds[-1] - bounds[-2], 3)
+    pc = spec.get("pitch_clip")
+    if pc:
+        # Optional clip shown at the start of the pitch (e.g. our goat farm while the
+        # narrator says "from our own goat farms"), until the end of `until_word`.
+        last_break = bounds[-2]
+        ends = [w["end"] for w in ts if w.get("start", 0) > last_break
+                and str(w.get("word", "")).strip(".,!?").lower() == str(pc["until_word"]).lower()]
+        if not ends:
+            raise SystemExit(f"pitch_clip until_word {pc['until_word']!r} not found after the last break")
+        pseg = round(ends[0] + 0.25 - last_break, 3)
+        pavail = dur(pc["file"]) - pc.get("start", 0)
+        pspeed = max(1.0, pseg / pavail)
+        if pspeed > 1.7:
+            raise SystemExit(f"pitch clip ({pavail:.1f}s) too short for {pseg}s; pick an earlier until_word")
+        png = os.path.join(tmp, "cap_pitch.png")
+        caption_png(pc.get("en", ""), pc.get("te", ""), png)
+        o = os.path.join(tmp, "gpitch.mp4")
+        run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(pc.get("start", 0)), "-i", pc["file"], "-i", png,
+             "-filter_complex",
+             f"[0:v]setpts={pspeed:.4f}*PTS,fps={FPS},scale=-2:{H},crop={W}:{H},setsar=1,trim=duration={pseg}[b];"
+             f"[b][1:v]overlay,fade=t=in:st=0:d=0.2,fade=t=out:st={round(pseg - 0.2, 3)}:d=0.2,format=yuv420p",
+             *ENC, o])
+        parts.append(o)
+        seg = round(seg - pseg, 3)
     speed = max(0.8, min(1.3, seg / dur(end_src)))
     o = os.path.join(tmp, "gend.mp4")
     band = os.path.join(tmp, "band.png")
