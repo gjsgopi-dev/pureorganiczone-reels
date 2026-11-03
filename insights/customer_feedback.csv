@@ -52,3 +52,10 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-03,1298170,Instagram,spam,-,shared an unrelated travel post; assistant asked buy/order/sell,no action
 2026-11-03,1267735,PersonalWhatsApp,vendor,-,ops group: one invoice marked 'Test order' (3 Nov morning),no action (internal); explains the overnight +1-on-19-products bump
 2026-11-03,-,web,own reviews,-,own-feedback check 11:08: site reviews unchanged (11 products / 28 reviews); Trustpilot 0; no new app or Google reviews found; 0 Reel comments in Metricool,no action
+2026-11-03,1396522,Instagram,collab offer,-,influencer offers paid collab Reel + Stories + a Google review,assistant flagged operator; owner told; no follow-up (not a buyer)
+2026-11-03,1396303,PersonalWhatsApp,vendor,packaged (oils),ops: new order sent to a small oil vendor; vendor portal login shared in chat,no action (internal); owner told to move logins off chat
+2026-11-03,1394517,PersonalWhatsApp,vendor,packaged (soap),ops: vendor corrected dropship to pick-and-ship; pickup raised,no action (internal)
+2026-11-03,1268595,PersonalWhatsApp,vendor/ops,goat boneless,packing group: goat boneless 1 kg order (zero fat; medium pieces),no action (internal); app/WhatsApp order the site counter misses
+2026-11-03,1355616,PersonalWhatsApp,vendor/ops,-,ops: vendor asks early payment release,no action (internal)
+2026-11-03,1395967,PersonalWhatsApp,empty,-,chat created with no messages,no action
+2026-11-03,1394612,PersonalWhatsApp,empty,-,chat created with no messages,no action
