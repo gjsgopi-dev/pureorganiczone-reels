@@ -46,3 +46,9 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-03,1357893,Instagram,spam,-,shared unrelated viral/sad-status Reels; assistant asked buy/order/sell,no action
 2026-11-03,1269090,PersonalWhatsApp,spam,-,group forwards: money-scheme links and farming ads,no action
 2026-11-03,1268254,PersonalWhatsApp,spam,-,foreign group forwards: azolla/land/poultry app ads,no action
+2026-11-03,1394032,PersonalWhatsApp,spam,-,empty chat (created only; no message),no action
+2026-11-03,1353968,PersonalWhatsApp,vendor,sheep meat,ops group: vendor asked for payment; team replied today,no action (internal)
+2026-11-03,1393178,PersonalWhatsApp,vendor,packaged,ops: new order manifest sent to vendor; vendor noted,no action (internal)
+2026-11-03,1298170,Instagram,spam,-,shared an unrelated travel post; assistant asked buy/order/sell,no action
+2026-11-03,1267735,PersonalWhatsApp,vendor,-,ops group: one invoice marked 'Test order' (3 Nov morning),no action (internal); explains the overnight +1-on-19-products bump
+2026-11-03,-,web,own reviews,-,own-feedback check 11:08: site reviews unchanged (11 products / 28 reviews); Trustpilot 0; no new app or Google reviews found; 0 Reel comments in Metricool,no action
