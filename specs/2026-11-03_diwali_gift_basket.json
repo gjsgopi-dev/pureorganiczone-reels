@@ -1,5 +1,5 @@
 {
- "note": "Written by Growth Watch 1 Nov (owner: decide without waiting). Tue = Vendor Spotlight; Diwali is Sun 8 Nov (https://www.officeholidays.com/holidays/india/telangana/diwali), and Best Offer Deals' Healthy Super Seeds & Nuts Combo went 1->3 orders on 31 Oct with no Reel behind it. Two small vendors featured (Best Offer Deals, Bee Life). Replaces the old scene-format Meghalaya spices spec (GreeNE Origins moves to a later Vendor Spotlight). Prices checked on the product pages 1 Nov 08:30 IST. Slug for log.csv: story_diwali_gift_basket. 2 Nov 08:10 Growth Watch: added the Nutsmash Royal Courtyard hamper (₹1,600, page 200) as a ready-gift-box line: its first site order came overnight 1->2 Nov and Nutsmash has 5 of 6 products unordered. | Growth Watch 2 Nov 11:00: caption's 'Send this to…' line replaced by a 'Tag …' line and first_comment added (weekly report Change 1: only tag-a-person captions got comments); schedule first_comment as Metricool firstCommentText. | Growth Watch 2 Nov 17:10: caption line now 'skip the Diwali bazaar crowd' (Diwali shopping-rush hook). | Growth Watch 2 Nov 20:36: added `pinterest_text` (≤ 480 chars) because the 2 Nov 17:45 pin failed with Pinterest 400 on the full caption; schedule Pinterest as its own post with this text (PLAYBOOK step 7).",
+ "note": "Written by Growth Watch 1 Nov (owner: decide without waiting). Tue = Vendor Spotlight; Diwali is Sun 8 Nov (https://www.officeholidays.com/holidays/india/telangana/diwali), and Best Offer Deals' Healthy Super Seeds & Nuts Combo went 1->3 orders on 31 Oct with no Reel behind it. Two small vendors featured (Best Offer Deals, Bee Life). Replaces the old scene-format Meghalaya spices spec (GreeNE Origins moves to a later Vendor Spotlight). Prices checked on the product pages 1 Nov 08:30 IST. Slug for log.csv: story_diwali_gift_basket. 2 Nov 08:10 Growth Watch: added the Nutsmash Royal Courtyard hamper (₹1,600, page 200) as a ready-gift-box line: its first site order came overnight 1->2 Nov and Nutsmash has 5 of 6 products unordered. | Growth Watch 2 Nov 11:00: caption's 'Send this to…' line replaced by a 'Tag …' line and first_comment added (weekly report Change 1: only tag-a-person captions got comments); schedule first_comment as Metricool firstCommentText. | Growth Watch 2 Nov 17:10: caption line now 'skip the Diwali bazaar crowd' (Diwali shopping-rush hook). | Growth Watch 2 Nov 20:36: added `pinterest_text` (≤ 480 chars) because the 2 Nov 17:45 pin failed with Pinterest 400 on the full caption; schedule Pinterest as its own post with this text (PLAYBOOK step 7). | Daily run 3 Nov 08:45: rebuilt to the story + nutrition blend (realistic prompts, clip 2 USDA card for pumpkin seeds + almonds listed on the page), app line now has the subscription part, UTM tags on all links; price ₹1,922 rechecked (200).",
  "format": "story",
  "date": "2026-11-03",
  "post_time": "17:45",
@@ -9,22 +9,43 @@
  "addon_url": "https://pureorganiczone.com/product/dry-fruits-seeds-honey-combo-WaYequ",
  "story_clips": [
   {
-   "heygen_prompt": "Photorealistic cinematic vertical shot, a rural Telangana village home at dusk before Deepavali, an Indian grandmother in a cotton saree filling small brass bowls and a woven basket with almonds, cashews, raisins and seeds beside lit clay diyas, warm golden lamplight, slow push-in. No text, no logos.",
+   "heygen_prompt": "Photorealistic documentary-style vertical shot, shot on a 35 mm lens, natural skin texture with pores and fine wrinkles, real everyday clothes, real rural Telangana village, soft natural light, slight handheld camera, shallow depth of field. Dusk before Deepavali in a village home with a tiled roof and a neem tree outside: an elderly Indian grandmother in a faded cotton saree sits on the verandah filling small brass bowls and a woven palm-leaf basket with almonds, cashews, raisins and seeds, lit clay diyas on the floor beside her, warm golden lamplight, medium shot, her hands busy, face not in close-up, slow push-in. No text, no logos, no plastic-looking skin, no extra fingers.",
    "en": "Ammamma's Deepavali basket",
    "te": "అమ్మమ్మ దీపావళి కానుక",
    "start": 0.0
   },
   {
-   "heygen_prompt": "Photorealistic cinematic vertical shot, a village lane at evening lit with clay diyas, an Indian grandmother in a cotton saree and grandfather in a white dhoti handing a woven gift basket of dry fruits to smiling neighbours at their doorstep, warm natural light, slow pan. No text, no logos.",
-   "en": "Shared with every neighbour",
-   "te": "ఇరుగుపొరుగుకు పంచుకునే ఆనందం",
-   "start": 0.0
+   "heygen_prompt": "Photorealistic documentary-style vertical shot, shot on a 35 mm lens, natural skin texture with pores and fine wrinkles, real everyday clothes, real rural Telangana village, soft natural light, slight handheld camera, shallow depth of field. Inside a simple village kitchen with steel and clay vessels: the same elderly grandmother in a faded cotton saree gently dry-roasts pumpkin seeds in an iron kadai over a low wood fire, beside her steel plates of almonds and sunflower seeds, warm wood-fire light, close medium shot focused on the seeds and her hands stirring, face soft in the background, slow slide. No text, no logos, no plastic-looking skin, no extra fingers.",
+   "en": "Seeds and nuts, ammamma's way",
+   "te": "అమ్మమ్మ పద్ధతిలో గింజలు, పప్పులు",
+   "start": 0.0,
+   "nutrition_card": {
+    "title": "Per 100 g, from the combo",
+    "rows": [
+     [
+      "Pumpkin seeds: protein",
+      "30.2 g",
+      "helps build and keep muscle"
+     ],
+     [
+      "Pumpkin seeds: magnesium",
+      "592 mg",
+      "helps normal muscle function"
+     ],
+     [
+      "Almonds: vitamin E",
+      "25.6 mg",
+      "protects cells from oxidative stress"
+     ]
+    ],
+    "note": "Source: USDA FoodData Central"
+   }
   }
  ],
  "end_clip": "https://resource2.heygen.ai/video/1c1b805c3a7d44cfabe28ec83637cc10/original.mp4",
  "voice_id": "080227efd3874821a1328e1b5ff1620f",
- "voiceover": "Before every Deepavali, Ammamma filled a basket with nuts, seeds and dry fruits. <break time=\"0.6s\"/> She carried it door to door, one handful for every neighbour. <break time=\"0.6s\"/> Today, the Healthy Super Seeds and Nuts Combo from Best Offer Deals, on Pure Organic Zone, is delivered all over India. Order on our website, or download the Pure Organic Zone app on the App Store or Google Play for better prices, and subscribe daily, weekly or monthly.",
- "caption": "Deepavali gift basket, the ammamma way 🪔 అమ్మమ్మ దీపావళి కానుక\n\nBefore every Deepavali, ammamma filled a woven basket with nuts, seeds and dry fruits and carried it to every neighbour's door.\n\nThis year, skip the Diwali bazaar crowd and send the same basket from your phone.\n👉 Healthy Super Seeds & Nuts Combo by Best Offer Deals ₹1,922\n🛒 https://pureorganiczone.com/product/healthy-super-seeds-nuts-combo-7lIDdW (link in bio on Instagram), delivered all over India\n📱 Better prices on the Pure Organic Zone app (App Store & Google Play).\n➕ A smaller gift: Dry Fruits, Seeds & Honey Combo by Bee Life Organic Dry fruits and Honey, ₹999 https://pureorganiczone.com/product/dry-fruits-seeds-honey-combo-WaYequ\n🎁 Ready gift box: The Royal Courtyard Foldable Hamper by Nutsmash, ₹1,600 https://pureorganiczone.com/product/the-royal-courtyard-foldable-hamper-premium-dry-fruits-gift-box-yRWIGm\n💬 Comment GIFT and we'll DM you the link.\n\n💬 What did your family gift neighbours at Deepavali: sweets or dry fruits? Tell us in the comments 👇\nTag someone who still hasn't planned their Diwali gifts 🎁\n\n#Diwali #Deepavali #DiwaliGifts #DryFruits #HealthyGifting #Hyderabad #TeluguFood #PureOrganicZone",
- "first_comment": "Comment GIFT 👇 and we'll DM you the links. 🛒 https://pureorganiczone.com/product/healthy-super-seeds-nuts-combo-7lIDdW https://pureorganiczone.com/product/dry-fruits-seeds-honey-combo-WaYequ https://pureorganiczone.com/product/the-royal-courtyard-foldable-hamper-premium-dry-fruits-gift-box-yRWIGm",
- "pinterest_text": "Deepavali gift basket, the ammamma way 🪔 అమ్మమ్మ దీపావళి కానుక\nThis year, skip the Diwali bazaar crowd and send the same basket from your phone.\n👉 Healthy Super Seeds & Nuts Combo by Best Offer Deals ₹1,922\n🛒 https://pureorganiczone.com/product/healthy-super-seeds-nuts-combo-7lIDdW, delivered all over India\n📱 Order on our website or the Pure Organic Zone app (App Store & Google Play).\n#Diwali #Deepavali #DiwaliGifts #DryFruits #PureOrganicZone"
+ "voiceover": "Before every Deepavali, Ammamma filled a basket with nuts and seeds for every neighbour's door. <break time=\"0.6s\"/> Pumpkin seeds give 30 grams of protein per 100 grams, more than twice an egg. Almonds bring magnesium, for normal muscle function. <break time=\"0.6s\"/> Today, the Healthy Super Seeds and Nuts Combo from Best Offer Deals, on Pure Organic Zone, is delivered all over India. Order on our website, or download the Pure Organic Zone app on the App Store or Google Play for better prices, and subscribe daily, weekly or monthly.",
+ "caption": "Diwali gift basket ideas, the ammamma way 🪔 అమ్మమ్మ దీపావళి కానుక\n\nBefore every Deepavali, ammamma filled a woven basket with nuts, seeds and dry fruits and carried it to every neighbour's door.\n\nThis year, skip the Diwali bazaar crowd and send the same basket from your phone.\n📊 Per 100 g: pumpkin seeds 30.2 g protein, 592 mg magnesium; almonds 25.6 mg vitamin E (Source: USDA FoodData Central)\n👉 Healthy Super Seeds & Nuts Combo by Best Offer Deals ₹1,922 (almonds, cashews, pumpkin, sunflower, flax and basil seeds, amla candy, green raisins: 1.6 kg)\n🛒 https://pureorganiczone.com/product/healthy-super-seeds-nuts-combo-7lIDdW?utm_source=instagram&utm_medium=reel&utm_campaign=story_diwali_gift_basket (link in bio on Instagram), delivered all over India\n📱 Better prices on the Pure Organic Zone app (App Store & Google Play). Subscribe daily, weekly or monthly.\n➕ A smaller gift: Dry Fruits, Seeds & Honey Combo by Bee Life Organic Dry fruits and Honey, ₹999 https://pureorganiczone.com/product/dry-fruits-seeds-honey-combo-WaYequ?utm_source=instagram&utm_medium=reel&utm_campaign=story_diwali_gift_basket\n🎁 Ready gift box: The Royal Courtyard Foldable Hamper by Nutsmash, ₹1,600 https://pureorganiczone.com/product/the-royal-courtyard-foldable-hamper-premium-dry-fruits-gift-box-yRWIGm?utm_source=instagram&utm_medium=reel&utm_campaign=story_diwali_gift_basket\n💬 Comment GIFT and we'll DM you the link.\n\n💬 What did your family gift neighbours at Deepavali: sweets or dry fruits? Tell us in the comments 👇\nTag someone who still hasn't planned their Diwali gifts 🎁\n\n#Diwali #DiwaliGifts #DryFruits #HealthyGifting #HealthySnacks #ProteinFood #Hyderabad #PureOrganicZone",
+ "first_comment": "Comment GIFT 👇 and we'll DM you the links. 🛒 https://pureorganiczone.com/product/healthy-super-seeds-nuts-combo-7lIDdW?utm_source=instagram&utm_medium=reel&utm_campaign=story_diwali_gift_basket https://pureorganiczone.com/product/dry-fruits-seeds-honey-combo-WaYequ?utm_source=instagram&utm_medium=reel&utm_campaign=story_diwali_gift_basket https://pureorganiczone.com/product/the-royal-courtyard-foldable-hamper-premium-dry-fruits-gift-box-yRWIGm?utm_source=instagram&utm_medium=reel&utm_campaign=story_diwali_gift_basket",
+ "pinterest_text": "Diwali gift basket ideas, the ammamma way 🪔\nSkip the Diwali bazaar crowd and send the same basket from your phone.\n👉 Healthy Super Seeds & Nuts Combo by Best Offer Deals ₹1,922\n🛒 https://pureorganiczone.com/product/healthy-super-seeds-nuts-combo-7lIDdW, delivered all over India\n📱 Order on our website or the Pure Organic Zone app (App Store & Google Play).\n#Diwali #DiwaliGifts #DryFruits #PureOrganicZone"
 }
