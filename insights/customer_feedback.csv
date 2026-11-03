@@ -43,3 +43,6 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-02,1314021,PersonalWhatsApp,vendor/ops,-,vendor group: payments cleared for two vendor orders,internal - no action
 2026-11-02,1379842,PersonalWhatsApp,-,-,chat created with no message,no action
 2026-11-02,-,web,own reviews,-,own-feedback check 20:36: Trustpilot 0; app listing unchanged (no store ratings found); no new public reviews or complaints; 0 comments synced in Metricool,no action
+2026-11-03,1357893,Instagram,spam,-,shared unrelated viral/sad-status Reels; assistant asked buy/order/sell,no action
+2026-11-03,1269090,PersonalWhatsApp,spam,-,group forwards: money-scheme links and farming ads,no action
+2026-11-03,1268254,PersonalWhatsApp,spam,-,foreign group forwards: azolla/land/poultry app ads,no action

@@ -37,3 +37,10 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-11-02 08:10,account,instagram,,,,,,,followers 44255 on 31 Oct (44282 on 30 Oct; -27); later days not synced; LinkedIn/Pinterest no rows; YouTube mutton story no rows yet
 2026-11-02 20:36,413504191,instagram,3,,,,,,goat boneless Reel published 17:45 (https://www.instagram.com/reel/DfPSUm9lTwO/); Metricool IG Reels data not synced yet at ~3 h (not 0 reach - no row)
 2026-11-02 20:36,413504191,pinterest,3,,,,,,PIN FAILED at publish: Code 400 Invalid request (caption ~1100 chars > Pinterest 500 limit); FB/YouTube/LinkedIn published
+2026-11-03 08:10,413504191,instagram,14,44,59,0,0,0,goat boneless Reel first Metricool row at ~14 h (IG reach 44 vs earlier-Reel avg ~76; not 0)
+2026-11-03 08:10,413504191,facebook,14,,60,,,,FB views 60 (likes 1)
+2026-11-03 08:10,411619545,instagram,47,101,121,0,0,0,mutton story reach up 55 -> 101 since 2 Nov 08:10
+2026-11-03 08:10,411619545,facebook,47,,87,,,,FB views 79 -> 87
+2026-11-03 08:10,411619545,youtube,47,,32,0,,,YT views 32 (first row)
+2026-11-03 08:10,411619492,instagram,67,165,196,0,3,0,natu kodi reach 160 -> 165
+2026-11-03 08:10,account,instagram,,,,,,,followers 44235 on 1 Nov (+2 / -23); 2 Nov not synced; boneless Reel YouTube/LinkedIn/Pinterest no rows
