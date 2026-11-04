@@ -64,3 +64,6 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-04,1268595/1355616/1354356/1307344/1306614/1361546,PersonalWhatsApp,vendor/ops,-,ops groups: vendor payments sent by UPI late on 3 Nov; one rider photo,no action (internal)
 2026-11-04,1267758,PersonalWhatsApp,vendor/ops,-,ops group: photo only,no action (internal)
 2026-11-04,1268254/1269090,PersonalWhatsApp,spam,-,group forwards (not read in full),no action
+2026-11-04,1412832/1412032/1307344/1268595,PersonalWhatsApp,vendor/ops,goat boneless + goat with bone,ops: 2 goat orders this morning (500 g boneless; 500 g boneless + 500 g with bone); notes ask medium/small pieces,"no action (internal); weekday goat demand continues; piece-size line added to weekend first comments"
+2026-11-04,1412034,PersonalWhatsApp,vendor/ops,-,ops group: photo only,no action (internal)
+2026-11-04,-,web,own reviews,-,own-feedback check 11:08: Trustpilot 0; app 0 ratings (AppGoblin); no new Google or site reviews found; 0 new Reel comments in Metricool,no action
