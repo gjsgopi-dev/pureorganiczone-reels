@@ -72,3 +72,6 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-04,1267735,PersonalWhatsApp,vendor/ops,-,ops delivery log: 3 orders delivered at customer-requested times next morning,no action (internal); scheduled slots work too
 2026-11-04,1416306/1420205,Instagram/PersonalWhatsApp,empty,-,chat opened with no message,no action
 2026-11-04,1269090/1268254,PersonalWhatsApp,spam,-,group forwards,no action
+2026-11-04,1267735,PersonalWhatsApp,vendor/ops,-,ops delivery log + 1 invoice; customer-timed deliveries next morning,no action (internal)
+2026-11-04,1412034/1269090,PersonalWhatsApp,vendor/ops/spam,-,ops group photo ping; promo-group forward,no action
+2026-11-04,-,web,own reviews,-,own-feedback check 20:08: Trustpilot 0; no new Google/app/site reviews found; 0 new Reel comments in Metricool,no action
