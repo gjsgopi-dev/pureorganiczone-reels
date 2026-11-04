@@ -61,3 +61,6 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-03,1394612,PersonalWhatsApp,empty,-,chat created with no messages,no action
 2026-11-03,1267735,PersonalWhatsApp,vendor/ops,-,ops delivery log: today's 16:13 order delivered 17:10 (within 60-90 min; not late),no action (internal); real proof the 60-90 min line holds
 2026-11-03,-,web,own reviews,-,own-feedback check 20:08: Trustpilot 0; app listing 0 ratings (AppGoblin crawl 28 Oct); no new Google or site reviews found; 0 Reel comments in Metricool,no action
+2026-11-04,1268595/1355616/1354356/1307344/1306614/1361546,PersonalWhatsApp,vendor/ops,-,ops groups: vendor payments sent by UPI late on 3 Nov; one rider photo,no action (internal)
+2026-11-04,1267758,PersonalWhatsApp,vendor/ops,-,ops group: photo only,no action (internal)
+2026-11-04,1268254/1269090,PersonalWhatsApp,spam,-,group forwards (not read in full),no action
