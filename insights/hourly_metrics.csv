@@ -58,3 +58,9 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-11-04 17:09,all,all,,,,,,,"No new Metricool numbers since 08:08 (gift Reel IG 20 / FB 50 / LinkedIn 13 impr / Pinterest 0; boneless IG 85 / FB 93; mutton story IG 105 / FB 89 / YT 53); followers stop at 2 Nov (44,224); veg box 416050846 + pin 416050877 PENDING 17:45"
 2026-11-04 20:08,416050846,all,2.4,,,,,,"Veg box Reel PUBLISHED 17:45 on IG (https://www.instagram.com/reel/DfUcAv_nPoB/), FB, YouTube (h7qSbFZigT8), LinkedIn; pin 416050877 PUBLISHED; no Metricool rows yet (sync lag). Other Reels unchanged since 08:08; followers stop at 2 Nov (44,224)"
 2026-11-04 23:08,all,all,,,,,,,"No new Metricool numbers since 08:08 (gift IG 20 / FB 50; boneless IG 85 / FB 93; mutton story IG 105 / FB 89 / YT 53); veg box 416050846 no rows yet at ~5.4 h; followers stop at 2 Nov (44,224)"
+2026-11-05 08:09,416050846,instagram,14.4,42,55,1,0,0,veg box Reel first rows: IG reach 42 / views 55 / 1 comment (below ~76 IG avg; not 0)
+2026-11-05 08:09,416050846,facebook,14.4,,44,,,,veg box FB views 44; YT/LinkedIn/Pinterest no rows
+2026-11-05 08:09,414792390,instagram,38.4,29,45,1,1,0,gift Reel IG 20 -> 29; FB 50 -> 91
+2026-11-05 08:09,413504191,instagram,62.4,92,129,0,1,0,boneless IG 85 -> 92; FB 93 -> 102
+2026-11-05 08:09,411619545,instagram,95,106,130,0,0,0,mutton story IG 105 -> 106; FB 90; YT 53 (unchanged)
+2026-11-05 08:09,followers,instagram,,,,,,,"IGEV01 3 Nov 44,199 (+1 / -8); no rows after 3 Nov"
