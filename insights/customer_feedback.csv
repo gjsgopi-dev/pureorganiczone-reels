@@ -77,3 +77,6 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-04,-,web,own reviews,-,own-feedback check 20:08: Trustpilot 0; no new Google/app/site reviews found; 0 new Reel comments in Metricool,no action
 2026-11-05,1438760,Instagram,vendor/collab,-,food creator (other city) asks for a paid collaboration; assistant notified operator,owner told (needs a person; never pay for reviews)
 2026-11-05,1268254/1269090/1436163,PersonalWhatsApp,spam,-,"farm-supply group forwards, promo pings, an image with no text",no action
+2026-11-05,1451642,Instagram,interested?,-,"new chat, only 'Hi'; assistant asked buy/order/sell; no product named",no follow-up (no product asked; assistant already replied)
+2026-11-05,1267735/1269090,PersonalWhatsApp,vendor/ops/spam,-,ops 'test order' invoice + promo-group image,no action
+2026-11-05,-,web,own reviews,-,"own-feedback check 11:08: Trustpilot 0; Play app 0 ratings (994 installs, appgoblin); no new Google/site reviews found; 0 new Reel comments in Metricool",no action
