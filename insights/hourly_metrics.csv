@@ -66,3 +66,9 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-11-05 08:09,followers,instagram,,,,,,,"IGEV01 3 Nov 44,199 (+1 / -8); no rows after 3 Nov"
 2026-11-05 11:08,416050846,linkedin,17.4,,16,,,,"LinkedIn impressions 16, views 5, LIPO10 1 (first row); IG 42 / FB 44 unchanged since 08:09"
 2026-11-05 11:08,414792390,linkedin,41.4,,23,,,,"LinkedIn impressions 13 -> 23, views 6; IG 29 / FB 91 unchanged; Pinterest pins 0 impressions"
+2026-11-06 08:10,417281979,instagram,14.4,60,70,1,0,0,Telugu kitchen basket first rows: IG reach 60 / views 70 / 1 comment (below ~85 IG 7-day avg; not 0)
+2026-11-06 08:10,417281979,facebook,14.4,,16,,,,FB views 16; YT/LinkedIn no rows yet; Pinterest pin failed (401) and Pinterest no longer listed in getBrandSettings networksData
+2026-11-06 08:10,416050846,instagram,38.4,158,181,1,0,0,"veg box IG reach 42 -> 158 (late growth; best IG reach since the 31 Oct natu kodi story, ~1.9x the ~85 avg)"
+2026-11-06 08:10,416050846,facebook,38.4,,79,,,,veg box FB views 44 -> 79
+2026-11-06 08:10,414792390,instagram,62.4,30,47,1,1,0,gift IG 29 -> 30; FB 91 -> 99; YouTube 19 views
+2026-11-06 08:10,followers,instagram,,,,,,,"IGEV01 4 Nov 44,147 (+3 / -33); no row for 5 Nov yet"
