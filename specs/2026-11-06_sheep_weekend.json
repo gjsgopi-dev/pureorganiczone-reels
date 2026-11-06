@@ -1,5 +1,5 @@
 {
- "note": "Written by Growth Watch 1 Nov 20:00 (no spec existed for Fri 6 Nov). Fri = pre-weekend meat in the evening; goat runs Sat and Sun, so Friday is sheep meat (the #3 seller, still moving on its own: +3 sheep orders overnight 31 Oct-1 Nov and another sheep with bone order on Sun evening). Product page link, price, Comment MUTTON line and Shevades add-on per the 1 Nov rule. Links checked 1 Nov 20:00: 200, ₹497 and ₹51. Slug: story_sheep_weekend_shepherd. | Growth Watch 2 Nov 11:00: caption's 'Send this to…' line replaced by a 'Tag …' line and first_comment added (weekly report Change 1: only tag-a-person captions got comments); schedule first_comment as Metricool firstCommentText. | Growth Watch 2 Nov 20:36: added `pinterest_text` (≤ 480 chars) because the 2 Nov 17:45 pin failed with Pinterest 400 on the full caption; schedule Pinterest as its own post with this text (PLAYBOOK step 7). | Growth Watch 4 Nov 11:08: first_comment now adds 'Never frozen, cut fresh every day' + 'tell us your piece size (small or medium) and no liver in the order note' (both of this morning's goat orders, invoices via ops chat, asked for piece size / no liver; the order note field exists). Test logged in insights/growth_tests.csv. | Growth Watch 5 Nov 11:08: UTM tags (utm_campaign=story_sheep_weekend) added to every product link in caption and first_comment (playbook 'Captions that sell' rule; these meat specs had untagged links, so site analytics could not tell which meat Reel sold). pinterest_text left untagged to stay near the 480-char limit; pinLink = product_url as before. Tagged URLs checked 200 with prices Rs 497 / 495 / 51 / 999.",
+ "note": "Written by Growth Watch 1 Nov 20:00 (no spec existed for Fri 6 Nov). Fri = pre-weekend meat in the evening; goat runs Sat and Sun, so Friday is sheep meat (the #3 seller, still moving on its own: +3 sheep orders overnight 31 Oct-1 Nov and another sheep with bone order on Sun evening). Product page link, price, Comment MUTTON line and Shevades add-on per the 1 Nov rule. Links checked 1 Nov 20:00: 200, ₹497 and ₹51. Slug: story_sheep_weekend_shepherd. | Growth Watch 2 Nov 11:00: caption's 'Send this to…' line replaced by a 'Tag …' line and first_comment added (weekly report Change 1: only tag-a-person captions got comments); schedule first_comment as Metricool firstCommentText. | Growth Watch 2 Nov 20:36: added `pinterest_text` (≤ 480 chars) because the 2 Nov 17:45 pin failed with Pinterest 400 on the full caption; schedule Pinterest as its own post with this text (PLAYBOOK step 7). | Growth Watch 4 Nov 11:08: first_comment now adds 'Never frozen, cut fresh every day' + 'tell us your piece size (small or medium) and no liver in the order note' (both of this morning's goat orders, invoices via ops chat, asked for piece size / no liver; the order note field exists). Test logged in insights/growth_tests.csv. | Growth Watch 5 Nov 11:08: UTM tags (utm_campaign=story_sheep_weekend) added to every product link in caption and first_comment (playbook 'Captions that sell' rule; these meat specs had untagged links, so site analytics could not tell which meat Reel sold). pinterest_text left untagged to stay near the 480-char limit; pinLink = product_url as before. Tagged URLs checked 200 with prices Rs 497 / 495 / 51 / 999. | Daily Reel 6 Nov 08:45: rebuilt to the 2-3 Nov rules: realistic-people prompts, clip 2 = nutrition lesson with card (new USDA SR Legacy 17003 lean lamb rows added to insights/nutrition_facts.csv: protein 20.3 g, B12 2.62 µg, zinc 4.06 mg, iron 1.77 mg), 'never frozen' in the pitch, 📊 caption line, Deepavali-weekend line (hook from trend_hooks.csv, Deepavali Sun 8 Nov), #ProteinFood replaces #WeekendSpecial. Pinterest skipped (not in networksData).",
  "format": "story",
  "date": "2026-11-06",
  "post_time": "18:00",
@@ -9,22 +9,48 @@
  "addon_url": "https://pureorganiczone.com/product/chickenmutton-masala-qxhy5W",
  "story_clips": [
   {
-   "heygen_prompt": "Photorealistic cinematic vertical shot, an Indian shepherd in a white dhoti and turban walking a flock of sheep across green grazing hills in rural Telangana at sunset, a wooden staff in hand, golden light, slow tracking shot. No text, no logos.",
+   "heygen_prompt": "Photorealistic documentary-style vertical shot, shot on a 35 mm lens, late afternoon on open grazing hills in rural Telangana: red soil, scattered rocks, dry grass and a lone neem tree. An elderly Indian shepherd in a faded white dhoti, plain cotton shirt and a simple cloth turban, natural skin texture with pores and fine wrinkles, grey stubble, walks slowly behind a flock of brown and white Deccani sheep, a long wooden staff in his hand, guiding them home along a dirt path toward a distant village with tiled roofs. Medium-wide shot from behind and to the side, his face not in close-up, nobody talking to camera. Soft golden sunset light with dust in the air, slight handheld camera slowly tracking alongside, shallow depth of field. No text, no logos, no plastic-looking skin, no extra fingers, no extra legs, no distorted animals.",
    "en": "The shepherd's hills",
    "te": "గొర్రెల కాపరి కొండలు",
    "start": 0.0
   },
   {
-   "heygen_prompt": "Photorealistic cinematic vertical shot, a village courtyard in rural Telangana on a weekend morning, an Indian grandmother in a cotton saree stirring mutton curry in a large clay pot over a wood fire while the family sets banana leaves on a woven mat, warm natural light, slow pan. No text, no logos.",
-   "en": "Weekend mutton, planned",
-   "te": "వారాంతం మటన్ కూర",
-   "start": 0.0
+   "heygen_prompt": "Photorealistic documentary-style vertical shot, shot on a 35 mm lens, a weekend morning in a rural Telangana village courtyard with a tiled roof, whitewashed mud wall and a neem tree: an Indian grandmother in a faded cotton saree, natural skin texture with fine wrinkles, stirs a thick red mutton curry with bone-in pieces in a blackened clay pot over a wood fire, then ladles a portion onto a fresh banana leaf placed on a woven mat beside a steel tumbler of water. The curry and banana leaf are in sharp focus in the foreground; her face is only partly visible and not in close-up; nobody eats or talks to camera. Warm natural daylight with wood-fire glow and rising steam, slight handheld camera slowly pushing in, shallow depth of field. No text, no logos, no plastic-looking skin, no extra fingers.",
+   "en": "~20 g protein per 100 g",
+   "te": "100 గ్రాముల్లో 20 గ్రా ప్రోటీన్",
+   "start": 0.0,
+   "nutrition_card": {
+    "title": "Per 100 g lean sheep meat (raw)",
+    "rows": [
+     [
+      "Protein",
+      "20.3 g",
+      "helps build and keep muscle"
+     ],
+     [
+      "Vitamin B12",
+      "2.62 µg",
+      "helps form red blood cells"
+     ],
+     [
+      "Zinc",
+      "4.06 mg",
+      "supports normal immune function"
+     ],
+     [
+      "Iron",
+      "1.77 mg",
+      "part of haemoglobin, carries oxygen"
+     ]
+    ],
+    "note": "Source: USDA FoodData Central (lamb, lean, raw)"
+   }
   }
  ],
  "end_clip": "https://resource2.heygen.ai/video/5e19c60048d64b0c81841d8e3736c3e5/original.mp4",
  "voice_id": "080227efd3874821a1328e1b5ff1620f",
- "voiceover": "On Friday evenings, the shepherd brought his flock home from the hills. <break time=\"0.6s\"/> And the village knew: Saturday meant mutton curry in the clay pot. <break time=\"0.6s\"/> Today, Pure Organic Zone brings fresh sheep meat to your home in Hyderabad in 60 to 90 minutes. Order on our website, or download the Pure Organic Zone app on the App Store or Google Play for better prices, and subscribe daily, weekly or monthly.",
- "caption": "Tired of frozen mutton? Weekend sheep mutton, never frozen 🐑 వారాంతం మటన్ కూర\n\nOn Friday evenings the shepherd brought his flock home from the hills, and the village knew Saturday meant mutton curry in the clay pot.\n\nToday we bring fresh sheep meat to your door in Hyderabad, in 60–90 minutes. Never frozen, cut fresh every day. Order tonight and pick a morning slot.\n👉 Mutton (sheep meat with bone) ₹497\n🛒 https://pureorganiczone.com/product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5?utm_source=instagram&utm_medium=reel&utm_campaign=story_sheep_weekend (link in bio on Instagram)\n📱 Better prices on the Pure Organic Zone app (App Store & Google Play). Subscribe daily, weekly or monthly.\n📲 WhatsApp 9704518572\n➕ Goes well with: Chicken/Mutton Masala by Shevades, ₹51 https://pureorganiczone.com/product/chickenmutton-masala-qxhy5W?utm_source=instagram&utm_medium=reel&utm_campaign=story_sheep_weekend\n💬 Comment MUTTON and we'll DM you the link.\n\n💬 Weekend mutton: Saturday curry or Sunday biryani? Tell us in the comments 👇\nTag the one in Secunderabad who plans the weekend mutton lunch 🍖\n\n#Mutton #SheepMeat #MuttonCurry #WeekendSpecial #Hyderabad #Secunderabad #Marredpally #Kukatpally #TeluguFood #PureOrganicZone",
+ "voiceover": "On Friday evenings, the shepherd brought his flock home from the hills, and the village knew: Saturday meant mutton curry. <break time=\"0.6s\"/> Lean sheep meat gives about 20 grams of protein per 100 grams, to build and keep muscle, plus vitamin B12, which helps form red blood cells. <break time=\"0.6s\"/> Today, Pure Organic Zone brings fresh sheep meat, never frozen, to your home in Hyderabad in 60 to 90 minutes. Order on our website, or download the Pure Organic Zone app on the App Store or Google Play for better prices, and subscribe daily, weekly or monthly.",
+ "caption": "Tired of frozen mutton? Weekend sheep mutton, never frozen 🐑 వారాంతం మటన్ కూర\n\nOn Friday evenings the shepherd brought his flock home from the hills, and the village knew Saturday meant mutton curry in the clay pot.\n\nToday we bring fresh sheep meat to your door in Hyderabad, in 60–90 minutes. Never frozen, cut fresh every day. Deepavali weekend lunch? Order tonight and pick a morning slot.\n📊 Per 100 g lean sheep meat (raw): protein 20.3 g, vitamin B12 2.62 µg, zinc 4.06 mg (Source: USDA FoodData Central)\n👉 Mutton (sheep meat with bone) ₹497\n🛒 https://pureorganiczone.com/product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5?utm_source=instagram&utm_medium=reel&utm_campaign=story_sheep_weekend (link in bio on Instagram)\n📱 Better prices on the Pure Organic Zone app (App Store & Google Play). Subscribe daily, weekly or monthly.\n📲 WhatsApp 9704518572\n➕ Goes well with: Chicken/Mutton Masala by Shevades, ₹51 https://pureorganiczone.com/product/chickenmutton-masala-qxhy5W?utm_source=instagram&utm_medium=reel&utm_campaign=story_sheep_weekend\n💬 Comment MUTTON and we'll DM you the link.\n\n💬 Weekend mutton: Saturday curry or Sunday biryani? Tell us in the comments 👇\nTag the one in Secunderabad who plans the weekend mutton lunch 🍖\n\n#Mutton #SheepMeat #MuttonCurry #ProteinFood #Hyderabad #Secunderabad #Marredpally #Kukatpally #TeluguFood #PureOrganicZone",
  "first_comment": "Comment MUTTON 👇 and we'll DM you the links. ✅ Never frozen, cut fresh every day. Tell us your piece size (small or medium) and 'no liver' in the order note. 🛒 https://pureorganiczone.com/product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5?utm_source=instagram&utm_medium=reel&utm_campaign=story_sheep_weekend https://pureorganiczone.com/product/chickenmutton-masala-qxhy5W?utm_source=instagram&utm_medium=reel&utm_campaign=story_sheep_weekend",
  "pinterest_text": "Tired of frozen mutton? Weekend sheep mutton, never frozen 🐑 వారాంతం మటన్ కూర\nToday we bring fresh sheep meat to your door in Hyderabad, in 60–90 minutes. Cut fresh every day. Order tonight and pick a morning slot.\n👉 Mutton (sheep meat with bone) ₹497\n🛒 https://pureorganiczone.com/product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5\n📱 Order on our website or the Pure Organic Zone app (App Store & Google Play).\n#Mutton #SheepMeat #MuttonCurry #WeekendSpecial #PureOrganicZone"
 }
