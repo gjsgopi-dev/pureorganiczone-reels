@@ -91,3 +91,10 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-06,1436163/1269090,PersonalWhatsApp,spam,-,"greeting forward, promo group messages",no action
 2026-11-06,1290543/1269090,PersonalWhatsApp,ops/spam,-,Porter wallet recharge QR (ops); promo group messages,no action (internal ops / spam)
 2026-11-06,-,web,own reviews,-,"own-feedback check 11:08: no new Google, App Store or Play reviews found; no new comments in Metricool (no sync since 08:00)",no action
+2026-11-06,1489811,PersonalWhatsApp,problem (needs_operator),goat meat; also asks 5 kg bulk mutton / biryani cut / farm visit / honey,says felt feverish after eating our meat bought 5 days ago; then bulk + farm visit questions,owner alerted 17:10 (never sell; may be a team test: chat named 'Operations')
+2026-11-06,1487823,PersonalWhatsApp,problem + buyer (needs_operator),mutton boneless bulk,"asks live-cut or processed chicken, Shankerpally / Vanasthalipuram delivery, bulk boneless; 'I had a problem in delivery'",owner alerted 17:10 (no follow-up: complaint)
+2026-11-06,1487831,PersonalWhatsApp,order query (needs_operator),-,"asks status of two orders, 'any update?' with no reply after ~40 min",owner alerted 17:10
+2026-11-06,1488819,PersonalWhatsApp,buyer (needs_operator),natu kodi / goat,asked for meat; told the assistant 'you order yourself' -> operator,owner alerted 17:10 (no auto follow-up: handed to operator)
+2026-11-06,1487825,PersonalWhatsApp,buyer question (needs_operator),goat with bone,what goats are fed; how much bone in 1 kg with bone,owner alerted 17:10; feed not confirmed -> never state it
+2026-11-06,1483523,Calls,buyer,goat meat,voice call: do you deliver goat to KPHB? (assistant: yes; asked block + cut),no follow-up possible on Calls; supports KPHB area tag test
+2026-11-06,1314021/1488792/1267735/1288037/1412034,PersonalWhatsApp,vendor/ops,-,"vendor MRP update (Auranectra, a product discontinued over MRP mismatch); little millets stock query to vendor group; delivery log: an order delivered in ~2 h (within 1-2 h); team 'Hi'; image-only group",no action
