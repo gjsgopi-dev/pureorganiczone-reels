@@ -89,3 +89,5 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-06,1438760,Instagram,vendor/collab,-,food creator (other city) sent profile + audience screenshots for a paid Reel + Stories; assistant notified operator again,owner already told 5 Nov; no new alert (never pay for reviews)
 2026-11-06,1307344/1290543,PersonalWhatsApp,ops,goat paya / head / keema,"Rs 400 balance query answered (cleared 27 Oct: paya x4, goat head, keema 500 g); Porter wallet recharge request",no action (internal ops); paya + head curry + keema bought together -> Sat paya line
 2026-11-06,1436163/1269090,PersonalWhatsApp,spam,-,"greeting forward, promo group messages",no action
+2026-11-06,1290543/1269090,PersonalWhatsApp,ops/spam,-,Porter wallet recharge QR (ops); promo group messages,no action (internal ops / spam)
+2026-11-06,-,web,own reviews,-,"own-feedback check 11:08: no new Google, App Store or Play reviews found; no new comments in Metricool (no sync since 08:00)",no action
