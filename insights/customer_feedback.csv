@@ -115,3 +115,5 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-07,1288037,PersonalWhatsApp,interested (payment),-,sent a Paytm QR image; assistant asked if it is an order payment or failed payment,no product named: no follow-up; theme: buyers pay by UPI QR
 2026-11-07,1267735/1290543,PersonalWhatsApp,ops,goat/meat orders,5 orders 07 Nov delivered within 60-90 min / 1-2 h; one order wants delivery tomorrow before 9:30 am (Deepavali morning),theme: Deepavali morning delivery demand
 2026-11-07,1522434/1268254/1269090,PersonalWhatsApp,vendor,-,vendor 'Open' reply to Deepavali check; two farming groups,no action
+2026-11-08,1353968,PersonalWhatsApp,ops,sheep with bone 2.5 kg,"Deepavali morning bulk order, biryani cut, no liver/kidney; delivered ~07:50",theme: bulk biryani-cut orders on festival mornings; no follow-up
+2026-11-08,1269090/1268254,PersonalWhatsApp,vendor/group,-,farming group chatter overnight,no action
