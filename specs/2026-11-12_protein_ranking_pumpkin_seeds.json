@@ -1,0 +1,57 @@
+{
+ "note": "Written by Growth Watch 8 Nov 11:08 (no spec existed for Thu 12 Nov). Two-market plan: Thu = pan-India; owner's format mix (8 Nov): Thu = protein_ranking or behind_the_vendor. Product: Pumpkin Seed by Induz Organic, 100 g Rs 135.50 (MRP 150; 3 lifetime orders, small vendor with 5.0 ratings on almonds/cashew; never featured in a Reel). Why: a big organic brand launched a nuts & seeds range on 3 Nov (competitor_watch.csv; never named), gym-goers are a Karthika-month audience for protein, and pan-India Reels must be search-led. All protein numbers from insights/nutrition_facts.csv (USDA FDC SR Legacy: pumpkin seeds dried 12014 30.2 g, peanuts raw 16087 25.8 g, almonds 12061 21.2 g, goat raw 17168 20.6 g, egg whole raw 01123 12.6 g); magnesium 592 mg = 'helps normal muscle function'. Protein per Rs 100: 30.2 g / Rs 135.50 = 22 g; goat boneless 206 g / Rs 589 = 35 g (Hyderabad only). Vendor named once in narration (Vendor Spotlight rule). Add-on: Almonds by Induz Organic 200 g Rs 392. Links checked 8 Nov 11:20: 200 + Add to cart, Rs 135.50 (100 g) and Rs 392 (200 g). DM word SEEDS (not in the assistant's keyword list; it reads the catalog). Slug: protein_ranking_pumpkin_seeds. Owner 8 Nov rules applied: max 5 hashtags, payoff-first hook ('Protein per 100 grams, ranked.' ≤ 8 words, ranking card on screen), send-to line. viral_ref not set yet: the 8:41 task runs the 'Viral check before every Reel' and may adapt the prompts/voiceover structure (countdown fits this format), keeping all numbers as written.",
+ "format": "story",
+ "reel_format": "protein_ranking",
+ "date": "2026-11-12",
+ "post_time": "19:00",
+ "ig_type": "REEL",
+ "title": "Pumpkin seeds online: protein per 100 g ranked (eggs, goat, almonds, peanuts), delivered all over India",
+ "product_url": "https://pureorganiczone.com/product/pumpkin-seed-CwjdTk",
+ "addon_url": "https://pureorganiczone.com/product/almonds-LD1R8I",
+ "story_clips": [
+  {
+   "heygen_prompt": "Photorealistic documentary-style vertical shot, shot on a 35 mm lens, top-down view of a large steel thali on a wooden table in a simple Indian home kitchen with small steel bowls of raw eggs, cooked goat curry, almonds, raw peanuts and green pumpkin seeds arranged in a row, a woman's hands (plain glass bangles, cotton saree sleeve) slide the bowl of pumpkin seeds to the front, face not in frame, soft natural daylight from a window, slow push-in. No text, no logos, no labels, no extra fingers.",
+   "en": "Protein per 100 g, ranked",
+   "te": "100 గ్రాముల్లో ప్రోటీన్ ర్యాంకింగ్",
+   "start": 0.0
+  },
+  {
+   "heygen_prompt": "Photorealistic documentary-style vertical shot, shot on a 35 mm lens, a simple Indian home kitchen: a woman's hands dry-roast green pumpkin seeds in a black iron kadai with a wooden spatula, then sprinkle them over a steel bowl of curd, close-up on the kadai and the bowl, face not in frame, warm natural light, shallow depth of field, slight handheld camera. No text, no logos, no plastic-looking skin, no extra fingers.",
+   "en": "Pumpkin seeds: 30.2 g protein",
+   "te": "గుమ్మడి గింజలు: 30.2 గ్రా ప్రోటీన్",
+   "start": 0.0,
+   "nutrition_card": {
+    "title": "Protein per 100 g",
+    "rows": [
+     [
+      "Pumpkin seeds",
+      "30.2 g",
+      "dried · #1 here"
+     ],
+     [
+      "Peanuts",
+      "25.8 g",
+      "raw"
+     ],
+     [
+      "Goat meat",
+      "20.6 g",
+      "raw"
+     ],
+     [
+      "Eggs",
+      "12.6 g",
+      "raw, about 2 eggs"
+     ]
+    ],
+    "note": "Source: USDA FoodData Central"
+   }
+  }
+ ],
+ "end_clip": "https://resource2.heygen.ai/video/1c1b805c3a7d44cfabe28ec83637cc10/original.mp4",
+ "voice_id": "080227efd3874821a1328e1b5ff1620f",
+ "voiceover": "Protein per 100 grams, ranked. <break time=\"0.6s\"/> Eggs 12.6 grams, goat 20.6, almonds 21.2, peanuts 25.8. Pumpkin seeds win: 30.2 grams, plus magnesium for normal muscle function. <break time=\"0.6s\"/> Pure Organic Zone brings pumpkin seeds from Induz Organic, delivered all over India. Order on our website, or download the Pure Organic Zone app on the App Store or Google Play for better prices, and subscribe daily, weekly or monthly.",
+ "caption": "Pumpkin seeds online, delivered all over India 🎃💪 Protein per 100 g, ranked\n\n🥚 Eggs (raw, about 2) 12.6 g\n🐐 Goat meat (raw) 20.6 g\n🌰 Almonds 21.2 g\n🥜 Peanuts (raw) 25.8 g\n🎃 Pumpkin seeds (dried) 30.2 g 🏆\n📊 Pumpkin seeds per 100 g: protein 30.2 g, magnesium 592 mg (helps normal muscle function), zinc 7.8 mg (Source: USDA FoodData Central)\n🧮 100 g pumpkin seeds ₹135.50 = about 22 g protein per ₹100\n🥣 How to eat: dry-roast 2 minutes, sprinkle on curd, upma, salad or oats.\n👉 Pumpkin Seed by Induz Organic, 100 g ₹135.50\n🛒 https://pureorganiczone.com/product/pumpkin-seed-CwjdTk?utm_source=instagram&utm_medium=reel&utm_campaign=protein_ranking_pumpkin_seeds (link in bio on Instagram), delivered all over India\n📱 Better prices on the Pure Organic Zone app (App Store & Google Play). Subscribe daily, weekly or monthly.\n➕ Goes well with: Almonds by Induz Organic, 200 g ₹392 https://pureorganiczone.com/product/almonds-LD1R8I?utm_source=instagram&utm_medium=reel&utm_campaign=protein_ranking_pumpkin_seeds\n🐐 In Hyderabad? Goat boneless ₹589 gives about 35 g protein per ₹100, at your door in 60–90 min, never frozen https://pureorganiczone.com/product/goat-meat-boneless-1kg-2Djxva?utm_source=instagram&utm_medium=reel&utm_campaign=protein_ranking_pumpkin_seeds\n📩 DM us SEEDS and we will send you the link instantly\n\n💬 Where do you get your protein: dal, eggs, seeds or mutton? 👇\nSend this to the gym buddy who thinks eggs win 💪 Save this list for your next grocery order.\n\n#PumpkinSeeds #ProteinFood #HighProtein #ProteinRanking #PureOrganicZone",
+ "first_comment": "📩 DM us SEEDS and we will send you the link instantly. 🎃 Pumpkin seeds 30.2 g protein per 100 g (USDA), 100 g ₹135.50, delivered all over India. 🛒 https://pureorganiczone.com/product/pumpkin-seed-CwjdTk?utm_source=instagram&utm_medium=reel&utm_campaign=protein_ranking_pumpkin_seeds 🌰 Almonds 200 g ₹392 https://pureorganiczone.com/product/almonds-LD1R8I?utm_source=instagram&utm_medium=reel&utm_campaign=protein_ranking_pumpkin_seeds",
+ "pinterest_text": "Protein per 100 g, ranked 🎃 Pumpkin seeds 30.2 g · peanuts 25.8 g · almonds 21.2 g · goat 20.6 g · eggs 12.6 g (USDA)\n👉 Pumpkin Seed by Induz Organic, 100 g ₹135.50, delivered all over India\n🛒 https://pureorganiczone.com/product/pumpkin-seed-CwjdTk\n📱 Order on our website or the Pure Organic Zone app (App Store & Google Play).\n#PumpkinSeeds #ProteinFood #HighProtein #PureOrganicZone"
+}
