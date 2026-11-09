@@ -127,43 +127,60 @@ Delivery: all over India for packaged goods. Fresh fruits, vegetables and meat a
 ## Vendors on the marketplace
 Pure Organic Hyderabad, Milletio The Global Grain, Divyams Natural Products, Auranectra Wellness, GreeNE Origins, Anika Organics and Naturals, Satjeevan Organic Store, Yashoda Organics, Induz Organic, and more. Vendor spotlight Reels may name a vendor and its category, but never invent facts about a vendor's farms, founders or certifications.
 
-## Best sellers by real orders (site data, 2 Nov 2026 08:45 IST, from tools/site_sales.py)
-Order lines on pureorganiczone.com so far: 7,337. Hyderabad fresh food is 6,518 (89%), and all 30 subscription-enabled products are fresh. "New" = order lines added 31 Oct 02:01 → 2 Nov 08:45 (22 real new orders; the first snapshot is 31 Oct, and Organic Watermelon's 96 lines are a relisting, not new orders). Sunday app/WhatsApp orders do not show on this counter; use the owner's counts for weekend meat. Refresh with `python3 tools/site_sales.py --top 40`.
+## Best sellers by real orders (site data, 9 Nov 2026 08:44 IST, from tools/site_sales.py)
+Order lines on pureorganiczone.com so far: 7,421. Hyderabad fresh food is 6,587 (89%). "New" = order lines added 2 Nov 08:42 -> 9 Nov 08:44 (85 new lines; no relistings this week). The counter updates in overnight batches and misses app/WhatsApp orders; use the owner's counts for weekend meat. Boneless leads goat sales this week (+17 vs with bone +9): link boneless or keema first on goat Reels. Refresh with `python3 tools/site_sales.py --vendors`.
 | Orders | New | Product | Offer | Page |
 |---|---|---|---|---|
-| 779 | +2 | Mutton (Goat Meat With Bone) | ₹495 | /product/goat-meat-with-bonewithout-bone-1kg-Seppf1 |
-| 564 | +4 | Mutton (Goat Meat Boneless) | ₹589 | /product/goat-meat-boneless-1kg-2Djxva |
-| 488 | +3 | Mutton (Sheep Meat With Bone) | ₹497 | /product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5 |
-| 470 | +1 | Chicken (Village Country Chicken) | ₹689 | /product/original-village-grown-naatu-kodi-Zem4y1 |
-| 416 | 0 | Spinach (Palak) – Organic | ₹35 | /product/spinach-palak-7eUL4v |
-| 285 | 0 | French Beans – Organic | ₹75 | /product/french-beans-YxRcCw |
-| 268 | +1 | Mutton Keema / Mince (Goat) | ₹599 | /product/mutton-mince-goat-keema-7PsXvI |
-| 259 / 248 / 216 / 212 / 204 / 196 | +1 ridge gourd | Ridge gourd, coriander, carrot, bottle gourd, tomato, ladies finger | ₹35–66 | weekly veg box story |
-| 167 | 0 | Original Country Eggs | ₹120 | /product/original-country-eggs-MAPJsd |
-| 149 / 149 / 145 / 142 | 0 | Banana, drumsticks, cucumber, ivy gourd | ₹35–80 | |
-| 133 | +1 | Mutton (Sheep Meat Boneless) | ₹575 | /product/sheep-meat-boneless-1kg-cu7k0a |
-| 127 | +3 | Fruits – Organic Papaya | ₹165 | /product/papaya-DkFzN3 |
-| 119 / 108 | 0 | Pomegranate ₹213, dragon fruit ₹89 | | fruit subscription story |
-| 112 | 0 | Chicken (Sonali Country Chicken) | ₹549 | /product/sonali-nattu-kodi-live-weight-13kg-lBVAgl |
-| 101 / 71 | 0 | Paya, goat head curry cut (next day) | ₹448 / ₹450 | /product/mutton-trotters-paya-WTISDe |
+| 788 | +9 | Mutton(Goat Meat With Bone) | ₹495 | /product/goat-meat-with-bonewithout-bone-1kg-Seppf1 |
+| 581 | +17 | Mutton(Goat Meat Boneless) | ₹589 | /product/goat-meat-boneless-1kg-2Djxva |
+| 499 | +11 | Mutton(Sheep Meat With Bone) | ₹497 | /product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5 |
+| 474 | +4 | Chicken(Village Country Chicken) | ₹689 | /product/original-village-grown-naatu-kodi-Zem4y1 |
+| 419 | +3 | Spinach (Palak) - Organic | ₹35 | /product/spinach-palak-7eUL4v |
+| 286 | +1 | French Beans - Organic | ₹75 | /product/french-beans-YxRcCw |
+| 272 | +4 | Mutton - Keema / Mince Goat | ₹599 | /product/mutton-mince-goat-keema-7PsXvI |
+| 259 | 0 | Ridge Gourd - Organic | ₹41 | /product/ridge-gourd-JMH9q0 |
+| 250 | +2 | Coriander - Organic | ₹45 | /product/coriander-fuhkD4 |
+| 217 | +1 | Orange Carrot - Organic | ₹50 | /product/organic-orange-carrot-dWvwoG |
+| 212 | 0 | Bottle Gourd - Organic | ₹60 | /product/bottle-gourd-uqvhsv |
+| 205 | +1 | Tomato - Organic | ₹39 | /product/tomato-T2QkyT |
+| 197 | +1 | Ladies Finger - Organic | ₹44 | /product/ladies-finger-wNGjQs |
+| 168 | +1 | Original Country Eggs | ₹120 | /product/original-country-eggs-MAPJsd |
+| 150 | +1 | Fruits - Organic Yellow Banana | ₹39 | /product/yellow-banana-TWYx24 |
+| 149 | 0 | Drumsticks - Organic | ₹80 | /product/organic-drumsticks-CXyLVV |
+| 145 | 0 | Cucumber (Kheera) - Organic | ₹37 | /product/cucumber-kheera-I6yehl |
+| 142 | 0 | Ivy Gourd - Organic | ₹35 | /product/ivy-gourd-LbjNa7 |
+| 135 | +2 | Mutton(Sheep Meat Boneless) | ₹575 | /product/sheep-meat-boneless-1kg-cu7k0a |
+| 128 | +1 | Fruits - Organic Papaya | ₹165 | /product/papaya-DkFzN3 |
+| 119 | 0 | Fruits - Organic Pomegranate | ₹213 | /product/organic-pomegranate-8CMraT |
+| 114 | +2 | Chicken(Sonali Country Chicken) | ₹549 | /product/sonali-nattu-kodi-live-weight-13kg-lBVAgl |
+| 102 / 74 | +1 / +3 | Paya, goat head curry cut (next day) | ₹448 / ₹450 | /product/mutton-trotters-paya-WTISDe |
 
-## Vendor best sellers (for Vendor Spotlight story Reels; site data 2 Nov 2026 08:45 IST)
-Vendors are the brands that sell on our marketplace. Use the brand name exactly as on the site. Never use a vendor's logo, photos or videos unless the owner says that vendor agreed; AI scenes and our captions only. "New" = order lines 31 Oct 02:01 → 2 Nov 08:45.
-| Vendor | Orders | New | Best products (orders, offer price, page) |
+## Vendor best sellers (for Vendor Spotlight story Reels; site data 9 Nov 2026 08:44 IST)
+Vendors are the brands that sell on our marketplace. Use the brand name exactly as on the site. Never use a vendor's logo, photos or videos unless the owner says that vendor agreed; AI scenes and our captions only. "New" = order lines 2 Nov 08:42 -> 9 Nov 08:44. Grew this week: Nutsmash +6 (gift hampers, after the 3 Nov "ready gift box" add-on line), Best Offer Deals +3 (Festival of Flavors +2, Super Seeds & Nuts +1), +1 each Milletio, Doctor Moringa, Anant Organics, Rahasya, Nirvana, Organic Wellness, Arya Sanskriti. Featured with 0 sales: ANIKA, Yashoda, Divyams (5 Nov basket), Bee Life, Farmiya, Shevades (4 meat Reels). Next to feature: Induz pumpkin seeds/almonds (Thu 12 Nov), Rahasya groundnut oil (Wed 11 Nov), GreeNE Meghalaya pepper (Sat 14 Nov).
+| Vendor | Orders | New | Best products (orders, offer price) |
 |---|---|---|---|
-| Milletio The Global Grain | 121 | 0 | Choco Berry Crunch (34, ₹62, /product/choco-berry-crunch-HG4RHY), Sesame Date Fusion (20, ₹62), Nutty Choco Delight (20, ₹62): millet snack bars |
-| Divyams Natural Products | 75 | 0 | Seeraga Samba / Jeera rice (13, ₹104, /product/raw-rice-seeraga-samba-jeera-rice-QaY8Ev), Jasmine / Thooyamalli rice (11, ₹72), Niger oil (10, ₹297) |
-| GreeNE Origins | 70 | +2 | Meghalaya Black Pepper (17, ₹139, /product/black-pepper-corn-from-meghalaya-4TOGdV), Assam Green Tea (15, ₹129), Ing Makhir Ginger Powder (14, ₹138); Wild Flora raw honey +2 after the 29 Oct Label Check. Featured 29 Oct: next Spotlight from 12 Nov |
-| Auranectra Wellness | 70 | 0 | Nutritional Shake Mix Butterscotch (13, ₹1,900). Supplements: no health claims, doctor line |
-| Yashoda Organics | 47 | 0 | Crystal sea salt (13, ₹36), Cold-pressed mustard oil (11, ₹90), sesame oil (9, ₹108, /product/sesame-oil-yYLbFE) |
-| Best Offer Deals | 40 | +2 | Nutri Seeds Power of 4 combo (9, ₹490), Festival of Flavors combo (7, ₹1,599), A2 Bilona Ghee combo (6, ₹999); Healthy Super Seeds & Nuts Combo (₹1,922, /product/healthy-super-seeds-nuts-combo-7lIDdW) +2 with no Reel: Diwali gifting |
-| ANIKA Organics and Naturals | 39 | 0 | Kakara / Putnala / Munagaku karam podi (7/6/6, ₹60–65) |
-| Satjeevan Organic Store | 36 | 0 | Anjeer figs (6, ₹466), Brazil nuts (6, ₹1,266), walnuts (4, ₹466) |
-| Veda Bharath | 26 | 0 | Mysore Malliga rice (17, ₹210, /product/mysore-malliga-rice-1kg-M7jR7C), Bahurupi rice (6, ₹220) |
-| Shevades Products | 25 | 0 | Chicken/Mutton masala (9, ₹51, /product/chickenmutton-masala-qxhy5W): pair with meat stories |
-| Induz Organic | 21 | 0 | Almonds (8, ₹392), cashew (6, ₹405) |
-| Doctor Moringa | 18 | 0 | Moringa herbal tea (4, ₹225), moringa powder (3, ₹199) |
-| Deccan Mudra | 17 | 0 | Low GI single polish rice (10, ₹189), Low GI brown rice (7, ₹185) |
-| TummyFriendly Foods | 17 | +1 | Sprouted ragi, almond & dates porridge (4, ₹299, /product/organic-sprouted-ragi-almond-dates-porridge-mix-becEcU), millet coconut cookies (3, ₹99); 9 of 20 products unordered |
-| Bee Life Organic Dry fruits and Honey | 8 | 0 | Dry Fruits, Seeds & Honey Combo (8, ₹999, /product/dry-fruits-seeds-honey-combo-WaYequ) |
-| Nutsmash | 1 | +1 | The Royal Courtyard Foldable Hamper (1, ₹1,600, first order this week); 5 of 6 hampers unordered |
+| Milletio The Global Grain | 122 | +1 | Choco Berry Crunch (34, ₹61.75), Sesame Date Fusion (20, ₹61.75), Nutty Choco Delight (20, ₹61.75) |
+| Divyams Natural Products | 75 | +0 | Raw Rice Seeraga samba/ Jeera Rice (13, ₹104), Jasmine Rice /Thooyamalli rice (11, ₹72), Oil - Niger Oil (10, ₹297) |
+| GreeNE Origins | 70 | +0 | Meghalaya Black Pepper Corn (17, ₹139), Assam Green Tea loose leaves- for Immunity Bo (15, ₹129), Ing Makhir Organic Ginger Powder (14, ₹138) |
+| Auranectra Wellness | 70 | +0 | Nutritional Shake Mix - Butter Scotch (13, ₹1,900), Git 14 Drops (6, ₹799), Ortho Soul Nutrient Powder With Akba (5, ₹3,416) |
+| Yashoda Organics | 47 | +0 | Crystal Salt (Sea Salt) (13, ₹36), Oil - Cold Pressed Mustard Oil (11, ₹90), Oil - Cold Pressed Sesame Oil (9, ₹108) |
+| Best Offer Deals | 43 | +3 | Combo - Festival of Flavors (9, +2, ₹1,599), Combo - Nutri Seeds - Power of 4 Super Seeds (9, ₹490), Combo - A2 Bilona Cow Ghee (6, ₹999) |
+| ANIKA ORGANICS AND NATURALS | 39 | +0 | Kakara Karam Podi (7, ₹60), Putnala Karam Podi (6, ₹60), Munagaku Karam podi (6, ₹65) |
+| SATJEEVAN ORGANIC STORE | 36 | +0 | Organic Dried Anjeer Figs (6, ₹466), Organic Raw Brazilnuts (6, ₹1,266), Organic Raw Akhrot Walnuts (4, ₹466) |
+| Veda Bharath | 26 | +0 | Mysore Malliga Rice (17, ₹210), Bahurupi Rice (6, ₹220), Kethri Maharaj Rice (3, ₹220) |
+| Shevades Products | 25 | +0 | Masala - Chicken/Mutton (9, ₹51), Mix Fruit Jam (5, ₹36), Mango Jam (2, ₹32) |
+| Induz Organic | 21 | +0 | Almonds (8, ₹392), Cashew (6, ₹405), Pumpkin Seed (3, ₹136) |
+| Doctor Moringa | 19 | +1 | Moringa  Herbal Tea (Tulsi) (4, ₹225), Moringa Handmade Multani Mitti Soap (Bathing) (4, +1, ₹85), Moringa Powder (3, ₹199) |
+| Deccan Mudra | 17 | +0 | Low GI Single Polish Rice (10, ₹189), Low GI Brown Rice (7, ₹185) |
+| Pragna Herbals & Naturals | 17 | +0 | Pragna's Bhavachi (Bavanchalu) Powder (7, ₹100), Pragna's Hadjod Powder(Nalleru) (6, ₹100), Pragna's Apamarga Powder (Uttareni) (3, ₹100) |
+| TummyFriendly Foods | 17 | +0 | Organic Sprouted Ragi, Almond, Dates Porridge (4, ₹299), Millet Coconut Cookies (3, ₹99), Dry Fruit Laddus With Flaxseeds (2, ₹385) |
+| Anant Organics | 16 | +1 | Organic Dhaga Mishri (16, +1, ₹220) |
+| UNIVERSAL SUPER FOODS | 14 | +0 | Oil - Groundnut Oil (4, ₹400), Oil - Hulled white Sesame Oil (4, ₹600), Oil - Coconut Oil (3, ₹750) |
+| GroPure Organic | 12 | +0 | Quinoa (7, ₹99), Hemp Seeds (5, ₹179) |
+| Rahasya | 9 | +1 | Oil - Groundnut Oil (3, ₹397), Liquid jaggary (2, ₹85.71), Caster oil ( Erandel ) (2, ₹100) |
+| Bee Life Organic Dry fruits and Honey | 8 | +0 | Dry Fruits, Seeds & Honey Combo (8, ₹999) |
+| Anuttama | 8 | +0 | Choco Sip (Drinking chocolate powder) (2, ₹292), Gift Box with 4 Assorted chocolate Bars (2, ₹854), Raisin, Chocolate Coated, 62% Dark (2, ₹270) |
+| Farmiya Organics | 7 | +0 | Govind Bhog Rice (7, ₹137) |
+| Nutsmash | 7 | +6 | The Royal Courtyard Foldable Hamper – Premium (5, +4, ₹1,600), The Heritage Grande Foldable Hamper – Premium (1, +1, ₹1,600), The Maharaja Quartet – Premium Dry Fruits Gif (1, +1, ₹875) |
+| Nirvana Organics | 6 | +1 | Apricot Jam (6, +1, ₹284), Ragi Cookies (0, ₹237) |
+| Adya Organics | 6 | +0 | Til Gud Laddus (4, ₹629), Jeera Biscuits (2, ₹125) |
