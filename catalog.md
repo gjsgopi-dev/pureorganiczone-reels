@@ -108,9 +108,14 @@ Delivery: all over India for packaged goods. Fresh fruits, vegetables and meat a
 | French Beans – Organic | ₹75 | ₹100 |
 | Original Country Eggs | ₹120 | ₹130 |
 | Chicken (Village Country Chicken) | ₹689 | ₹900 |
-| Mutton (Goat Meat With Bone) | ₹495 | ₹550 |
-| Mutton (Goat Meat Boneless) | ₹589 | ₹650 |
-| Mutton Keema / Mince (Goat) | ₹599 | ₹700 |
+| Mutton (Goat Meat With Bone) | ₹549 | ₹600 |
+| Mutton (Goat Meat Boneless) | ₹649 | ₹750 |
+| Mutton Keema / Mince (Goat) | ₹649 | ₹700 |
+| Mutton (Sheep Meat With Bone) | ₹540 | ₹600 |
+| Mutton (Sheep Meat Boneless) | ₹639 | ₹675 |
+| Chicken (Sonali Country Chicken, live weight) | ₹549 | ₹600 |
+
+Meat prices on the site went up on 13 Nov 2026 (seen between 08:42 and 17:08 IST): goat with bone 495->549, goat boneless 589->649, keema 599->649, sheep with bone 497->540, sheep boneless 575->639. Always re-check the product page price before using a ₹ figure.
 | Mutton Trotters / Paya (next-day delivery) | ₹448 | ₹519 |
 | Mutton Goat Head Curry Cut (next-day delivery) | ₹450 | ₹550 |
 
@@ -131,13 +136,13 @@ Pure Organic Hyderabad, Milletio The Global Grain, Divyams Natural Products, Aur
 Order lines on pureorganiczone.com so far: 7,421. Hyderabad fresh food is 6,587 (89%). "New" = order lines added 2 Nov 08:42 -> 9 Nov 08:44 (85 new lines; no relistings this week). The counter updates in overnight batches and misses app/WhatsApp orders; use the owner's counts for weekend meat. Boneless leads goat sales this week (+17 vs with bone +9): link boneless or keema first on goat Reels. Refresh with `python3 tools/site_sales.py --vendors`.
 | Orders | New | Product | Offer | Page |
 |---|---|---|---|---|
-| 788 | +9 | Mutton(Goat Meat With Bone) | ₹495 | /product/goat-meat-with-bonewithout-bone-1kg-Seppf1 |
-| 581 | +17 | Mutton(Goat Meat Boneless) | ₹589 | /product/goat-meat-boneless-1kg-2Djxva |
-| 499 | +11 | Mutton(Sheep Meat With Bone) | ₹497 | /product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5 |
+| 788 | +9 | Mutton(Goat Meat With Bone) | ₹549 | /product/goat-meat-with-bonewithout-bone-1kg-Seppf1 |
+| 581 | +17 | Mutton(Goat Meat Boneless) | ₹649 | /product/goat-meat-boneless-1kg-2Djxva |
+| 499 | +11 | Mutton(Sheep Meat With Bone) | ₹540 | /product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5 |
 | 474 | +4 | Chicken(Village Country Chicken) | ₹689 | /product/original-village-grown-naatu-kodi-Zem4y1 |
 | 419 | +3 | Spinach (Palak) - Organic | ₹35 | /product/spinach-palak-7eUL4v |
 | 286 | +1 | French Beans - Organic | ₹75 | /product/french-beans-YxRcCw |
-| 272 | +4 | Mutton - Keema / Mince Goat | ₹599 | /product/mutton-mince-goat-keema-7PsXvI |
+| 272 | +4 | Mutton - Keema / Mince Goat | ₹649 | /product/mutton-mince-goat-keema-7PsXvI |
 | 259 | 0 | Ridge Gourd - Organic | ₹41 | /product/ridge-gourd-JMH9q0 |
 | 250 | +2 | Coriander - Organic | ₹45 | /product/coriander-fuhkD4 |
 | 217 | +1 | Orange Carrot - Organic | ₹50 | /product/organic-orange-carrot-dWvwoG |
@@ -149,7 +154,7 @@ Order lines on pureorganiczone.com so far: 7,421. Hyderabad fresh food is 6,587 
 | 149 | 0 | Drumsticks - Organic | ₹80 | /product/organic-drumsticks-CXyLVV |
 | 145 | 0 | Cucumber (Kheera) - Organic | ₹37 | /product/cucumber-kheera-I6yehl |
 | 142 | 0 | Ivy Gourd - Organic | ₹35 | /product/ivy-gourd-LbjNa7 |
-| 135 | +2 | Mutton(Sheep Meat Boneless) | ₹575 | /product/sheep-meat-boneless-1kg-cu7k0a |
+| 135 | +2 | Mutton(Sheep Meat Boneless) | ₹639 | /product/sheep-meat-boneless-1kg-cu7k0a |
 | 128 | +1 | Fruits - Organic Papaya | ₹165 | /product/papaya-DkFzN3 |
 | 119 | 0 | Fruits - Organic Pomegranate | ₹213 | /product/organic-pomegranate-8CMraT |
 | 114 | +2 | Chicken(Sonali Country Chicken) | ₹549 | /product/sonali-nattu-kodi-live-weight-13kg-lBVAgl |
