@@ -125,3 +125,4 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-11-13 08:12,421320669,instagram,85.2,191,224,2,0,0,Mon boneless recipe; FB 138
 2026-11-13 08:12,all,instagram_followers,,,,,,,"IGEV 11 Nov 43,965 (+3 / -24); YouTube, LinkedIn, Pinterest: no rows returned"
 2026-11-13 17:10,all,all,,,,,,,"Metricool: no new Reel-level IG/FB/YouTube/LinkedIn/Pinterest rows since the 08:12 sync; followers last 11 Nov 43,965 (+3/-24); pick-your-cut 426495581 PENDING 19:00 on IG/FB/YT/LinkedIn"
+2026-11-13 23:08,426495581,all,4.1,,,,,,"pick-your-cut: Instagram ERROR (caption 2,213 chars > 2,200 limit) - NOT on Instagram; FB https://facebook.com/reel/3720066154827779, YouTube https://www.youtube.com/shorts/T_kABE32eZA, LinkedIn PUBLISHED with the old ₹497/575/599 prices (not edited). Metricool returned no Reel-level rows (only followers 10-11 Nov); sync still stuck since 08:12"
