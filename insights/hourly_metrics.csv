@@ -126,3 +126,8 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-11-13 08:12,all,instagram_followers,,,,,,,"IGEV 11 Nov 43,965 (+3 / -24); YouTube, LinkedIn, Pinterest: no rows returned"
 2026-11-13 17:10,all,all,,,,,,,"Metricool: no new Reel-level IG/FB/YouTube/LinkedIn/Pinterest rows since the 08:12 sync; followers last 11 Nov 43,965 (+3/-24); pick-your-cut 426495581 PENDING 19:00 on IG/FB/YT/LinkedIn"
 2026-11-13 23:08,426495581,all,4.1,,,,,,"pick-your-cut: Instagram ERROR (caption 2,213 chars > 2,200 limit) - NOT on Instagram; FB https://facebook.com/reel/3720066154827779, YouTube https://www.youtube.com/shorts/T_kABE32eZA, LinkedIn PUBLISHED with the old ₹497/575/599 prices (not edited). Metricool returned no Reel-level rows (only followers 10-11 Nov); sync still stuck since 08:12"
+2026-11-14 08:15,425218043,instagram,37.3,346,389,1,2,0,pumpkin seeds protein ranking: best pan-India IG reach so far (13 h: 170); 2nd-best Reel this week after natu kodi
+2026-11-14 08:15,423954865,instagram,61.3,448,533,1,3,0,natu kodi village story near-final (37 h: 412)
+2026-11-14 08:15,422677770,instagram,85.3,58,89,1,2,0,ghee Label Check #3 final-ish
+2026-11-14 08:15,421320669,instagram,109.3,199,232,2,0,0,Mon boneless recipe
+2026-11-14 08:15,all,all,,,,,,,"IGEV 12 Nov 44,005 (+1 / -35); FB Reel, YouTube, LinkedIn, Pinterest: no rows returned; pick-your-cut 426495581 not on Instagram (failed 13 Nov); no posts scheduled yet for 14-17 Nov (daily task schedules at 8:41)"
