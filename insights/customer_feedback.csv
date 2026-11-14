@@ -174,3 +174,4 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-14,1394517/1377894/1314021,PersonalWhatsApp,vendor/ops,vendor products (pan-India courier),ops: courier labels + 2-6 PM pickups for vendor parcels; one vendor restocked a product a customer was waiting for,"no action; no buyer DMs, no needs_operator, no follow-up; 599 replies left"
 2026-11-14,-,web,own reviews,-,No new public reviews (web search 11:10; Trustpilot still 0); no new comments in Metricool rows,no action
 2026-11-14,-,all,none,-,No chats active since 10:45 IST on any channel (PersonalWhatsApp 9704518572 still is_on=false at 17:10; Instagram/Messenger/Business WhatsApp on),no follow-up due; no needs_operator; 599 replies left
+2026-11-14,-,all,none,-,No chats active since 17:00 IST on any channel (PersonalWhatsApp 9704518572 still is_on=false at 20:10); own reviews: none new (web search 20:10),no follow-up due; no needs_operator; 599 replies left
