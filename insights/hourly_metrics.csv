@@ -149,3 +149,9 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-11-15 17:10,all,all,,,,,,,"IG Reel rows identical to 08:15/11:10 (keema 77/86, pumpkin 366/414); FB keema 177, pick-your-cut 88, pumpkin 34 unchanged; Sun longevity mutton 428551925 (09:00) not yet returned at ~8 h on any network; no YT/LinkedIn/Pinterest rows; IGEV still last 13 Nov 43,959"
 2026-11-15 20:10,all,all,,,,,,,"IG Reel rows unchanged except pumpkin seeds views 414 (reach 366); keema 77/86; FB keema 177, pick-your-cut 88, pumpkin 34; Sun longevity mutton 428551925 (09:00) still not returned at ~11 h on any network; no YT/LinkedIn/Pinterest rows; IGEV still last 13 Nov 43,959"
 2026-11-15 23:10,all,all,,,,,,,"Metricool returned no Reel-level rows (only 3 unlabeled daily rows + IGEV 12-13 Nov unchanged: 43,959 +1/-30); Sun longevity mutton 428551925 PUBLISHED on IG/FB/YT/LinkedIn, still no metrics at ~14 h; Mon 16 19:00 ven pongal not yet scheduled (daily task 8:41)"
+2026-11-16 08:15,428551925,instagram,23.2,140,159,1,2,0,Sun longevity mutton ~23 h (keema had 77 at 13 h; 7-day IG avg ~230 incl. natu kodi 468/pumpkin 366)
+2026-11-16 08:15,428551925,facebook,23.2,,35,,,,Sun longevity mutton FB views ~23 h (FB likes 1)
+2026-11-16 08:15,427698968,instagram,37.2,130,143,1,0,0,keema pepper fry ~37 h (13 h: 77/86)
+2026-11-16 08:15,427698968,facebook,37.2,,191,,,,keema FB views ~37 h (13 h: 177) = best FB Reel this week
+2026-11-16 08:15,426495581,facebook,61.2,,90,,,,pick-your-cut FB (missed IG) final-ish
+2026-11-16 08:15,all,all,,,,,,,"IGEV 14 Nov 43,918 (+5/-20; 13 Nov 43,959); no YouTube/LinkedIn/Pinterest rows returned; Mon 16 ven pongal not yet in Metricool scheduled list at 08:15 (daily task 8:41)"
