@@ -1,0 +1,66 @@
+{
+ "note": "Written by Growth Watch 21 Nov 20:10 (no spec existed for Sat 28 Nov). Cadence: Sat + Sun = goat mornings 08:30-09:30 (owner 1 Nov: goat sells most on weekends); Reel format mix: Sat goat = recipe (Fri 27 is sizzle, so no repeat). Dish: Hyderabadi mutton dalcha (mutton + chana dal + bottle gourd + tamarind), a dish-first search phrase (dish/'online'-first YouTube titles 178-1,132 views vs near-me 39-93) that is local to Hyderabad and not yet used (Sun 22 = clay-pot curry, Tue 17 = boneless cooker curry, Fri 27 = sheep fry). Lead = goat curry cut WITH BONE Rs 549 (16 Nov weekly report Change 1, Karthika: with-bone first; dalcha needs bone-in pieces). Hyderabad veg cross-sell: organic bottle gourd Rs 60 (in the recipe; 213 lines all-time, subscription product). Next-day paya Rs 448 + goat head Rs 450 'order Saturday for Sunday' (both sold unprompted Fri 20). Add-on: Seeraga samba (jeera) rice by Divyams Rs 103.50 instead of Shevades masala, because Sat 21 and Fri 27 already carry Shevades (its Sat 21 test is judged 23 Nov) and a rice add-on was the 19 Nov verdict's alternative; name + price only, no claims. Nutrition only USDA (insights/nutrition_facts.csv). Pages checked 21 Nov 20:10, all 200 with Add to cart: with bone Rs 549 (after one 500), boneless Rs 649, bottle gourd Rs 60, paya Rs 448, head Rs 450, seeraga samba Rs 103.50, Sonali Rs 549. Reuses assets/goat_farm_ai.mp4 as pitch_clip. The daily task runs the viral check and may refine prompts/voiceover; claims stay as written. Caption must stay <= 2,100.",
+ "format": "story",
+ "date": "2026-11-28",
+ "post_time": "09:00",
+ "ig_type": "REEL",
+ "reel_format": "recipe",
+ "title": "Mutton dalcha recipe: Hyderabadi mutton with dal and bottle gourd, Hyderabad, never frozen",
+ "product_url": "https://pureorganiczone.com/product/goat-meat-with-bonewithout-bone-1kg-Seppf1",
+ "addon_url": "https://pureorganiczone.com/product/raw-rice-seeraga-samba-jeera-rice-QaY8Ev",
+ "story_clips": [
+  {
+   "heygen_prompt": "Photorealistic documentary-style vertical shot, shot on a 35 mm lens, a home kitchen in Hyderabad on a Saturday morning: extreme close-up of a steel pressure cooker opened on a gas stove, full of thick golden-brown mutton dalcha with bone-in goat pieces, chana dal and soft bottle gourd cubes; an Indian woman's hand in a cotton kurta sleeve lifts a steel ladle holding a bone-in mutton piece coated in dal, steam rising, curry dripping back. Hands only, no face. Warm natural window light, slight handheld camera, shallow depth of field. No text, no logos, no plastic-looking skin, no extra fingers.",
+   "en": "Mutton dalcha, ready in 40 minutes",
+   "te": "మటన్ దాల్చా, 40 నిమిషాల్లో",
+   "start": 0.0
+  },
+  {
+   "heygen_prompt": "Photorealistic top-down vertical shot, shot on a 35 mm lens, a home kitchen counter in Hyderabad: an Indian woman's hands only, in a cotton kurta sleeve, tip soaked chana dal and cubed bottle gourd into a steel pressure cooker, then pour cooked bone-in mutton pieces with their stock into a kadai of golden onions and tomatoes, then squeeze tamarind water in and sprinkle fresh coriander. Clean steel vessels, natural daylight, steady overhead camera, food in sharp focus. No face, no text, no logos, no plastic-looking skin, no extra fingers.",
+   "en": "Mutton, dal, sorakaya, tamarind",
+   "te": "మటన్, పప్పు, సొరకాయ, చింతపండు",
+   "start": 0.0,
+   "nutrition_card": {
+    "title": "Per 100 g goat meat (raw)",
+    "rows": [
+     [
+      "Protein",
+      "20.6 g",
+      "helps build and keep muscle"
+     ],
+     [
+      "Iron",
+      "2.8 mg",
+      "part of haemoglobin, carries oxygen"
+     ],
+     [
+      "Zinc",
+      "4.0 mg",
+      "supports normal immune function"
+     ],
+     [
+      "Fat",
+      "2.3 g",
+      "a lean red meat"
+     ]
+    ],
+    "note": "Source: USDA FoodData Central"
+   }
+  }
+ ],
+ "pitch_clip": {
+  "file": "assets/goat_farm_ai.mp4",
+  "duration": 5,
+  "until_word": "Hyderabad",
+  "en": "From our own goat farms",
+  "te": "మా సొంత మేకల ఫారాల నుండి",
+  "until_word_te": "హైదరాబాద్‌లో"
+ },
+ "end_clip": "https://raw.githubusercontent.com/gjsgopi-dev/pureorganiczone-reels/main/assets/end_goat_female.mp4",
+ "voice_id": "080227efd3874821a1328e1b5ff1620f",
+ "voiceover": "Hyderabadi mutton dalcha, ready in 40 minutes. \n\n[pause]\n\n Cook the mutton with bone, cook chana dal with bottle gourd, then simmer them together with tamarind. Goat meat gives about 21 grams of protein per 100 grams. \n\n[pause]\n\n Today, Pure Organic Zone brings goat meat from our own goat farms to your home in Hyderabad in 60 to 90 minutes, never frozen, cut fresh every day. Order on our website, or download the Pure Organic Zone app on the App Store or Google Play for better prices, and subscribe daily, weekly or monthly.",
+ "caption": "Goat curry cut ₹549 in Hyderabad, never frozen: Hyderabadi mutton dalcha in a pressure cooker 🐐🍲 మటన్ దాల్చా\n💬 Dalcha with rice or with roti? 👇\n\nSave this Saturday recipe 👇\n🛒 You need: 500 g goat curry cut with bone · ½ cup chana dal, soaked · 300 g bottle gourd (sorakaya), cubed · 2 onions · 2 tomatoes · 2 green chillies · curry leaves · 1 tbsp ginger-garlic paste · ½ tsp turmeric · 2 tsp red chilli powder · 1 tsp garam masala · tamarind, soaked · salt · 3 tbsp oil\n1️⃣ Cook the mutton with turmeric, salt and 1½ cups water, 5 whistles.\n2️⃣ Cook the dal with the bottle gourd, 2 whistles; mash lightly.\n3️⃣ Fry onions, chillies, curry leaves; add ginger-garlic, tomatoes, chilli powder.\n4️⃣ Add the mutton with its stock and the dal; simmer 10 min.\n5️⃣ Add tamarind water and garam masala, simmer 5 min, finish with coriander.\n\nFrom our own goat farms to your door in Hyderabad in 60–90 min, cut fresh every day.\n👉 Goat curry cut with bone ₹549\n🛒 https://pureorganiczone.com/product/goat-meat-with-bonewithout-bone-1kg-Seppf1?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_mutton_dalcha_saturday (link in bio)\n🥬 Organic bottle gourd ₹60 https://pureorganiczone.com/product/bottle-gourd-uqvhsv?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_mutton_dalcha_saturday\n🐓 Sonali country chicken ₹549 https://pureorganiczone.com/product/sonali-nattu-kodi-live-weight-13kg-lBVAgl?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_mutton_dalcha_saturday\n🦴 Order Saturday for Sunday: paya ₹448 · goat head ₹450 (first comment)\n➕ Goes well with: Seeraga samba (jeera) rice by Divyams, ₹103.50 https://pureorganiczone.com/product/raw-rice-seeraga-samba-jeera-rice-QaY8Ev?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_mutton_dalcha_saturday\n📱 Better prices on the Pure Organic Zone app; subscribe weekly for fresh goat.\n📲 WhatsApp 9704518572: a real person confirms your order.\n📩 DM us MUTTON and we will send you the link instantly\n\nSend this to your dalcha friend in Kukatpally or Banjara Hills 🍲\n\n#MuttonDalcha #HyderabadiFood #MuttonCurry #Hyderabad #PureOrganicZone",
+ "first_comment": "📍 Mutton shop near me in Hyderabad? 📩 DM us MUTTON and we will send you the link instantly. ✅ Never frozen, cut fresh every day, at your door in 60–90 min. 📲 WhatsApp 9704518572: a real person confirms your order. 🍖 Goat curry cut with bone ₹549 https://pureorganiczone.com/product/goat-meat-with-bonewithout-bone-1kg-Seppf1?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_mutton_dalcha_saturday 🥬 Organic bottle gourd ₹60 https://pureorganiczone.com/product/bottle-gourd-uqvhsv?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_mutton_dalcha_saturday 🥩 Goat boneless ₹649 https://pureorganiczone.com/product/goat-meat-boneless-1kg-2Djxva?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_mutton_dalcha_saturday 🐐 Order Saturday for Sunday: talakaya (goat head) curry cut ₹450 https://pureorganiczone.com/product/mutton-goat-head-curry-cut-Jy9v7i?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_mutton_dalcha_saturday 🦴 Paya ₹448 https://pureorganiczone.com/product/mutton-trotters-paya-WTISDe?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_mutton_dalcha_saturday 🏪 Or pick it up at our Madhapur store and see it before you buy. 📱 Better prices on the Pure Organic Zone app: subscribe weekly for fresh goat every weekend.",
+ "pinterest_text": "Mutton dalcha recipe: Hyderabadi mutton with chana dal and bottle gourd in a pressure cooker 🐐🍲\n👉 Goat curry cut ₹549, Hyderabad in 60–90 min, never frozen, cut fresh every day\n🛒 https://pureorganiczone.com/product/goat-meat-with-bonewithout-bone-1kg-Seppf1?utm_source=pinterest&utm_medium=pin&utm_campaign=recipe_mutton_dalcha_saturday\n📱 Website or the Pure Organic Zone app\n#MuttonDalcha #HyderabadiFood #Hyderabad #PureOrganicZone",
+ "viral_ref": "vidIQ patterns (insights/viral_refs.csv): 1.4M ladle lift from a pressure cooker and 1.1M pressure-cooker hands-only steps (used for Tue 17 and Sat 21); frame 1 = a hand lifting a piece from the finished dish (2.4-3.5M Telugu meat Reels). Adapted: clip 1 opens on the ladle lifting a bone-in piece of dalcha from the cooker. Daily task re-runs the viral check."
+}
