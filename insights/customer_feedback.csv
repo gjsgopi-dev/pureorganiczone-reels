@@ -205,3 +205,4 @@ date,chat_id,channel,type,product,summary,outcome
 2026-11-22,1306511,Instagram,spam,-,"Emoji-only post reply ""Like""; assistant asked buy/order/sell",no follow-up (not a buyer); no needs_operator; 595 replies left (standard plan)
 2026-11-22,1438760,Instagram,vendor/collab,-,same out-of-city food creator follows up a 3rd time on paid collab (assistant notified operator),no follow-up (not a buyer); owner already told 5 Nov; no needs_operator flag; 594 replies left (standard plan)
 2026-11-22,-,web,none,-,Own reviews 8 PM: none new (Trustpilot pureorganiczone.com 0 reviews; web search shows only our own pages),no alert
+2026-11-23,-,all,none,-,"8 AM: no new chats since 22 Nov 20:04 IST (only the out-of-city creator chat, already logged)",no follow-ups; no needs_operator; 594 replies left (standard plan)
