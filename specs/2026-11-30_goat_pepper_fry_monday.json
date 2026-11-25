@@ -1,0 +1,61 @@
+{
+ "note": "Written by Growth Watch 25 Nov 08:10 (no spec existed for Mon 30 Nov). Weekly plan: Mon goat = recipe (Fri 27 sizzle, Sat 28 recipe dalcha, Sun 29 longevity_story; Mon recipe is a different dish so no back-to-back format clash with Sun). Why goat, not a vegetarian Karthika Somavaram Reel (30 Nov is the last Somavaram): the two Somavaram veg Reels sold 0 (Mon 16 ven pongal; Mon 23 sorakaya: bottle gourd/combo/drumsticks/Deccan Mudra 0 at ~37 h), while weekday buyers kept ordering goat boneless (+5 in the week to 23 Nov; +1 on Tue 24 with no Reel) and the Mon 9 boneless recipe reached ~2.7x the weekend goat Reels at the same age. Festival not named; angle = weeknight high-protein dinner for gym-goers and IT-corridor homes (Karthika rule in Two-market plan). Dish: boneless mutton pepper fry (Telugu meat fry recipes = our strongest viral pattern; boneless not led since Mon 9 fry / Tue 17 curry). Caption lists goat boneless ₹649, goat with bone ₹549 and sheep with bone ₹540 as caption lines (Sun 22 lesson: caption lines sell, first-comment lines do not). Add-on: Meghalaya Black Pepper Corn by GreeNE Origins ₹138.61 (vendor best seller, 70 orders, used in the recipe itself; 0 after the 16 Nov spotlight, judged here as an in-recipe add-on). Pages checked 25 Nov 08:20: boneless 200 ₹649, with bone 200 ₹549, sheep with bone 200 ₹540, pepper 200 ₹138.61 (first try returned 500, second 200), Add to cart on all. Nutrition from insights/nutrition_facts.csv (USDA). Reuses assets/goat_farm_ai.mp4 as pitch_clip. The daily task runs the viral check and may refine prompts/voiceover; claims stay as written. Caption kept at most 2,050 (counted with len()).",
+ "format": "story",
+ "date": "2026-11-30",
+ "post_time": "19:00",
+ "ig_type": "REEL",
+ "reel_format": "recipe",
+ "title": "Mutton pepper fry recipe: goat boneless in Hyderabad, never frozen, cut fresh every day",
+ "product_url": "https://pureorganiczone.com/product/goat-meat-boneless-1kg-2Djxva",
+ "addon_url": "https://pureorganiczone.com/product/black-pepper-corn-from-meghalaya-4TOGdV",
+ "story_clips": [
+  {
+   "heygen_prompt": "Photorealistic food close-up, vertical shot, shot on a 35 mm lens, in a simple Telangana home kitchen: from the very first frame, a black iron kadai full of dark, glossy boneless goat mutton pepper fry with curry leaves and crushed black pepper sizzles on a gas flame; a woman's hand in a plain glass bangle immediately lifts one glistening piece with a steel spoon towards the camera, steam rising, pepper flecks visible; face not in frame, warm window light, shallow depth of field, slow push-in. Real food texture, appetising. No faces, no text, no logos, no extra fingers.",
+   "en": "Mutton pepper fry in 35 min",
+   "te": "35 నిమిషాల్లో మటన్ మిరియాల వేపుడు",
+   "start": 0.0
+  },
+  {
+   "heygen_prompt": "Photorealistic top-down overhead vertical shot, shot on a 35 mm lens, a simple Telangana home kitchen counter: a woman's hands only (plain glass bangles, cotton saree sleeve) crush black peppercorns in a small stone mortar, then fry sliced onions and curry leaves in an iron kadai, tip in cooked boneless goat pieces from a steel bowl, sprinkle red chilli powder and the crushed pepper, and toss with a wooden ladle until dark and glossy, natural window light, slight handheld movement. No faces, no text, no logos, no extra fingers.",
+   "en": "Cook, fry dry, add fresh pepper",
+   "te": "ఉడికించి, వేయించి, మిరియాలు వేయండి",
+   "start": 0.0,
+   "nutrition_card": {
+    "title": "Per 100 g goat meat (raw)",
+    "rows": [
+     [
+      "Protein",
+      "20.6 g",
+      "helps build and keep muscle"
+     ],
+     [
+      "Iron",
+      "2.8 mg",
+      "part of haemoglobin"
+     ],
+     [
+      "Vitamin B12",
+      "1.1 µg",
+      "helps form red blood cells"
+     ]
+    ],
+    "note": "Source: USDA FoodData Central"
+   }
+  }
+ ],
+ "pitch_clip": {
+  "file": "assets/goat_farm_ai.mp4",
+  "duration": 5,
+  "until_word": "Hyderabad",
+  "en": "From our own goat farms",
+  "te": "మా సొంత మేకల ఫారాల నుండి",
+  "until_word_te": "హైదరాబాద్‌లో"
+ },
+ "end_clip": "https://raw.githubusercontent.com/gjsgopi-dev/pureorganiczone-reels/main/assets/end_goat_female.mp4",
+ "voice_id": "080227efd3874821a1328e1b5ff1620f",
+ "voiceover": "Mutton pepper fry, ready in 35 minutes. [pause] Pressure-cook goat boneless, fry it dry with onions and curry leaves, and finish with freshly crushed black pepper. 20.6 grams of protein per 100 grams. [pause] Today, Pure Organic Zone brings goat meat from our own goat farms to your home in Hyderabad in 60 to 90 minutes, never frozen, cut fresh every day. Order on our website, or download the Pure Organic Zone app on the App Store or Google Play for better prices, and subscribe daily, weekly or monthly.",
+ "caption": "Goat boneless ₹649 in Hyderabad, never frozen: mutton pepper fry, ready in 35 minutes 🐐🌶️ మటన్ మిరియాల వేపుడు\n\n💬 Pepper fry with rice and dal, or with chapati? 👇\n\n🛒 You need: 500 g goat boneless · 1 onion, sliced · 1 tbsp ginger-garlic paste · ½ tsp turmeric · 1 tsp red chilli powder · 1½ tsp freshly crushed black pepper · 1 tsp coriander powder · a few curry leaves · salt · 3 tbsp oil\n1️⃣ Pressure-cook mutton with turmeric, salt, ½ cup water: 4 whistles.\n2️⃣ Fry onions and curry leaves golden; add ginger-garlic paste.\n3️⃣ Add mutton, chilli and coriander powder; fry on high till dry.\n4️⃣ Add crushed pepper, toss 3 min till dark and glossy. Top with coriander.\n\nGoat meat from our own goat farms, at your door in Hyderabad in 60–90 minutes. Never frozen, cut fresh every day.\n📊 Raw goat meat, per 100 g: protein 20.6 g, iron 2.8 mg (USDA)\n🧮 1 kg boneless = about 206 g protein for ₹649, so about 32 g protein per ₹100\n👉 Goat meat boneless ₹649\n🛒 https://pureorganiczone.com/product/goat-meat-boneless-1kg-2Djxva?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_pepperfry_mon (link in bio)\n🍖 Goat curry cut with bone ₹549 https://pureorganiczone.com/product/goat-meat-with-bonewithout-bone-1kg-Seppf1?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_pepperfry_mon\n🐑 Sheep meat with bone ₹540 https://pureorganiczone.com/product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_pepperfry_mon\n🌶️ Crush it fresh: Meghalaya Black Pepper Corn by GreeNE Origins, ₹138.61 https://pureorganiczone.com/product/black-pepper-corn-from-meghalaya-4TOGdV?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_pepperfry_mon\n📱 Better prices on the Pure Organic Zone app (App Store & Google Play). Subscribe daily, weekly or monthly.\n📲 WhatsApp 9704518572: a real person confirms your order.\n📩 DM us MUTTON and we will send you the link instantly\n\nSend this to your Gachibowli gym buddy for a high-protein dinner 💪\n\n#MuttonPepperFry #MuttonRecipe #GoatMeat #Hyderabad #PureOrganicZone",
+ "first_comment": "📍 Mutton shop near me in Hyderabad? 📩 DM us MUTTON and we will send you the link instantly. ✅ Never frozen, cut fresh every day, at your door in 60–90 min. 🛒 Goat boneless ₹649 https://pureorganiczone.com/product/goat-meat-boneless-1kg-2Djxva?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_pepperfry_mon 🍖 Goat curry cut with bone ₹549 https://pureorganiczone.com/product/goat-meat-with-bonewithout-bone-1kg-Seppf1?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_pepperfry_mon 🐑 Sheep meat with bone ₹540 https://pureorganiczone.com/product/sheep-meat-with-bonewithout-bone-1kg-FF74Q5?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_pepperfry_mon 🌶️ Meghalaya Black Pepper Corn by GreeNE Origins ₹138.61 https://pureorganiczone.com/product/black-pepper-corn-from-meghalaya-4TOGdV?utm_source=instagram&utm_medium=reel&utm_campaign=recipe_pepperfry_mon 📱 Better prices on the Pure Organic Zone app: subscribe weekly for fresh goat every weekend without reordering.",
+ "pinterest_text": "Mutton pepper fry in Hyderabad, ready in 35 min 🐐🌶️\nGoat boneless, never frozen, cut fresh every day, at your door in 60–90 min.\n👉 Goat boneless ₹649 · curry cut ₹549\n🛒 https://pureorganiczone.com/product/goat-meat-boneless-1kg-2Djxva?utm_source=pinterest&utm_medium=pin&utm_campaign=recipe_pepperfry_mon\n📱 Website or the Pure Organic Zone app\n#MuttonPepperFry #MuttonRecipe #Hyderabad #PureOrganicZone",
+ "viral_ref": "insights/viral_refs.csv 9 Nov: https://www.instagram.com/reel/Dd0-j02yRFa (boneless mutton fry 1.2M, spatula on the finished fry + fast top-down steps) + https://www.tiktok.com/@mahzainkhan2009/video/7696717483079699734 (boneless pepper fry 860.1K, dish name on screen in 0-3 s). Adapted: frame 1 = spoon lifting a glossy pepper-fry piece, dish name as the hook text, top-down steps with the pepper crushed fresh; our own words, shots and voice. Daily task refreshes with vidIQ on the day."
+}
