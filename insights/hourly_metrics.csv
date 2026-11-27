@@ -229,3 +229,5 @@ checked_at_ist,post_id,network,hours_since_post,reach,views,comments,saves,share
 2026-11-27 08:10,441201955,linkedin,~37,,12,1,,,LinkedIn 12 impressions / 3 / 1 (17:10 read 11)
 2026-11-27 08:10,442606401,linkedin,~13,,5,1,,,LinkedIn 5 impressions / 1 / 1 (first row)
 2026-11-27 08:10,-,instagram_followers,,,,,,,"IGEV 25 Nov 43,732 (raw +1/-14; 24 Nov 43,759). YouTube returned no rows for 72 h; Pinterest not connected"
+2026-11-27 17:10,441201955,youtube,~46,,123,0,,,"Wed 25 vepudu YouTube Short: raw 123/0/1/0 (first YouTube row since Sun 22; best Short this week vs natu kodi cooker 193 at ~79 h). IG post rows not returned this call; LinkedIn 5/12/9 and IGEV 25 Nov 43,732 unchanged"
+2026-11-27 17:10,439751435,youtube,~70,,27,0,,,Tue 24 ghee YouTube Short: raw 27/0/1/0 (first row)
