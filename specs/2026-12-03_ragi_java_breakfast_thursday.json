@@ -1,0 +1,55 @@
+{
+ "note": "Written by Growth Watch 28 Nov 08:10 (no spec existed for Thu 3 Dec; the 27 Nov 11 PM note asked the 8 AM run to write it). Thu = pan-India Vendor Spotlight (sales-led cadence). Vendor TummyFriendly Foods (25 products, never featured, so the 14-day rule is clear) is the only small vendor selling with no Reel: +3 lines on 27 Nov (Protein Jaggery Bites, Crunchy Millet Bites, Sathu Maavu porridge mix; 21 lifetime orders); lead = their best seller, Organic Sprouted Ragi, Almond & Dates Porridge Mix 200 g ₹299 (MRP ₹349). Format recipe (Thu plan allows protein_ranking/behind_the_vendor; last Thu was protein_ranking; no vendor process footage or facts to show behind_the_vendor honestly; Wed 2 Dec is village_story so no repeat): dish-first ragi java, 3 steps from the product page's own 'How to Prepare' (1–2 tsp, water or milk, low flame 5–7 min). Healthy-breakfast angle from trend_hooks (aubrium: healthy breakfasts 26x reach) and override D (healthy-lifestyle Reels from products that already sell). Numbers only from insights/nutrition_facts.csv (ragi IFCT 2017: calcium 364 mg, fibre 11.2 g) with the file's function wording; 'no added sugar, salt or preservatives' is the product page's own statement, attributed to the pack. The page's benefit lines (strengthens bones, brain development, weaning) are NOT used; no baby/infant targeting. Hyderabad lines: banana ₹39 (sold 27 Nov, pairs with the porridge) and village country chicken ₹689 never frozen (sold +2 on 27 Nov). DM word WELLNESS (assistant keyword list). Pages checked 28 Nov 08:10: all 200 (₹299, ₹272, ₹99, ₹39, ₹689). The 8:41 task runs its own viral check before building and may tune clip prompts.",
+ "format": "story",
+ "reel_format": "recipe",
+ "date": "2026-12-03",
+ "post_time": "19:00",
+ "ig_type": "REEL",
+ "title": "Ragi java recipe in 7 minutes: sprouted ragi almond dates porridge, healthy breakfast",
+ "product_url": "https://pureorganiczone.com/product/organic-sprouted-ragi-almond-dates-porridge-mix-becEcU",
+ "addon_url": "https://pureorganiczone.com/product/protein-jaggery-bites-1meY5C",
+ "story_clips": [
+  {
+   "heygen_prompt": "Photorealistic documentary-style vertical shot, shot on a 35 mm lens, close-up in a simple Telugu home kitchen at morning: in the first second a woman's hand lifts a steel ladle of thick, steaming reddish-brown ragi porridge out of a small steel pot and pours it slowly into a steel tumbler and a small steel bowl; banana slices sit on a steel plate beside it; morning window light, visible steam, slow push-in. Face not in frame, plain glass bangles, cotton saree sleeve. No text, no logos, no labels, no packets, no plastic-looking skin, no extra fingers.",
+   "en": "Ragi java in 7 minutes",
+   "te": "7 నిమిషాల్లో రాగి జావ",
+   "start": 0.0
+  },
+  {
+   "heygen_prompt": "Photorealistic documentary-style vertical shot, top-down, 35 mm lens: a woman's hands stir two spoons of fine brown ragi porridge powder into a cup of water in a small steel pot with a whisk until smooth, set it on a low gas flame and keep stirring with a wooden spoon as it thickens, then slice a banana onto the bowl; warm natural light, slight handheld movement, face not in frame. No text, no logos, no labels, no packets, no plastic-looking skin, no extra fingers.",
+   "en": "2 tsp mix, water, low flame",
+   "te": "2 చెంచాల మిక్స్, నీళ్లు, సన్నని మంట",
+   "start": 0.0,
+   "nutrition_card": {
+    "title": "Ragi, per 100 g",
+    "rows": [
+     [
+      "Calcium",
+      "364 mg",
+      "bones normal"
+     ],
+     [
+      "Fibre",
+      "11.2 g",
+      "daily fibre"
+     ],
+     [
+      "Iron",
+      "4.6 mg",
+      "haemoglobin"
+     ]
+    ],
+    "note": "Source: IFCT 2017, ICMR-NIN"
+   }
+  }
+ ],
+ "end_clip": "https://resource2.heygen.ai/video/1c1b805c3a7d44cfabe28ec83637cc10/original.mp4",
+ "voice_id": "080227efd3874821a1328e1b5ff1620f",
+ "voiceover": "Ragi java, ready in seven minutes.\n\n[pause]\n\nTwo spoons of sprouted ragi, almond and dates mix in a cup of water or milk, stir, low flame for five to seven minutes, banana on top. Ragi gives 364 milligrams of calcium per 100 grams; calcium helps keep bones normal.\n\n[pause]\n\nPure Organic Zone brings this mix from TummyFriendly Foods, delivered all over India. Order on our website, or download the Pure Organic Zone app on the App Store or Google Play for better prices, and subscribe monthly.",
+ "voiceover_lang": "en",
+ "caption": "Ragi java in 7 minutes: sprouted ragi, almond & dates porridge, ₹299, delivered all over India 🥣 రాగి జావ\n💬 Ragi java: with milk or with buttermilk? 👇\n\nAmmamma's winter breakfast: a warm glass of ragi java before school.\n\n🥄 Recipe (1 bowl)\n1. 2 tsp mix + 1 cup water or milk, stir with no lumps\n2. Low flame 5–7 minutes, keep stirring\n3. Serve warm, slice a banana on top\nSave this for tomorrow's breakfast.\n\n📊 Ragi per 100 g: calcium 364 mg (helps keep bones normal), fibre 11.2 g (IFCT 2017, ICMR-NIN)\n🌾 Mix made with sprouted ragi, almonds and dates; no added sugar, salt or preservatives (as the pack states)\n\n👉 Organic Sprouted Ragi, Almond & Dates Porridge Mix by TummyFriendly Foods, 200 g ₹299\n🛒 https://pureorganiczone.com/product/organic-sprouted-ragi-almond-dates-porridge-mix-becEcU?utm_source=instagram&utm_medium=reel&utm_campaign=ragi_java_breakfast_thursday (link in bio on Instagram), delivered all over India\n🌰 Or the classic: Sprouted Sathu Maavu Porridge Mix, 200 g ₹272 https://pureorganiczone.com/product/organic-sprouted-sathu-maavu-porridge-mix-8WTTDm?utm_source=instagram&utm_medium=reel&utm_campaign=ragi_java_breakfast_thursday\n➕ For the school bag: Protein Jaggery Bites ₹99 https://pureorganiczone.com/product/protein-jaggery-bites-1meY5C?utm_source=instagram&utm_medium=reel&utm_campaign=ragi_java_breakfast_thursday\n🍌 In Hyderabad? Organic banana ₹39, at your door in 60–90 min https://pureorganiczone.com/product/yellow-banana-TWYx24?utm_source=instagram&utm_medium=reel&utm_campaign=ragi_java_breakfast_thursday\n🐓 Natu kodi for the weekend? Village Country Chicken ₹689, never frozen, cut fresh every day https://pureorganiczone.com/product/original-village-grown-naatu-kodi-Zem4y1?utm_source=instagram&utm_medium=reel&utm_campaign=ragi_java_breakfast_thursday\n📱 Better prices on the Pure Organic Zone app (App Store & Google Play). Subscribe monthly.\n📩 DM us WELLNESS and we will send you the link instantly\n\nSend this to the breakfast skipper 🥣\n\n#RagiJava #RagiPorridge #HealthyBreakfast #Millets #PureOrganicZone",
+ "first_comment": "📩 DM us WELLNESS and we will send you the link instantly. 🥣 Sprouted Ragi, Almond & Dates Porridge Mix by TummyFriendly Foods, 200 g ₹299, delivered all over India https://pureorganiczone.com/product/organic-sprouted-ragi-almond-dates-porridge-mix-becEcU?utm_source=instagram&utm_medium=reel&utm_campaign=ragi_java_breakfast_thursday 🌰 Sprouted Sathu Maavu Porridge Mix ₹272 https://pureorganiczone.com/product/organic-sprouted-sathu-maavu-porridge-mix-8WTTDm?utm_source=instagram&utm_medium=reel&utm_campaign=ragi_java_breakfast_thursday 🍪 Crunchy Millet Bites ₹99 https://pureorganiczone.com/product/crunchy-millet-bites-Zn5PP0?utm_source=instagram&utm_medium=reel&utm_campaign=ragi_java_breakfast_thursday 🍌 In Hyderabad? Organic banana ₹39 and papaya ₹169, at your door in 60–90 min https://pureorganiczone.com/product/yellow-banana-TWYx24?utm_source=instagram&utm_medium=reel&utm_campaign=ragi_java_breakfast_thursday 📲 WhatsApp 9704518572: a real person confirms your order. 📱 Better prices on the Pure Organic Zone app.",
+ "pinterest_text": "Ragi java in 7 minutes 🥣 2 tsp sprouted ragi, almond & dates mix + 1 cup water or milk, low flame 5–7 min, banana on top. Ragi: 364 mg calcium per 100 g (IFCT 2017)\n👉 TummyFriendly Foods Sprouted Ragi, Almond & Dates Porridge Mix, 200 g ₹299, delivered all over India\n🛒 https://pureorganiczone.com/product/organic-sprouted-ragi-almond-dates-porridge-mix-becEcU\n📱 Order on our website or the Pure Organic Zone app.\n#RagiJava #RagiPorridge #HealthyBreakfast #Millets",
+ "viral_ref": "Trend: healthy breakfasts 26x reach vs followers (aubrium, insights/trend_hooks.csv 25 Nov). The 8:41 task adds a current viral breakfast/porridge reference from its own viral check.",
+ "audience": "Pan-India parents and working adults wanting a quick millet breakfast + Hyderabad families (banana, natu kodi lines)"
+}
